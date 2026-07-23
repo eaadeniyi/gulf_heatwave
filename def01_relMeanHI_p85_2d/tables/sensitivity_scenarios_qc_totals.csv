@@ -1,4 +1,7 @@
-scenario,heatwave_days_QA_pooled,heatwave_events_QA_pooled,candidate_days,pct_candidates_removed_by_persistence
-PRIMARY_no_floor_artifactmissing,3448,955,4271,19.27
-sens_no_floor_retainall,3455,956,4274,19.16
-sens_floor80_artifactmissing,1783,455,2162,17.53
+window,scenario,heatwave_days_QA_pooled,heatwave_events_QA_pooled
+w15,PRIMARY_nofloor_artifactmissing,3703,1013
+w15,sens_nofloor_retainall,3710,1014
+w15,sens_floor80_artifactmissing,1833,468
+month,PRIMARY_nofloor_artifactmissing,3755,1019
+month,sens_nofloor_retainall,3760,1019
+month,sens_floor80_artifactmissing,1908,479

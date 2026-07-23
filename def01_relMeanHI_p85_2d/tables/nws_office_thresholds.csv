@@ -1,0 +1,6 @@
+county_fips,county_name,nws_office,nws_office_name,advisory_hi_f,extreme_warning_hi_f,threshold_source,verification_status
+48201,Harris (Houston),HGX,Houston/Galveston,108,113,weather.gov/hgx/WWA_criteria,documented
+48061,Cameron (Brownsville),BRO,Brownsville/Rio Grande Valley,111,115,weather.gov/bro/mapcolors (>=111F for >=2 daytime hrs),documented
+48141,El Paso,EPZ,El Paso/Santa Teresa,105,110,NWS Southern Region standard heat criteria,sr_standard
+48453,Travis (Austin),EWX,Austin/San Antonio,105,110,NWS Southern Region standard (EWX AFD rule-of-thumb varies),approximate_verify
+48303,Lubbock,LUB,Lubbock,105,110,NWS LUB western-county criteria,approximate_verify
