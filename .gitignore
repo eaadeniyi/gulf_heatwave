@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Large, regenerable daily county-day + threshold tables (rebuild from scripts + data/raw)
+tables/05_county_daily_heat.csv
+tables/06_county_calendar_thresholds.csv
+tables/07_county_daily_classification.csv
+tables/events/07_daily_*.csv
+def01_relMeanHI_p85_2d/tables/daily_heatwave_classification.csv
+def01_relMeanHI_p85_2d/tables/thresholds_walkforward_meanHI_doy.csv
+tables/06b_fixed_1979_2014_thresholds.csv
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
