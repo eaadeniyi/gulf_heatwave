@@ -17,6 +17,11 @@ statewide_TX_def01/tables/statewide_county_daily_heat.csv
 statewide_TX_def01/tables/nws_proxy_daily.csv
 statewide_TX_def01/tables/thresholds_w15.csv
 statewide_TX_def01/tables/daily_heatwave_days_*.csv
+# generalized-pipeline outputs: large regenerable tables (rebuild with run_all.py)
+outputs/*/county_daily_heat.csv
+outputs/*/nws_proxy_daily.csv
+outputs/*/def_p*/tables/thresholds_w15.csv
+outputs/*/def_p*/tables/daily_heatwave_days_*.csv
 
 # OS / editor cruft
 .DS_Store

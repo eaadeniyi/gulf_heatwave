@@ -1,0 +1,13 @@
+nws_office,nws_office_name,office_lat,office_lon,advisory_hi_f,extreme_warning_hi_f,threshold_source,verification_status
+HGX,Houston/Galveston,29.47,-95.08,108,113,weather.gov/hgx/WWA_criteria,documented
+BRO,Brownsville/Rio Grande Valley,25.92,-97.42,111,115,weather.gov/bro/mapcolors,documented
+FWD,Fort Worth/Dallas,32.83,-97.30,105,110,weather.gov/fwd/heat3,documented_advisory
+EPZ,El Paso/Santa Teresa,31.87,-106.70,105,110,NWS Southern Region standard,sr_standard
+EWX,Austin/San Antonio,29.70,-98.03,105,110,SR standard / EWX AFD rule-of-thumb,approximate
+LUB,Lubbock,33.65,-101.82,105,110,NWS LUB (approx),approximate
+AMA,Amarillo,35.22,-101.72,103,108,NWS AMA high-plains (approx),approximate
+MAF,Midland/Odessa,31.94,-102.19,105,110,SR standard arid-west (approx),approximate
+SJT,San Angelo,31.37,-100.49,105,110,SR standard (approx),approximate
+CRP,Corpus Christi,27.78,-97.51,108,113,coastal humid HGX-like (approx),approximate
+SHV,Shreveport,32.45,-93.84,108,113,humid E-TX coastal-like (approx),approximate
+LCH,Lake Charles,30.12,-93.22,108,113,humid SE-TX edge (approx),approximate
