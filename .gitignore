@@ -12,6 +12,11 @@ tables/06b_fixed_1979_2014_thresholds.csv
 def01_relMeanHI_p85_2d/tables/daily_classification_*.csv
 def01_relMeanHI_p85_2d/tables/thresholds_w15.csv
 def01_relMeanHI_p85_2d/tables/nws_proxy_daily.csv
+# statewide large regenerable tables (rebuild from sw1..sw3; 254 counties)
+statewide_TX_def01/tables/statewide_county_daily_heat.csv
+statewide_TX_def01/tables/nws_proxy_daily.csv
+statewide_TX_def01/tables/thresholds_w15.csv
+statewide_TX_def01/tables/daily_heatwave_days_*.csv
 
 # OS / editor cruft
 .DS_Store
