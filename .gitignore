@@ -26,3 +26,6 @@ outputs/*/def_p*/tables/daily_heatwave_days_*.csv
 # OS / editor cruft
 .DS_Store
 Thumbs.db
+
+# reference: keep the QA render out of git (regenerate from the .pptx)
+reference/Heatwave_Reference_Appendix.pdf
