@@ -1,0 +1,182 @@
+{
+  "Definition 01 (85th pctl)": {
+    "pooled_heatwave_days": 170894,
+    "pooled_events": 48323,
+    "n_counties": 254,
+    "per_county_days": {
+      "median": 677.0,
+      "mean": 672.8,
+      "p25": 567.5,
+      "p75": 775.25,
+      "min": 154,
+      "max": 1230
+    },
+    "per_county_events": {
+      "median": 192.5,
+      "min": 47,
+      "max": 309
+    },
+    "event_duration": {
+      "median": 3.0,
+      "mean": 3.54,
+      "max": 48,
+      "pct_2day": 44.0,
+      "pct_ge5day": 20.9
+    },
+    "pct_days_junsep": 36.8,
+    "pct_days_imputed": 17.1,
+    "top5_counties_by_days": [
+      {
+        "county_name": "La Salle",
+        "days": 1230,
+        "events": 297
+      },
+      {
+        "county_name": "Hudspeth",
+        "days": 1198,
+        "events": 309
+      },
+      {
+        "county_name": "Lavaca",
+        "days": 1122,
+        "events": 267
+      },
+      {
+        "county_name": "Sherman",
+        "days": 1105,
+        "events": 273
+      },
+      {
+        "county_name": "Terrell",
+        "days": 1091,
+        "events": 269
+      }
+    ],
+    "longest3_events": [
+      {
+        "county_name": "Presidio",
+        "start_date": "2023-07-05",
+        "end_date": "2023-08-21",
+        "event_duration_days": 48.0,
+        "peak_mean_hi_f": 99.55
+      },
+      {
+        "county_name": "Kendall",
+        "start_date": "2022-07-01",
+        "end_date": "2022-08-09",
+        "event_duration_days": 40.0,
+        "peak_mean_hi_f": 106.18
+      },
+      {
+        "county_name": "Presidio",
+        "start_date": "2025-07-25",
+        "end_date": "2025-08-26",
+        "event_duration_days": 33.0,
+        "peak_mean_hi_f": 98.19
+      }
+    ],
+    "annual_days": {
+      "2015": 11036,
+      "2016": 15711,
+      "2017": 15931,
+      "2018": 12265,
+      "2019": 13162,
+      "2020": 12746,
+      "2021": 12653,
+      "2022": 16191,
+      "2023": 22729,
+      "2024": 21793,
+      "2025": 16677
+    }
+  },
+  "Definition 02 (95th pctl)": {
+    "pooled_heatwave_days": 52786,
+    "pooled_events": 17428,
+    "n_counties": 254,
+    "per_county_days": {
+      "median": 195.5,
+      "mean": 207.8,
+      "p25": 148.25,
+      "p75": 254.0,
+      "min": 18,
+      "max": 516
+    },
+    "per_county_events": {
+      "median": 67.0,
+      "min": 5,
+      "max": 169
+    },
+    "event_duration": {
+      "median": 2.0,
+      "mean": 3.03,
+      "max": 31,
+      "pct_2day": 53.3,
+      "pct_ge5day": 14.1
+    },
+    "pct_days_junsep": 36.3,
+    "pct_days_imputed": 15.5,
+    "top5_counties_by_days": [
+      {
+        "county_name": "La Salle",
+        "days": 516,
+        "events": 150
+      },
+      {
+        "county_name": "Presidio",
+        "days": 513,
+        "events": 122
+      },
+      {
+        "county_name": "Hudspeth",
+        "days": 508,
+        "events": 169
+      },
+      {
+        "county_name": "Kendall",
+        "days": 478,
+        "events": 126
+      },
+      {
+        "county_name": "Sherman",
+        "days": 461,
+        "events": 139
+      }
+    ],
+    "longest3_events": [
+      {
+        "county_name": "Kendall",
+        "start_date": "2022-07-01",
+        "end_date": "2022-07-31",
+        "event_duration_days": 31.0,
+        "peak_mean_hi_f": 106.18
+      },
+      {
+        "county_name": "Lee",
+        "start_date": "2019-08-06",
+        "end_date": "2019-08-30",
+        "event_duration_days": 25.0,
+        "peak_mean_hi_f": 107.67
+      },
+      {
+        "county_name": "Presidio",
+        "start_date": "2023-07-05",
+        "end_date": "2023-07-28",
+        "event_duration_days": 24.0,
+        "peak_mean_hi_f": 99.55
+      }
+    ],
+    "annual_days": {
+      "2015": 2340,
+      "2016": 5060,
+      "2017": 4549,
+      "2018": 2392,
+      "2019": 3730,
+      "2020": 3505,
+      "2021": 4203,
+      "2022": 4669,
+      "2023": 8703,
+      "2024": 7216,
+      "2025": 6419
+    }
+  }
+}

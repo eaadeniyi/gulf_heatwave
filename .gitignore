@@ -29,3 +29,5 @@ Thumbs.db
 
 # reference: keep the QA render out of git (regenerate from the .pptx)
 reference/Heatwave_Reference_Appendix.pdf
+reference/Heatwave_Results_Deck.pdf
+reference/comparison_figures/
