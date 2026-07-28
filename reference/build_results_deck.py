@@ -177,6 +177,14 @@ image_slide("Def 02 — how long events last", os.path.join(FIG95, "res_event_du
             "Shorter & sparser than Def 01: 53% of events are exactly 2 days (median 2). Long events are rarer (14% >=5 days).", RED)
 
 # ---- Threshold-window robustness ----
+image_slide("Def 01 — heatwave days per county [calendar-month window]", os.path.join(FIG85, "map01_heatwave_days_per_county_month.png"),
+            "Robustness: the calendar-month threshold gives essentially the same map as the 15-day window (per-county r=0.994).", BLUE)
+image_slide("Def 01 — seasonal share [calendar-month window]", os.path.join(FIG85, "res_seasonal_month.png"),
+            "Same seasonal pattern as the 15-day window (~37% of heatwave days in Jun-Sep).", BLUE)
+image_slide("Def 02 — heatwave days per county [calendar-month window]", os.path.join(FIG95, "map01_heatwave_days_per_county_month.png"),
+            "Robustness: near-identical to the 15-day window (per-county r=0.987).", RED)
+image_slide("Def 02 — seasonal share [calendar-month window]", os.path.join(FIG95, "res_seasonal_month.png"),
+            "Same seasonal pattern as the 15-day window (~36% of heatwave days in Jun-Sep).", RED)
 numbers_slide("Both definitions were run on BOTH threshold windows", [
     ("Def 01 pooled days — 15-day / month", "170,894 / 171,115"),
     ("Def 01 pooled events — 15-day / month", "48,323 / 47,470"),

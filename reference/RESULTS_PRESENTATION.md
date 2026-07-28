@@ -114,6 +114,12 @@ almost exactly, so the window choice is not driving any result:
 the same catalog (differences < 1% in totals, r ≈ 0.99 per county). We report the
 15-day as primary; the month window is a robustness check, not a different answer.
 
+**Calendar-month figures** are also generated for both definitions (choropleth,
+seasonal, event-duration, annual, top-counties), saved with a `_month` suffix in
+each definition's `figures/` folder (e.g. `map01_heatwave_days_per_county_month.png`,
+`res_seasonal_month.png`). The results deck includes the month choropleth + seasonal
+for each definition; visually they mirror the 15-day versions.
+
 ---
 
 # C. Shared companion outputs (definition-independent)
