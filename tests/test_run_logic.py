@@ -6,7 +6,7 @@ import os, sys
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "pipeline"))
 from heatwave_run_logic import build_runs_and_events
 
 FAILS = []

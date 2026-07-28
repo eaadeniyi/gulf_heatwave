@@ -2,22 +2,7 @@
 __pycache__/
 *.pyc
 
-# Large, regenerable daily county-day + threshold tables (rebuild from scripts + data/raw)
-tables/05_county_daily_heat.csv
-tables/06_county_calendar_thresholds.csv
-tables/07_county_daily_classification.csv
-tables/events/07_daily_*.csv
-tables/06b_fixed_1979_2014_thresholds.csv
-# def01 large regenerable tables (rebuild from build_def01.py / nws_proxy.py)
-def01_relMeanHI_p85_2d/tables/daily_classification_*.csv
-def01_relMeanHI_p85_2d/tables/thresholds_w15.csv
-def01_relMeanHI_p85_2d/tables/nws_proxy_daily.csv
-# statewide large regenerable tables (rebuild from sw1..sw3; 254 counties)
-statewide_TX_def01/tables/statewide_county_daily_heat.csv
-statewide_TX_def01/tables/nws_proxy_daily.csv
-statewide_TX_def01/tables/thresholds_w15.csv
-statewide_TX_def01/tables/daily_heatwave_days_*.csv
-# generalized-pipeline outputs: large regenerable tables (rebuild with run_all.py)
+# Large, regenerable pipeline outputs (rebuild with pipeline/run_all.py)
 outputs/*/county_daily_heat.csv
 outputs/*/nws_proxy_daily.csv
 outputs/*/def_p*/tables/thresholds_w15.csv
@@ -27,7 +12,7 @@ outputs/*/def_p*/tables/daily_heatwave_days_*.csv
 .DS_Store
 Thumbs.db
 
-# reference: keep the QA render out of git (regenerate from the .pptx)
+# reference: keep QA renders / comparison scratch out of git (regenerate from the .pptx)
 reference/Heatwave_Reference_Appendix.pdf
 reference/Heatwave_Results_Deck.pdf
 reference/comparison_figures/

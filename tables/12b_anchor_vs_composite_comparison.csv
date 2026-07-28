@@ -1,6 +1,0 @@
-county_fips,county_name,anchor_station,mean_tmax_bias_anchor_minus_comp,hw_days_composite,hw_days_anchor,heatwave_day_jaccard,candidate_day_jaccard,trend_slope_composite,trend_slope_anchor,hw_days_diff_anchor_minus_comp
-48061,Cameron (Brownsville),USW00012919,1.345,1108,1071,0.6034,0.63,3.445,10.382,-37
-48141,El Paso,USW00023044,0.401,354,577,0.5517,0.5914,3.582,2.464,223
-48201,Harris (Houston),USW00012960,0.086,808,606,0.6366,0.6705,2.464,3.2,-202
-48303,Lubbock,USW00023042,0.42,324,411,0.7254,0.7812,2.391,3.573,87
-48453,Travis (Austin),USW00013958,1.552,424,807,0.4534,0.5015,3.9,2.373,383

@@ -26,8 +26,7 @@ import geopandas as gpd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config as C
-sys.path.insert(0, C.HEAT_INDEX_MODULE_DIR)
-from eda_util import heat_index_f   # NWS Rothfusz heat index (deg F), shared with the rest of the project
+from heat_index import heat_index_f   # NWS Rothfusz heat index (deg F), bundled in this repo
 
 
 def log(*a):

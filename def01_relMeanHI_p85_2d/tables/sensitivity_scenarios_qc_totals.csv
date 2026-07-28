@@ -1,7 +1,0 @@
-window,scenario,heatwave_days_QA_pooled,heatwave_events_QA_pooled
-w15,PRIMARY_nofloor_artifactmissing,3703,1013
-w15,sens_nofloor_retainall,3710,1014
-w15,sens_floor80_artifactmissing,1833,468
-month,PRIMARY_nofloor_artifactmissing,3755,1019
-month,sens_nofloor_retainall,3760,1019
-month,sens_floor80_artifactmissing,1908,479

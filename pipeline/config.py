@@ -107,8 +107,8 @@ OUTPUT_ROOT = os.path.abspath(os.path.join(_HERE, "..", "outputs"))
 # Path to this pipeline dir (for locating per-state NWS office tables etc.)
 PIPELINE_DIR = _HERE
 
-# --- Heat-index helper lives in the project's gulf_eda utilities ------------
-HEAT_INDEX_MODULE_DIR = os.path.join(PROJECT_ROOT, "gulf_eda", "scripts")
+# --- Heat-index helper is bundled in this pipeline (pipeline/heat_index.py) --
+#     (kept here previously as a path into gulf_eda; now self-contained)
 
 # =============================================================================
 # US STATE ABBREVIATION -> 2-DIGIT FIPS  (so any state can be selected)

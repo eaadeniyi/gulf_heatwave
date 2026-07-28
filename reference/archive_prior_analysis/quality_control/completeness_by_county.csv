@@ -1,0 +1,6 @@
+county_fips,name,full_raw_source_n_possible,full_raw_source_n_joint_valid,full_raw_source_pct_complete,fixed_1979_2014_n_possible,fixed_1979_2014_n_joint_valid,fixed_1979_2014_pct_complete,analysis_2015_2025_n_possible,analysis_2015_2025_n_joint_valid,analysis_2015_2025_pct_complete
+48061,Cameron (Brownsville),17354,17353,99.99,13149,13149,100.0,4018,4018,100.0
+48141,El Paso,17354,17352,99.99,13149,13149,100.0,4018,4018,100.0
+48201,Harris (Houston),17354,17351,99.98,13149,13149,100.0,4018,4018,100.0
+48303,Lubbock,17354,17348,99.97,13149,13145,99.97,4018,4018,100.0
+48453,Travis (Austin),17354,17353,99.99,13149,13149,100.0,4018,4018,100.0

@@ -1,6 +1,0 @@
-county_fips,county_name,hw_days_walkforward,hw_days_fixed,jaccard,trend_slope_walkforward_days_per_yr,trend_slope_fixed_days_per_yr,hw_days_diff_fixed_minus_wf,rank_walkforward,rank_fixed
-48061,Cameron (Brownsville),1108,1228,0.9023,3.445,5.445,120,1,1
-48141,El Paso,354,348,0.9286,3.582,3.864,-6,4,4
-48201,Harris (Houston),808,879,0.9192,2.464,3.264,71,2,2
-48303,Lubbock,324,325,0.9489,2.391,2.645,1,5,5
-48453,Travis (Austin),424,433,0.9611,3.9,4.164,9,3,3
