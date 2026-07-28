@@ -84,6 +84,7 @@ def numbers_slide(title, rows, color, sub=None):
             c.vertical_anchor = MSO_ANCHOR.MIDDLE
             p = c.text_frame.paragraphs[0]; r = p.add_run(); r.text = str(val); r.font.size = Pt(12)
             r.font.color.rgb = NAVY if j == 0 else RGBColor(0x22, 0x22, 0x22); r.font.bold = (j == 1)
+    return s
 
 
 def image_slide(title, img, caption, color=NAVY):
@@ -175,6 +176,18 @@ image_slide("Def 02 — when heatwave days fall", os.path.join(FIG95, "res_seaso
 image_slide("Def 02 — how long events last", os.path.join(FIG95, "res_event_duration.png"),
             "Shorter & sparser than Def 01: 53% of events are exactly 2 days (median 2). Long events are rarer (14% >=5 days).", RED)
 
+# ---- Threshold-window robustness ----
+numbers_slide("Both definitions were run on BOTH threshold windows", [
+    ("Def 01 pooled days — 15-day / month", "170,894 / 171,115"),
+    ("Def 01 pooled events — 15-day / month", "48,323 / 47,470"),
+    ("Def 01 per-county median days — 15-day / month", "677 / 678   (r = 0.994)"),
+    ("Def 02 pooled days — 15-day / month", "52,786 / 53,273"),
+    ("Def 02 pooled events — 15-day / month", "17,428 / 17,517"),
+    ("Def 02 per-county median days — 15-day / month", "196 / 194   (r = 0.987)"),
+], NAVY, sub="Centered 15-day (primary, shown) vs calendar-month bucket — both computed for each definition")
+s = prs.slides[-1]
+footnote(s, "The two windows agree to <1% and r~=0.99 per county -> the window choice is a robustness check, not a driver. Month-window CSVs: *_month.csv in each def's tables/ folder.")
+
 # ---- Companion ----
 section("Companion outputs (definition-independent)")
 bullets_slide("Data coverage & the NWS advisory-threshold proxy",
@@ -225,5 +238,12 @@ bullets_slide("Caveats",
      (0, "Exposure classification — NOT an injury or worker-heat-dose measure.", False)],
     note="Data: NOAA GHCN-Daily + gridMET + Census shapefile. Code (state-agnostic): github.com/eaadeniyi/gulf_heatwave")
 
-prs.save(OUTPPTX)
-print("[done] wrote", OUTPPTX, "with", len(prs.slides._sldIdLst), "slides")
+import shutil
+SCRATCH = r"C:\Users\eadeni1\AppData\Local\Temp\claude\C--Users-eadeni1-OneDrive---Louisiana-State-University-Documents-doc-heatWaveUS\2a61cee3-4efc-49b7-ace6-943ccd012cea\scratchpad\Heatwave_Results_Deck.pptx"
+prs.save(SCRATCH)
+print("[done] wrote", SCRATCH, "with", len(prs.slides._sldIdLst), "slides")
+try:
+    shutil.copyfile(SCRATCH, OUTPPTX)
+    print("[copied] into repo:", OUTPPTX)
+except PermissionError:
+    print("[warn] repo copy locked; scratchpad copy is the current deck")

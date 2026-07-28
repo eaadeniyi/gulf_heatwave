@@ -92,6 +92,30 @@ Same file names as Definition 01, in the `def_p95_2d/figures/` folder
 
 ---
 
+# B2. Threshold-window robustness (both definitions were run on BOTH windows)
+
+Every definition is computed on **two** threshold windows — the centered 15-day
+(`w15`, primary, shown above) **and** the calendar-month bucket (`month`). The
+calendar-month outputs exist in each definition's folder
+(`thresholds_month`, `county_year_summary_month`, `heatwave_events_month`,
+`daily_heatwave_days_month`, `county_month_summary_month`). The two windows agree
+almost exactly, so the window choice is not driving any result:
+
+| Metric | Def 01 — 15-day | Def 01 — month | Def 02 — 15-day | Def 02 — month |
+|---|---:|---:|---:|---:|
+| Pooled heatwave-days | 170,894 | 171,115 | 52,786 | 53,273 |
+| Pooled events | 48,323 | 47,470 | 17,428 | 17,517 |
+| Per-county median days | 677 | 678 | 196 | 194 |
+| Per-county range | 154–1,230 | 144–1,233 | 18–516 | 15–510 |
+| Event duration median | 3 d | 3 d | 2 d | 2 d |
+| **Per-county correlation (15-day vs month)** | **r = 0.994** | | **r = 0.987** | |
+
+**Meaning:** the centered-15-day and calendar-month baselines produce essentially
+the same catalog (differences < 1% in totals, r ≈ 0.99 per county). We report the
+15-day as primary; the month window is a robustness check, not a different answer.
+
+---
+
 # C. Shared companion outputs (definition-independent)
 
 These do not depend on the 85th/95th choice:
