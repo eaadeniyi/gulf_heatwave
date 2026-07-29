@@ -1,0 +1,5 @@
+axis,n_matched_pairs,jaccard_median,jaccard_min,jaccard_max,days_ratio_median,days_ratio_min,days_ratio_max
+metric,40,0.2917,0.1775,0.5096,1.1254,1.0071,1.229
+percentile,48,0.4925,0.284,0.6876,2.0305,1.4544,3.5213
+window,84,0.6926,0.5468,0.9333,1.0703,1.0008,1.3387
+duration,28,0.7468,0.6836,0.7969,1.339,1.2549,1.4629

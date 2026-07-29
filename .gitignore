@@ -8,6 +8,15 @@ outputs/*/nws_proxy_daily.csv
 outputs/*/def_p*/tables/thresholds_w15.csv
 outputs/*/def_p*/tables/daily_heatwave_days_*.csv
 
+# Definition grid (pipeline/run_grid.py). Tracked: the per-run event tables
+# (gzipped), county-year and county-month summaries, every figure, and the whole
+# _comparison layer. NOT tracked -- both are large and fully regenerable by re-running
+# the grid (~7.5 min):
+#   _thresholds/           ~1M rows per centered window x metric x percentile
+#   daily_heatwave_days_*  one row per heatwave county-day, per run
+outputs/*/grid/_thresholds/
+outputs/*/grid/*/tables/daily_heatwave_days_*.csv.gz
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
