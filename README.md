@@ -102,12 +102,38 @@ status, output path and runtime lives in `pipeline/definition_registry.csv`.
 month **plus a 7-day collar either side** (~45 days) — they are different windows, not two
 names for the same thing.
 
-### Regression gate
+### Tests
 
-`p02` was generalised from one metric to any metric. `tests/test_reproduce_def01_def02.py`
-re-runs Def 01 and Def 02 through the generalised code and asserts it still reproduces the
-published outputs exactly — every county-year, the complete event set, and the documented
-headline totals (170,894 / 48,323 and 52,786 / 17,428). Run it after touching `p02`.
+| test | what it defends |
+| --- | --- |
+| `test_run_logic.py` | the 6 mandated run/event sequences + the year-boundary configurable |
+| `test_reproduce_def01_def02.py` | the generalised `p02` still reproduces the **published** Def 01/02 exactly — every county-year, the complete event set, and the documented totals (170,894 / 48,323 and 52,786 / 17,428) |
+| `test_panel_equivalence.py` | the vectorised panel run/event logic equals the readable reference implementation (471 frame comparisons) |
+| `test_windows.py` | all four threshold windows pool the calendar days they claim to, wrap correctly at the year boundary, and never see year Y when judging year Y |
+| `test_input_provenance.py` | the consumed `county_daily_heat.csv` is **byte-identical** to re-deriving it from the raw GHCN + gridMET files, and spans the full 1979–2025 baseline |
+
+Run the first four after touching `p02` or `heatwave_run_logic.py`. Run
+`test_input_provenance.py` when the raw inputs may have changed, or to re-establish
+provenance for a published result set (~1 min: it re-runs `p01` and hashes a ~700 MB file).
+
+### Data lineage
+
+```
+data/raw/gulf_states/TX/weather/ghcn_county_day_weather_TX.csv       (Tmax, Tmin, precip)
+data/raw/gulf_states/TX/weather/gridmet_county_day_humidity_TX.csv   (RHmax, RHmin)
+        │
+        └─ p01 ─► outputs/TX/county_daily_heat.csv   1979–2025, 254 counties, 4.36M county-days
+                    QC + RH-clip artifact flag + IDW temperature gap-fill
+                    derives tmean_f and both heat-index proxies
+                    │
+                    └─ p02 ─► walk-forward percentile thresholds (year Y ← 1979…Y−1)
+                              → candidate days → persistence rule → heatwave days/events
+```
+
+Every definition reads the **same** `county_daily_heat.csv`, so all 56 runs see identical
+weather and any difference between them comes from the definition alone. `p01` only needs
+re-running when the raw inputs change or a new state is added — no definition changes what
+it does, since all three metrics are already derived in its output.
 
 ## Run it for a different state
 

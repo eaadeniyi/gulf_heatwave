@@ -53,6 +53,16 @@ logic equals the readable reference implementation (471 frame comparisons);
 `tests/test_windows.py` proves all four windows pool the calendar days they claim to. **Run
 all four test files after touching p02 or heatwave_run_logic.py.**
 
+**Input provenance.** The grid does NOT re-run p01 — it reuses `outputs/TX/county_daily_heat.csv`
+(all three metrics are already derived in it, so nothing p01 does changes between definitions).
+That shortcut is verified, not assumed: `tests/test_input_provenance.py` re-runs p01 from the
+raw **GHCN** (`ghcn_county_day_weather_TX.csv`, Tmax/Tmin/precip) and **gridMET**
+(`gridmet_county_day_humidity_TX.csv`, RHmax/RHmin) files into a temp dir and confirms it
+reproduces the consumed table **byte-identically** (md5 `f0276ee5888539f9dd4df1b3c7d2435e`,
+matching the fingerprint in `grid/run_log.csv`), and that the table spans the full
+1979–2025 record so walk-forward thresholds are estimated from the source data. Re-run it
+when the raw inputs change or to re-establish provenance for a published result set (~1 min).
+
 ---
 
 ## 1. What this project is
