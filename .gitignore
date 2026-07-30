@@ -17,6 +17,25 @@ outputs/*/def_p*/tables/daily_heatwave_days_*.csv
 outputs/*/grid/_thresholds/
 outputs/*/grid/*/tables/daily_heatwave_days_*.csv.gz
 
+# Definition-comparison package (outputs/definition_comparison/scripts/run_package.py).
+# TRACKED: every script, the 8 required tables, the support tables the figures read,
+# all core/supplement figures, the whole qa/ record, the data dictionary, the written
+# deliverables (figure_captions.md, methods_notes.md, DECISION_TABLE.md, README.md,
+# run_manifest.csv) and county_profiles/INDEX.csv -- about 10 MB in total.
+# NOT TRACKED (~540 MB, all regenerable; run_manifest.csv still records every one of
+# them with its size, timestamp and producing script):
+#   tables/canonical_long/      one row per candidate county-day x definition x window
+#   the three master tables     county-year / county-month / event, all 64 runs
+#   county_profiles/*/          254 report cards + their per-county CSVs (s06, ~10 min)
+#   event_audits/*.png          the event timelines and long-event audit figures (s07)
+outputs/definition_comparison/tables/canonical_long/
+outputs/definition_comparison/tables/master_county_month_summary.csv
+outputs/definition_comparison/tables/master_county_year_summary.csv
+outputs/definition_comparison/tables/master_event_table.csv.gz
+outputs/definition_comparison/tables/eligibility_county_month.csv
+outputs/definition_comparison/county_profiles/*/
+outputs/definition_comparison/event_audits/*.png
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

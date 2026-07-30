@@ -1,0 +1,255 @@
+county_fips,county_name,climate_division,climdiv_id,temperature_imputation_pct,fully_imputed_county,data_complete,report_card
+48003,Andrews,High Plains,4101,3.2,False,True,county_profiles/48003/fig08_report_card_48003.png
+48011,Armstrong,High Plains,4101,100.0,True,False,county_profiles/48011/fig08_report_card_48011.png
+48017,Bailey,High Plains,4101,0.0,False,True,county_profiles/48017/fig08_report_card_48017.png
+48045,Briscoe,High Plains,4101,0.0,False,True,county_profiles/48045/fig08_report_card_48045.png
+48065,Carson,High Plains,4101,77.3,False,False,county_profiles/48065/fig08_report_card_48065.png
+48069,Castro,High Plains,4101,0.0,False,True,county_profiles/48069/fig08_report_card_48069.png
+48079,Cochran,High Plains,4101,0.0,False,True,county_profiles/48079/fig08_report_card_48079.png
+48107,Crosby,High Plains,4101,0.0,False,True,county_profiles/48107/fig08_report_card_48107.png
+48111,Dallam,High Plains,4101,62.4,False,False,county_profiles/48111/fig08_report_card_48111.png
+48115,Dawson,High Plains,4101,65.2,False,False,county_profiles/48115/fig08_report_card_48115.png
+48117,Deaf Smith,High Plains,4101,11.0,False,False,county_profiles/48117/fig08_report_card_48117.png
+48153,Floyd,High Plains,4101,0.0,False,True,county_profiles/48153/fig08_report_card_48153.png
+48165,Gaines,High Plains,4101,0.2,False,True,county_profiles/48165/fig08_report_card_48165.png
+48173,Glasscock,High Plains,4101,100.0,True,False,county_profiles/48173/fig08_report_card_48173.png
+48179,Gray,High Plains,4101,0.0,False,True,county_profiles/48179/fig08_report_card_48179.png
+48189,Hale,High Plains,4101,0.0,False,True,county_profiles/48189/fig08_report_card_48189.png
+48195,Hansford,High Plains,4101,0.2,False,True,county_profiles/48195/fig08_report_card_48195.png
+48205,Hartley,High Plains,4101,0.0,False,True,county_profiles/48205/fig08_report_card_48205.png
+48211,Hemphill,High Plains,4101,100.0,True,False,county_profiles/48211/fig08_report_card_48211.png
+48219,Hockley,High Plains,4101,0.0,False,True,county_profiles/48219/fig08_report_card_48219.png
+48227,Howard,High Plains,4101,0.7,False,True,county_profiles/48227/fig08_report_card_48227.png
+48233,Hutchinson,High Plains,4101,0.0,False,True,county_profiles/48233/fig08_report_card_48233.png
+48279,Lamb,High Plains,4101,0.0,False,True,county_profiles/48279/fig08_report_card_48279.png
+48295,Lipscomb,High Plains,4101,0.4,False,True,county_profiles/48295/fig08_report_card_48295.png
+48303,Lubbock,High Plains,4101,0.0,False,True,county_profiles/48303/fig08_report_card_48303.png
+48305,Lynn,High Plains,4101,0.0,False,True,county_profiles/48305/fig08_report_card_48305.png
+48317,Martin,High Plains,4101,100.0,True,False,county_profiles/48317/fig08_report_card_48317.png
+48329,Midland,High Plains,4101,0.0,False,True,county_profiles/48329/fig08_report_card_48329.png
+48341,Moore,High Plains,4101,39.0,False,False,county_profiles/48341/fig08_report_card_48341.png
+48357,Ochiltree,High Plains,4101,35.8,False,False,county_profiles/48357/fig08_report_card_48357.png
+48359,Oldham,High Plains,4101,0.0,False,True,county_profiles/48359/fig08_report_card_48359.png
+48369,Parmer,High Plains,4101,0.0,False,True,county_profiles/48369/fig08_report_card_48369.png
+48375,Potter,High Plains,4101,0.0,False,True,county_profiles/48375/fig08_report_card_48375.png
+48381,Randall,High Plains,4101,8.1,False,True,county_profiles/48381/fig08_report_card_48381.png
+48393,Roberts,High Plains,4101,100.0,True,False,county_profiles/48393/fig08_report_card_48393.png
+48421,Sherman,High Plains,4101,58.9,False,False,county_profiles/48421/fig08_report_card_48421.png
+48437,Swisher,High Plains,4101,0.0,False,True,county_profiles/48437/fig08_report_card_48437.png
+48445,Terry,High Plains,4101,0.0,False,True,county_profiles/48445/fig08_report_card_48445.png
+48501,Yoakum,High Plains,4101,0.0,False,True,county_profiles/48501/fig08_report_card_48501.png
+48023,Baylor,Low Rolling Plains,4102,0.0,False,True,county_profiles/48023/fig08_report_card_48023.png
+48033,Borden,Low Rolling Plains,4102,23.2,False,False,county_profiles/48033/fig08_report_card_48033.png
+48075,Childress,Low Rolling Plains,4102,0.0,False,True,county_profiles/48075/fig08_report_card_48075.png
+48083,Coleman,Low Rolling Plains,4102,0.0,False,True,county_profiles/48083/fig08_report_card_48083.png
+48087,Collingsworth,Low Rolling Plains,4102,70.7,False,False,county_profiles/48087/fig08_report_card_48087.png
+48101,Cottle,Low Rolling Plains,4102,0.3,False,True,county_profiles/48101/fig08_report_card_48101.png
+48125,Dickens,Low Rolling Plains,4102,0.0,False,True,county_profiles/48125/fig08_report_card_48125.png
+48129,Donley,Low Rolling Plains,4102,76.8,False,False,county_profiles/48129/fig08_report_card_48129.png
+48151,Fisher,Low Rolling Plains,4102,58.6,False,False,county_profiles/48151/fig08_report_card_48151.png
+48155,Foard,Low Rolling Plains,4102,100.0,True,False,county_profiles/48155/fig08_report_card_48155.png
+48169,Garza,Low Rolling Plains,4102,0.0,False,True,county_profiles/48169/fig08_report_card_48169.png
+48191,Hall,Low Rolling Plains,4102,0.0,False,True,county_profiles/48191/fig08_report_card_48191.png
+48197,Hardeman,Low Rolling Plains,4102,100.0,True,False,county_profiles/48197/fig08_report_card_48197.png
+48207,Haskell,Low Rolling Plains,4102,11.8,False,False,county_profiles/48207/fig08_report_card_48207.png
+48253,Jones,Low Rolling Plains,4102,0.0,False,True,county_profiles/48253/fig08_report_card_48253.png
+48263,Kent,Low Rolling Plains,4102,0.0,False,True,county_profiles/48263/fig08_report_card_48263.png
+48269,King,Low Rolling Plains,4102,0.0,False,True,county_profiles/48269/fig08_report_card_48269.png
+48275,Knox,Low Rolling Plains,4102,11.2,False,False,county_profiles/48275/fig08_report_card_48275.png
+48335,Mitchell,Low Rolling Plains,4102,100.0,True,False,county_profiles/48335/fig08_report_card_48335.png
+48345,Motley,Low Rolling Plains,4102,0.0,False,True,county_profiles/48345/fig08_report_card_48345.png
+48353,Nolan,Low Rolling Plains,4102,4.5,False,True,county_profiles/48353/fig08_report_card_48353.png
+48399,Runnels,Low Rolling Plains,4102,0.1,False,True,county_profiles/48399/fig08_report_card_48399.png
+48415,Scurry,Low Rolling Plains,4102,0.3,False,True,county_profiles/48415/fig08_report_card_48415.png
+48433,Stonewall,Low Rolling Plains,4102,0.0,False,True,county_profiles/48433/fig08_report_card_48433.png
+48441,Taylor,Low Rolling Plains,4102,0.0,False,True,county_profiles/48441/fig08_report_card_48441.png
+48483,Wheeler,Low Rolling Plains,4102,67.4,False,False,county_profiles/48483/fig08_report_card_48483.png
+48485,Wichita,Low Rolling Plains,4102,0.0,False,True,county_profiles/48485/fig08_report_card_48485.png
+48487,Wilbarger,Low Rolling Plains,4102,100.0,True,False,county_profiles/48487/fig08_report_card_48487.png
+48009,Archer,North Central,4103,89.4,False,False,county_profiles/48009/fig08_report_card_48009.png
+48027,Bell,North Central,4103,0.1,False,True,county_profiles/48027/fig08_report_card_48027.png
+48035,Bosque,North Central,4103,60.6,False,False,county_profiles/48035/fig08_report_card_48035.png
+48049,Brown,North Central,4103,9.7,False,True,county_profiles/48049/fig08_report_card_48049.png
+48059,Callahan,North Central,4103,0.0,False,True,county_profiles/48059/fig08_report_card_48059.png
+48077,Clay,North Central,4103,100.0,True,False,county_profiles/48077/fig08_report_card_48077.png
+48085,Collin,North Central,4103,0.0,False,True,county_profiles/48085/fig08_report_card_48085.png
+48093,Comanche,North Central,4103,3.9,False,True,county_profiles/48093/fig08_report_card_48093.png
+48097,Cooke,North Central,4103,0.6,False,True,county_profiles/48097/fig08_report_card_48097.png
+48099,Coryell,North Central,4103,1.4,False,True,county_profiles/48099/fig08_report_card_48099.png
+48113,Dallas,North Central,4103,0.0,False,True,county_profiles/48113/fig08_report_card_48113.png
+48119,Delta,North Central,4103,100.0,True,False,county_profiles/48119/fig08_report_card_48119.png
+48121,Denton,North Central,4103,0.0,False,True,county_profiles/48121/fig08_report_card_48121.png
+48133,Eastland,North Central,4103,100.0,True,False,county_profiles/48133/fig08_report_card_48133.png
+48139,Ellis,North Central,4103,0.3,False,True,county_profiles/48139/fig08_report_card_48139.png
+48143,Erath,North Central,4103,0.9,False,True,county_profiles/48143/fig08_report_card_48143.png
+48145,Falls,North Central,4103,88.7,False,False,county_profiles/48145/fig08_report_card_48145.png
+48147,Fannin,North Central,4103,0.1,False,True,county_profiles/48147/fig08_report_card_48147.png
+48181,Grayson,North Central,4103,0.0,False,True,county_profiles/48181/fig08_report_card_48181.png
+48193,Hamilton,North Central,4103,61.0,False,False,county_profiles/48193/fig08_report_card_48193.png
+48217,Hill,North Central,4103,0.0,False,True,county_profiles/48217/fig08_report_card_48217.png
+48221,Hood,North Central,4103,0.5,False,True,county_profiles/48221/fig08_report_card_48221.png
+48231,Hunt,North Central,4103,0.0,False,True,county_profiles/48231/fig08_report_card_48231.png
+48237,Jack,North Central,4103,6.3,False,True,county_profiles/48237/fig08_report_card_48237.png
+48251,Johnson,North Central,4103,0.1,False,True,county_profiles/48251/fig08_report_card_48251.png
+48257,Kaufman,North Central,4103,0.6,False,True,county_profiles/48257/fig08_report_card_48257.png
+48277,Lamar,North Central,4103,0.1,False,True,county_profiles/48277/fig08_report_card_48277.png
+48293,Limestone,North Central,4103,69.3,False,False,county_profiles/48293/fig08_report_card_48293.png
+48309,McLennan,North Central,4103,0.0,False,True,county_profiles/48309/fig08_report_card_48309.png
+48331,Milam,North Central,4103,26.7,False,False,county_profiles/48331/fig08_report_card_48331.png
+48333,Mills,North Central,4103,4.0,False,True,county_profiles/48333/fig08_report_card_48333.png
+48337,Montague,North Central,4103,0.0,False,True,county_profiles/48337/fig08_report_card_48337.png
+48349,Navarro,North Central,4103,0.0,False,True,county_profiles/48349/fig08_report_card_48349.png
+48363,Palo Pinto,North Central,4103,1.6,False,True,county_profiles/48363/fig08_report_card_48363.png
+48367,Parker,North Central,4103,0.2,False,True,county_profiles/48367/fig08_report_card_48367.png
+48397,Rockwall,North Central,4103,25.0,False,False,county_profiles/48397/fig08_report_card_48397.png
+48417,Shackelford,North Central,4103,0.1,False,True,county_profiles/48417/fig08_report_card_48417.png
+48425,Somervell,North Central,4103,18.3,False,False,county_profiles/48425/fig08_report_card_48425.png
+48429,Stephens,North Central,4103,1.7,False,True,county_profiles/48429/fig08_report_card_48429.png
+48439,Tarrant,North Central,4103,0.0,False,True,county_profiles/48439/fig08_report_card_48439.png
+48447,Throckmorton,North Central,4103,41.0,False,False,county_profiles/48447/fig08_report_card_48447.png
+48491,Williamson,North Central,4103,0.0,False,True,county_profiles/48491/fig08_report_card_48491.png
+48497,Wise,North Central,4103,0.1,False,True,county_profiles/48497/fig08_report_card_48497.png
+48503,Young,North Central,4103,7.3,False,True,county_profiles/48503/fig08_report_card_48503.png
+48001,Anderson,East Texas,4104,0.0,False,True,county_profiles/48001/fig08_report_card_48001.png
+48005,Angelina,East Texas,4104,0.0,False,True,county_profiles/48005/fig08_report_card_48005.png
+48037,Bowie,East Texas,4104,0.0,False,True,county_profiles/48037/fig08_report_card_48037.png
+48041,Brazos,East Texas,4104,0.1,False,True,county_profiles/48041/fig08_report_card_48041.png
+48063,Camp,East Texas,4104,82.5,False,False,county_profiles/48063/fig08_report_card_48063.png
+48067,Cass,East Texas,4104,0.6,False,True,county_profiles/48067/fig08_report_card_48067.png
+48073,Cherokee,East Texas,4104,0.2,False,True,county_profiles/48073/fig08_report_card_48073.png
+48159,Franklin,East Texas,4104,4.4,False,True,county_profiles/48159/fig08_report_card_48159.png
+48161,Freestone,East Texas,4104,100.0,True,False,county_profiles/48161/fig08_report_card_48161.png
+48183,Gregg,East Texas,4104,0.1,False,True,county_profiles/48183/fig08_report_card_48183.png
+48185,Grimes,East Texas,4104,100.0,True,False,county_profiles/48185/fig08_report_card_48185.png
+48199,Hardin,East Texas,4104,1.3,False,True,county_profiles/48199/fig08_report_card_48199.png
+48203,Harrison,East Texas,4104,0.0,False,True,county_profiles/48203/fig08_report_card_48203.png
+48213,Henderson,East Texas,4104,0.0,False,True,county_profiles/48213/fig08_report_card_48213.png
+48223,Hopkins,East Texas,4104,0.0,False,True,county_profiles/48223/fig08_report_card_48223.png
+48225,Houston,East Texas,4104,0.1,False,True,county_profiles/48225/fig08_report_card_48225.png
+48241,Jasper,East Texas,4104,5.7,False,True,county_profiles/48241/fig08_report_card_48241.png
+48289,Leon,East Texas,4104,1.8,False,True,county_profiles/48289/fig08_report_card_48289.png
+48313,Madison,East Texas,4104,7.1,False,True,county_profiles/48313/fig08_report_card_48313.png
+48315,Marion,East Texas,4104,7.3,False,True,county_profiles/48315/fig08_report_card_48315.png
+48339,Montgomery,East Texas,4104,0.0,False,True,county_profiles/48339/fig08_report_card_48339.png
+48343,Morris,East Texas,4104,0.4,False,True,county_profiles/48343/fig08_report_card_48343.png
+48347,Nacogdoches,East Texas,4104,1.1,False,True,county_profiles/48347/fig08_report_card_48347.png
+48351,Newton,East Texas,4104,0.9,False,True,county_profiles/48351/fig08_report_card_48351.png
+48365,Panola,East Texas,4104,1.8,False,True,county_profiles/48365/fig08_report_card_48365.png
+48373,Polk,East Texas,4104,86.0,False,False,county_profiles/48373/fig08_report_card_48373.png
+48379,Rains,East Texas,4104,0.5,False,True,county_profiles/48379/fig08_report_card_48379.png
+48387,Red River,East Texas,4104,0.6,False,True,county_profiles/48387/fig08_report_card_48387.png
+48395,Robertson,East Texas,4104,5.3,False,True,county_profiles/48395/fig08_report_card_48395.png
+48401,Rusk,East Texas,4104,0.0,False,True,county_profiles/48401/fig08_report_card_48401.png
+48403,Sabine,East Texas,4104,1.2,False,True,county_profiles/48403/fig08_report_card_48403.png
+48405,San Augustine,East Texas,4104,9.2,False,True,county_profiles/48405/fig08_report_card_48405.png
+48407,San Jacinto,East Texas,4104,100.0,True,False,county_profiles/48407/fig08_report_card_48407.png
+48419,Shelby,East Texas,4104,54.8,False,False,county_profiles/48419/fig08_report_card_48419.png
+48423,Smith,East Texas,4104,0.0,False,True,county_profiles/48423/fig08_report_card_48423.png
+48449,Titus,East Texas,4104,2.4,False,True,county_profiles/48449/fig08_report_card_48449.png
+48455,Trinity,East Texas,4104,100.0,True,False,county_profiles/48455/fig08_report_card_48455.png
+48457,Tyler,East Texas,4104,0.0,False,True,county_profiles/48457/fig08_report_card_48457.png
+48459,Upshur,East Texas,4104,0.0,False,True,county_profiles/48459/fig08_report_card_48459.png
+48467,Van Zandt,East Texas,4104,1.7,False,True,county_profiles/48467/fig08_report_card_48467.png
+48471,Walker,East Texas,4104,0.0,False,True,county_profiles/48471/fig08_report_card_48471.png
+48473,Waller,East Texas,4104,100.0,True,False,county_profiles/48473/fig08_report_card_48473.png
+48499,Wood,East Texas,4104,0.0,False,True,county_profiles/48499/fig08_report_card_48499.png
+48043,Brewster,Trans-Pecos,4105,0.0,False,True,county_profiles/48043/fig08_report_card_48043.png
+48103,Crane,Trans-Pecos,4105,2.8,False,True,county_profiles/48103/fig08_report_card_48103.png
+48109,Culberson,Trans-Pecos,4105,0.0,False,True,county_profiles/48109/fig08_report_card_48109.png
+48135,Ector,Trans-Pecos,4105,0.3,False,True,county_profiles/48135/fig08_report_card_48135.png
+48141,El Paso,Trans-Pecos,4105,0.0,False,True,county_profiles/48141/fig08_report_card_48141.png
+48229,Hudspeth,Trans-Pecos,4105,0.1,False,True,county_profiles/48229/fig08_report_card_48229.png
+48243,Jeff Davis,Trans-Pecos,4105,0.0,False,True,county_profiles/48243/fig08_report_card_48243.png
+48301,Loving,Trans-Pecos,4105,100.0,True,False,county_profiles/48301/fig08_report_card_48301.png
+48371,Pecos,Trans-Pecos,4105,0.0,False,True,county_profiles/48371/fig08_report_card_48371.png
+48377,Presidio,Trans-Pecos,4105,2.2,False,True,county_profiles/48377/fig08_report_card_48377.png
+48389,Reeves,Trans-Pecos,4105,4.4,False,True,county_profiles/48389/fig08_report_card_48389.png
+48443,Terrell,Trans-Pecos,4105,2.6,False,True,county_profiles/48443/fig08_report_card_48443.png
+48475,Ward,Trans-Pecos,4105,0.4,False,True,county_profiles/48475/fig08_report_card_48475.png
+48495,Winkler,Trans-Pecos,4105,6.7,False,True,county_profiles/48495/fig08_report_card_48495.png
+48019,Bandera,Edwards Plateau,4106,16.4,False,False,county_profiles/48019/fig08_report_card_48019.png
+48031,Blanco,Edwards Plateau,4106,19.2,False,False,county_profiles/48031/fig08_report_card_48031.png
+48053,Burnet,Edwards Plateau,4106,0.0,False,True,county_profiles/48053/fig08_report_card_48053.png
+48081,Coke,Edwards Plateau,4106,0.3,False,True,county_profiles/48081/fig08_report_card_48081.png
+48095,Concho,Edwards Plateau,4106,0.1,False,True,county_profiles/48095/fig08_report_card_48095.png
+48105,Crockett,Edwards Plateau,4106,0.5,False,True,county_profiles/48105/fig08_report_card_48105.png
+48137,Edwards,Edwards Plateau,4106,13.8,False,False,county_profiles/48137/fig08_report_card_48137.png
+48171,Gillespie,Edwards Plateau,4106,0.0,False,True,county_profiles/48171/fig08_report_card_48171.png
+48235,Irion,Edwards Plateau,4106,22.7,False,False,county_profiles/48235/fig08_report_card_48235.png
+48259,Kendall,Edwards Plateau,4106,0.8,False,True,county_profiles/48259/fig08_report_card_48259.png
+48265,Kerr,Edwards Plateau,4106,0.0,False,True,county_profiles/48265/fig08_report_card_48265.png
+48267,Kimble,Edwards Plateau,4106,0.0,False,True,county_profiles/48267/fig08_report_card_48267.png
+48271,Kinney,Edwards Plateau,4106,43.5,False,False,county_profiles/48271/fig08_report_card_48271.png
+48281,Lampasas,Edwards Plateau,4106,80.3,False,False,county_profiles/48281/fig08_report_card_48281.png
+48299,Llano,Edwards Plateau,4106,0.0,False,True,county_profiles/48299/fig08_report_card_48299.png
+48319,Mason,Edwards Plateau,4106,0.0,False,True,county_profiles/48319/fig08_report_card_48319.png
+48307,McCulloch,Edwards Plateau,4106,3.4,False,True,county_profiles/48307/fig08_report_card_48307.png
+48327,Menard,Edwards Plateau,4106,1.2,False,True,county_profiles/48327/fig08_report_card_48327.png
+48383,Reagan,Edwards Plateau,4106,2.3,False,True,county_profiles/48383/fig08_report_card_48383.png
+48385,Real,Edwards Plateau,4106,2.5,False,True,county_profiles/48385/fig08_report_card_48385.png
+48411,San Saba,Edwards Plateau,4106,0.1,False,True,county_profiles/48411/fig08_report_card_48411.png
+48413,Schleicher,Edwards Plateau,4106,1.1,False,True,county_profiles/48413/fig08_report_card_48413.png
+48431,Sterling,Edwards Plateau,4106,72.4,False,False,county_profiles/48431/fig08_report_card_48431.png
+48435,Sutton,Edwards Plateau,4106,67.7,False,False,county_profiles/48435/fig08_report_card_48435.png
+48451,Tom Green,Edwards Plateau,4106,0.0,False,True,county_profiles/48451/fig08_report_card_48451.png
+48461,Upton,Edwards Plateau,4106,13.9,False,False,county_profiles/48461/fig08_report_card_48461.png
+48463,Uvalde,Edwards Plateau,4106,2.8,False,True,county_profiles/48463/fig08_report_card_48463.png
+48465,Val Verde,Edwards Plateau,4106,0.0,False,True,county_profiles/48465/fig08_report_card_48465.png
+48007,Aransas,South Central,4107,0.2,False,True,county_profiles/48007/fig08_report_card_48007.png
+48015,Austin,South Central,4107,23.9,False,False,county_profiles/48015/fig08_report_card_48015.png
+48021,Bastrop,South Central,4107,0.3,False,True,county_profiles/48021/fig08_report_card_48021.png
+48025,Bee,South Central,4107,4.0,False,True,county_profiles/48025/fig08_report_card_48025.png
+48029,Bexar,South Central,4107,0.0,False,True,county_profiles/48029/fig08_report_card_48029.png
+48051,Burleson,South Central,4107,18.9,False,False,county_profiles/48051/fig08_report_card_48051.png
+48055,Caldwell,South Central,4107,0.1,False,True,county_profiles/48055/fig08_report_card_48055.png
+48089,Colorado,South Central,4107,0.0,False,True,county_profiles/48089/fig08_report_card_48089.png
+48091,Comal,South Central,4107,7.8,False,True,county_profiles/48091/fig08_report_card_48091.png
+48123,DeWitt,South Central,4107,1.4,False,True,county_profiles/48123/fig08_report_card_48123.png
+48149,Fayette,South Central,4107,0.6,False,True,county_profiles/48149/fig08_report_card_48149.png
+48175,Goliad,South Central,4107,0.7,False,True,county_profiles/48175/fig08_report_card_48175.png
+48177,Gonzales,South Central,4107,0.0,False,True,county_profiles/48177/fig08_report_card_48177.png
+48187,Guadalupe,South Central,4107,0.0,False,True,county_profiles/48187/fig08_report_card_48187.png
+48209,Hays,South Central,4107,0.7,False,True,county_profiles/48209/fig08_report_card_48209.png
+48255,Karnes,South Central,4107,100.0,True,False,county_profiles/48255/fig08_report_card_48255.png
+48273,Kleberg,South Central,4107,0.0,False,True,county_profiles/48273/fig08_report_card_48273.png
+48285,Lavaca,South Central,4107,0.8,False,True,county_profiles/48285/fig08_report_card_48285.png
+48287,Lee,South Central,4107,2.2,False,True,county_profiles/48287/fig08_report_card_48287.png
+48325,Medina,South Central,4107,0.5,False,True,county_profiles/48325/fig08_report_card_48325.png
+48355,Nueces,South Central,4107,0.0,False,True,county_profiles/48355/fig08_report_card_48355.png
+48391,Refugio,South Central,4107,3.6,False,True,county_profiles/48391/fig08_report_card_48391.png
+48409,San Patricio,South Central,4107,6.4,False,True,county_profiles/48409/fig08_report_card_48409.png
+48453,Travis,South Central,4107,0.0,False,True,county_profiles/48453/fig08_report_card_48453.png
+48477,Washington,South Central,4107,0.3,False,True,county_profiles/48477/fig08_report_card_48477.png
+48493,Wilson,South Central,4107,61.7,False,False,county_profiles/48493/fig08_report_card_48493.png
+48039,Brazoria,Upper Coast,4108,0.0,False,True,county_profiles/48039/fig08_report_card_48039.png
+48057,Calhoun,Upper Coast,4108,0.1,False,True,county_profiles/48057/fig08_report_card_48057.png
+48071,Chambers,Upper Coast,4108,0.3,False,True,county_profiles/48071/fig08_report_card_48071.png
+48157,Fort Bend,Upper Coast,4108,0.2,False,True,county_profiles/48157/fig08_report_card_48157.png
+48167,Galveston,Upper Coast,4108,0.0,False,True,county_profiles/48167/fig08_report_card_48167.png
+48201,Harris,Upper Coast,4108,0.0,False,True,county_profiles/48201/fig08_report_card_48201.png
+48239,Jackson,Upper Coast,4108,100.0,True,False,county_profiles/48239/fig08_report_card_48239.png
+48245,Jefferson,Upper Coast,4108,0.0,False,True,county_profiles/48245/fig08_report_card_48245.png
+48291,Liberty,Upper Coast,4108,0.0,False,True,county_profiles/48291/fig08_report_card_48291.png
+48321,Matagorda,Upper Coast,4108,0.0,False,True,county_profiles/48321/fig08_report_card_48321.png
+48361,Orange,Upper Coast,4108,2.5,False,True,county_profiles/48361/fig08_report_card_48361.png
+48469,Victoria,Upper Coast,4108,0.0,False,True,county_profiles/48469/fig08_report_card_48469.png
+48481,Wharton,Upper Coast,4108,0.0,False,True,county_profiles/48481/fig08_report_card_48481.png
+48013,Atascosa,South Texas,4109,0.0,False,True,county_profiles/48013/fig08_report_card_48013.png
+48047,Brooks,South Texas,4109,70.2,False,False,county_profiles/48047/fig08_report_card_48047.png
+48127,Dimmit,South Texas,4109,1.6,False,True,county_profiles/48127/fig08_report_card_48127.png
+48131,Duval,South Texas,4109,0.7,False,True,county_profiles/48131/fig08_report_card_48131.png
+48163,Frio,South Texas,4109,48.8,False,False,county_profiles/48163/fig08_report_card_48163.png
+48247,Jim Hogg,South Texas,4109,100.0,True,False,county_profiles/48247/fig08_report_card_48247.png
+48249,Jim Wells,South Texas,4109,0.0,False,True,county_profiles/48249/fig08_report_card_48249.png
+48261,Kenedy,South Texas,4109,33.0,False,False,county_profiles/48261/fig08_report_card_48261.png
+48283,La Salle,South Texas,4109,0.7,False,True,county_profiles/48283/fig08_report_card_48283.png
+48297,Live Oak,South Texas,4109,0.0,False,True,county_profiles/48297/fig08_report_card_48297.png
+48323,Maverick,South Texas,4109,72.4,False,False,county_profiles/48323/fig08_report_card_48323.png
+48311,McMullen,South Texas,4109,0.1,False,True,county_profiles/48311/fig08_report_card_48311.png
+48427,Starr,South Texas,4109,2.1,False,True,county_profiles/48427/fig08_report_card_48427.png
+48479,Webb,South Texas,4109,0.0,False,True,county_profiles/48479/fig08_report_card_48479.png
+48505,Zapata,South Texas,4109,78.0,False,False,county_profiles/48505/fig08_report_card_48505.png
+48507,Zavala,South Texas,4109,100.0,True,False,county_profiles/48507/fig08_report_card_48507.png
+48061,Cameron,Lower Valley,4110,0.0,False,True,county_profiles/48061/fig08_report_card_48061.png
+48215,Hidalgo,Lower Valley,4110,0.0,False,True,county_profiles/48215/fig08_report_card_48215.png
+48489,Willacy,Lower Valley,4110,30.0,False,False,county_profiles/48489/fig08_report_card_48489.png

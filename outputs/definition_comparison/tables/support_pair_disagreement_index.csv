@@ -1,0 +1,7 @@
+pair,axis,rationale,run_a,run_b,county_dates_a_only,county_dates_b_only,county_dates_shared,jaccard_day_level,disagreement_rate_pct,counties_with_any_disagreement
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,metric,day vs night temperature at matched percentile/duration,TMAX_P90_2D__w15,TMIN_P90_2D__w15,62360,75778,45999,0.2498,75.02,254
+TMAX_P90_2D_w15_vs_MHI_P90_2D_w15,metric,dry-bulb vs humidity-inclusive metric at matched percentile/duration,TMAX_P90_2D__w15,MHI_P90_2D__w15,47802,49686,60557,0.3832,61.68,254
+TMAX_P85_2D_w15_vs_TMAX_P95_2D_w15,percentile,the widest percentile contrast on one metric,TMAX_P85_2D__w15,TMAX_P95_2D__w15,104428,0,56576,0.3514,64.86,254
+TMAX_P90_2D_w15_vs_TMAX_P90_3D_w15,duration,"the persistence rule, everything else fixed",TMAX_P90_2D__w15,TMAX_P90_3D__w15,27604,0,80755,0.7453,25.47,254
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,percentile,Def 01 vs Def 02 -- the pair already published by this project,MHI_P85_2D__w15,MHI_P95_2D__w15,118108,0,52786,0.3089,69.11,254
+MHI_P90_2D_w15_vs_MHI_P90_2D_month,window,the two windows reported side by side in every earlier round,MHI_P90_2D__w15,MHI_P90_2D__month,24093,24184,86150,0.6409,35.91,254

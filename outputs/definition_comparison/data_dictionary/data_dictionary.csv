@@ -1,0 +1,44 @@
+table,column,definition,kind
+canonical_long/*.csv.gz,county_fips,5-digit county FIPS,identifier
+canonical_long/*.csv.gz,county_name,county name,identifier
+canonical_long/*.csv.gz,climate_division,"NOAA climate-division name (numbers primary source, names secondary labels)",identifier
+canonical_long/*.csv.gz,climdiv_id,NOAA climate-division number,identifier
+canonical_long/*.csv.gz,date,calendar date (YYYY-MM-DD),identifier
+canonical_long/*.csv.gz,year,calendar year of the date,identifier
+canonical_long/*.csv.gz,month,calendar month of the date,identifier
+canonical_long/*.csv.gz,run_id,definition_id + '__' + window,identifier
+canonical_long/*.csv.gz,definition_id,"METRIC_Pxx_nD, e.g. TMAX_P90_2D",identifier
+canonical_long/*.csv.gz,metric,TMAX | TMIN | MHI,design
+canonical_long/*.csv.gz,percentile,85 | 90 | 95,design
+canonical_long/*.csv.gz,minimum_duration,minimum consecutive days for a qualifying run,design
+canonical_long/*.csv.gz,window,w05 | w15 | month | month_pm7,design
+canonical_long/*.csv.gz,reference_method,walk_forward_1979_to_Yminus1,design
+canonical_long/*.csv.gz,season_rule,year_round,design
+canonical_long/*.csv.gz,absolute_floor,none in all 16 definitions,design
+canonical_long/*.csv.gz,daily_metric_value,"the day's metric, degF, ROUNDED to 3 dp for readability",measurement
+canonical_long/*.csv.gz,threshold_value,"the county's own walk-forward percentile threshold, degF, ROUNDED to 3 dp",measurement
+canonical_long/*.csv.gz,exceedance_degF,"metric minus threshold, UNROUNDED - the column that reproduces the strict '>'",measurement
+canonical_long/*.csv.gz,n_reference_values,baseline observations behind the threshold (low_n_ref below 20),quality
+canonical_long/*.csv.gz,relative_exceedance_flag,"1 if metric > threshold, before any floor and before artifact masking",flag
+canonical_long/*.csv.gz,candidate_day_flag,"1 if a candidate day (relative exceedance, floor if any, not an artifact day)",flag
+canonical_long/*.csv.gz,heatwave_day_flag,1 if a candidate day inside a run of >= minimum_duration consecutive days,flag
+canonical_long/*.csv.gz,event_id,state_county_year_seq_definition; null on non-heatwave days,identifier
+canonical_long/*.csv.gz,event_start_date,first date of the event,event
+canonical_long/*.csv.gz,event_end_date,last date of the event,event
+canonical_long/*.csv.gz,event_duration_days,"INTEGER consecutive dates, end - start + 1",event
+canonical_long/*.csv.gz,observed_or_imputed,'observed' or 'imputed' (IDW-filled temperature) for this county-day,quality
+canonical_long/*.csv.gz,temperature_imputation_fraction,county-level fraction of analysis days whose temperature was IDW-filled,quality
+canonical_long/*.csv.gz,input_hash,md5 prefix of the input county-day table,provenance
+canonical_long/*.csv.gz,pipeline_version,git commit (+dirty),provenance
+eligibility_county_month.csv,eligible_days,county-days the definition could be evaluated on - THE DENOMINATOR,denominator
+eligibility_county_month.csv,calendar_days,county-days in the month,denominator
+eligibility_county_month.csv,missing_metric_days,metric absent for that county-day,quality
+eligibility_county_month.csv,missing_threshold_days,no threshold estimable for that county-day,quality
+eligibility_county_month.csv,artifact_excluded_days,confirmed RH-clip artifact days excluded (RH-dependent metrics only),quality
+master_county_month_summary.csv,heatwave_events_started,events whose ONSET falls in this month (an event is counted once),event
+master_county_month_summary.csv,heatwave_events_active,events touching this month (a month-crossing event counts in each),event
+master_county_year_summary.csv,heatwave_events_started,events whose onset falls in this year (year boundary does not split an event),event
+table2_run_qa_summary.csv,*_QA_pooled*,"pooled across counties - a QA quantity, never a substantive result",QA
+table6_definition_pair_agreement.csv,jaccard_day_level,"shared county-dates / union; AGREEMENT between two definitions, not accuracy",comparison
+table7_matched_pair_marginal_effects.csv,count_ratio_hi_over_lo,"pooled heatwave days, higher run / lower run, within a matched pair",comparison
+table8a_long_event_audit.csv,disposition,"always RETAINED - long events are flagged for review, never deleted",QA

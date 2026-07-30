@@ -1,0 +1,11 @@
+climdiv_id,climate_division,county_fips,county_name,temperature_imputation_pct,fully_imputed_county,data_complete,selection_rule,heatwave_days_all_defs_context
+4101,High Plains,48017,Bailey,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",4718
+4102,Low Rolling Plains,48023,Baylor,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",6173
+4103,North Central,48059,Callahan,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",5065
+4104,East Texas,48001,Anderson,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",6169
+4105,Trans-Pecos,48043,Brewster,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",7428
+4106,Edwards Plateau,48053,Burnet,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",7780
+4107,South Central,48029,Bexar,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",6355
+4108,Upper Coast,48039,Brazoria,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",9965
+4109,South Texas,48013,Atascosa,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",7241
+4110,Lower Valley,48061,Cameron,0.0,False,True,"lowest temperature-imputation % within the climate division, ties broken by lowest FIPS",9982

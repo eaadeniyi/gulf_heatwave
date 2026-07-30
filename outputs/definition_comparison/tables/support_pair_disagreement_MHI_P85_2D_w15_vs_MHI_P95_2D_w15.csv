@@ -1,0 +1,255 @@
+pair,county_fips,a_only,shared,b_only,total_classified_by_either,disagreement_rate_pct,county_name,climate_division,temperature_imputation_pct,fully_imputed_county,data_complete
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48001,475,171,0,646,73.53,Anderson,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48003,410,163,0,573,71.55,Andrews,High Plains,3.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48005,525,254,0,779,67.39,Angelina,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48007,537,387,0,924,58.12,Aransas,South Central,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48009,398,96,0,494,80.57,Archer,North Central,89.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48011,609,304,0,913,66.7,Armstrong,High Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48013,467,215,0,682,68.48,Atascosa,South Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48015,500,199,0,699,71.53,Austin,South Central,23.9,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48017,388,127,0,515,75.34,Bailey,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48019,462,215,0,677,68.24,Bandera,Edwards Plateau,16.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48021,556,220,0,776,71.65,Bastrop,South Central,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48023,463,201,0,664,69.73,Baylor,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48025,362,180,0,542,66.79,Bee,South Central,4.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48027,501,222,0,723,69.29,Bell,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48029,425,157,0,582,73.02,Bexar,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48031,439,242,0,681,64.46,Blanco,Edwards Plateau,19.2,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48033,366,145,0,511,71.62,Borden,Low Rolling Plains,23.2,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48035,366,98,0,464,78.88,Bosque,North Central,60.6,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48037,495,180,0,675,73.33,Bowie,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48039,601,439,0,1040,57.79,Brazoria,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48041,433,268,0,701,61.77,Brazos,East Texas,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48043,480,240,0,720,66.67,Brewster,Trans-Pecos,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48045,520,257,0,777,66.92,Briscoe,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48047,326,51,0,377,86.47,Brooks,South Texas,70.2,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48049,459,193,0,652,70.4,Brown,North Central,9.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48051,460,196,0,656,70.12,Burleson,South Central,18.9,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48053,562,236,0,798,70.43,Burnet,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48055,615,304,0,919,66.92,Caldwell,South Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48057,551,281,0,832,66.23,Calhoun,Upper Coast,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48059,343,150,0,493,69.57,Callahan,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48061,608,398,0,1006,60.44,Cameron,Lower Valley,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48063,556,162,0,718,77.44,Camp,East Texas,82.5,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48065,605,308,0,913,66.27,Carson,High Plains,77.3,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48067,487,205,0,692,70.38,Cass,East Texas,0.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48069,459,169,0,628,73.09,Castro,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48071,473,217,0,690,68.55,Chambers,Upper Coast,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48073,308,120,0,428,71.96,Cherokee,East Texas,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48075,488,197,0,685,71.24,Childress,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48077,500,160,0,660,75.76,Clay,North Central,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48079,454,173,0,627,72.41,Cochran,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48081,263,66,0,329,79.94,Coke,Edwards Plateau,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48083,521,237,0,758,68.73,Coleman,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48085,478,179,0,657,72.75,Collin,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48087,364,125,0,489,74.44,Collingsworth,Low Rolling Plains,70.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48089,636,279,0,915,69.51,Colorado,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48091,466,174,0,640,72.81,Comal,South Central,7.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48093,478,370,0,848,56.37,Comanche,North Central,3.9,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48095,300,132,0,432,69.44,Concho,Edwards Plateau,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48097,348,112,0,460,75.65,Cooke,North Central,0.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48099,521,281,0,802,64.96,Coryell,North Central,1.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48101,470,170,0,640,73.44,Cottle,Low Rolling Plains,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48103,496,254,0,750,66.13,Crane,Trans-Pecos,2.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48105,452,250,0,702,64.39,Crockett,Edwards Plateau,0.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48107,506,217,0,723,69.99,Crosby,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48109,474,154,0,628,75.48,Culberson,Trans-Pecos,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48111,493,301,0,794,62.09,Dallam,High Plains,62.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48113,414,139,0,553,74.86,Dallas,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48115,584,282,0,866,67.44,Dawson,High Plains,65.2,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48117,502,254,0,756,66.4,Deaf Smith,High Plains,11.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48119,508,212,0,720,70.56,Delta,North Central,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48121,482,178,0,660,73.03,Denton,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48123,553,405,0,958,57.72,DeWitt,South Central,1.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48125,442,167,0,609,72.58,Dickens,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48127,405,176,0,581,69.71,Dimmit,South Texas,1.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48129,576,172,0,748,77.01,Donley,Low Rolling Plains,76.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48131,475,258,0,733,64.8,Duval,South Texas,0.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48133,608,280,0,888,68.47,Eastland,North Central,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48135,432,225,0,657,65.75,Ector,Trans-Pecos,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48137,397,132,0,529,75.05,Edwards,Edwards Plateau,13.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48139,446,160,0,606,73.6,Ellis,North Central,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48141,458,228,0,686,66.76,El Paso,Trans-Pecos,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48143,527,260,0,787,66.96,Erath,North Central,0.9,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48145,434,140,0,574,75.61,Falls,North Central,88.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48147,484,203,0,687,70.45,Fannin,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48149,430,210,0,640,67.19,Fayette,South Central,0.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48151,370,151,0,521,71.02,Fisher,Low Rolling Plains,58.6,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48153,383,167,0,550,69.64,Floyd,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48155,489,238,0,727,67.26,Foard,Low Rolling Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48157,544,312,0,856,63.55,Fort Bend,Upper Coast,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48159,446,168,0,614,72.64,Franklin,East Texas,4.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48161,379,97,0,476,79.62,Freestone,East Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48163,394,178,0,572,68.88,Frio,South Texas,48.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48165,477,219,0,696,68.53,Gaines,High Plains,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48167,631,417,0,1048,60.21,Galveston,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48169,507,223,0,730,69.45,Garza,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48171,316,96,0,412,76.7,Gillespie,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48173,520,218,0,738,70.46,Glasscock,High Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48175,258,77,0,335,77.01,Goliad,South Central,0.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48177,530,255,0,785,67.52,Gonzales,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48179,428,171,0,599,71.45,Gray,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48181,475,210,0,685,69.34,Grayson,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48183,567,234,0,801,70.79,Gregg,East Texas,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48185,541,249,0,790,68.48,Grimes,East Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48187,585,243,0,828,70.65,Guadalupe,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48189,425,166,0,591,71.91,Hale,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48191,435,150,0,585,74.36,Hall,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48193,482,218,0,700,68.86,Hamilton,North Central,61.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48195,330,160,0,490,67.35,Hansford,High Plains,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48197,455,148,0,603,75.46,Hardeman,Low Rolling Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48199,497,306,0,803,61.89,Hardin,East Texas,1.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48201,544,336,0,880,61.82,Harris,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48203,434,144,0,578,75.09,Harrison,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48205,524,197,0,721,72.68,Hartley,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48207,391,178,0,569,68.72,Haskell,Low Rolling Plains,11.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48209,430,137,0,567,75.84,Hays,South Central,0.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48211,506,173,0,679,74.52,Hemphill,High Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48213,532,177,0,709,75.04,Henderson,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48215,522,320,0,842,62.0,Hidalgo,Lower Valley,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48217,426,175,0,601,70.88,Hill,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48219,366,123,0,489,74.85,Hockley,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48221,569,260,0,829,68.64,Hood,North Central,0.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48223,514,178,0,692,74.28,Hopkins,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48225,485,178,0,663,73.15,Houston,East Texas,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48227,437,149,0,586,74.57,Howard,High Plains,0.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48229,690,508,0,1198,57.6,Hudspeth,Trans-Pecos,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48231,566,211,0,777,72.84,Hunt,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48233,502,217,0,719,69.82,Hutchinson,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48235,362,189,0,551,65.7,Irion,Edwards Plateau,22.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48237,299,109,0,408,73.28,Jack,North Central,6.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48239,577,310,0,887,65.05,Jackson,Upper Coast,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48241,587,330,0,917,64.01,Jasper,East Texas,5.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48243,638,388,0,1026,62.18,Jeff Davis,Trans-Pecos,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48245,539,279,0,818,65.89,Jefferson,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48247,333,88,0,421,79.1,Jim Hogg,South Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48249,442,163,0,605,73.06,Jim Wells,South Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48251,318,99,0,417,76.26,Johnson,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48253,345,123,0,468,73.72,Jones,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48255,394,98,0,492,80.08,Karnes,South Central,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48257,421,195,0,616,68.34,Kaufman,North Central,0.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48259,576,478,0,1054,54.65,Kendall,Edwards Plateau,0.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48261,475,380,0,855,55.56,Kenedy,South Texas,33.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48263,510,268,0,778,65.55,Kent,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48265,441,176,0,617,71.47,Kerr,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48267,523,154,0,677,77.25,Kimble,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48269,452,174,0,626,72.2,King,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48271,266,88,0,354,75.14,Kinney,Edwards Plateau,43.5,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48273,513,289,0,802,63.97,Kleberg,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48275,393,162,0,555,70.81,Knox,Low Rolling Plains,11.2,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48277,400,130,0,530,75.47,Lamar,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48279,465,167,0,632,73.58,Lamb,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48281,526,159,0,685,76.79,Lampasas,Edwards Plateau,80.3,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48283,714,516,0,1230,58.05,La Salle,South Texas,0.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48285,667,455,0,1122,59.45,Lavaca,South Central,0.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48287,447,213,0,660,67.73,Lee,South Central,2.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48289,342,132,0,474,72.15,Leon,East Texas,1.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48291,506,229,0,735,68.84,Liberty,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48293,519,223,0,742,69.95,Limestone,North Central,69.3,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48295,456,144,0,600,76.0,Lipscomb,High Plains,0.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48297,529,206,0,735,71.97,Live Oak,South Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48299,453,169,0,622,72.83,Llano,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48301,473,281,0,754,62.73,Loving,Trans-Pecos,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48303,487,199,0,686,70.99,Lubbock,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48305,467,194,0,661,70.65,Lynn,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48307,393,141,0,534,73.6,McCulloch,Edwards Plateau,3.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48309,481,223,0,704,68.32,McLennan,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48311,382,156,0,538,71.0,McMullen,South Texas,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48313,298,98,0,396,75.25,Madison,East Texas,7.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48315,452,168,0,620,72.9,Marion,East Texas,7.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48317,507,271,0,778,65.17,Martin,High Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48319,591,247,0,838,70.53,Mason,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48321,451,295,0,746,60.46,Matagorda,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48323,159,47,0,206,77.18,Maverick,South Texas,72.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48325,493,209,0,702,70.23,Medina,South Central,0.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48327,337,117,0,454,74.23,Menard,Edwards Plateau,1.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48329,537,269,0,806,66.63,Midland,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48331,451,183,0,634,71.14,Milam,North Central,26.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48333,356,144,0,500,71.2,Mills,North Central,4.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48335,445,131,0,576,77.26,Mitchell,Low Rolling Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48337,337,119,0,456,73.9,Montague,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48339,499,260,0,759,65.74,Montgomery,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48341,561,273,0,834,67.27,Moore,High Plains,39.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48343,318,106,0,424,75.0,Morris,East Texas,0.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48345,374,131,0,505,74.06,Motley,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48347,322,105,0,427,75.41,Nacogdoches,East Texas,1.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48349,554,176,0,730,75.89,Navarro,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48351,644,336,0,980,65.71,Newton,East Texas,0.9,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48353,507,166,0,673,75.33,Nolan,Low Rolling Plains,4.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48355,498,281,0,779,63.93,Nueces,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48357,626,314,0,940,66.6,Ochiltree,High Plains,35.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48359,394,140,0,534,73.78,Oldham,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48361,475,243,0,718,66.16,Orange,Upper Coast,2.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48363,532,261,0,793,67.09,Palo Pinto,North Central,1.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48365,504,200,0,704,71.59,Panola,East Texas,1.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48367,397,158,0,555,71.53,Parker,North Central,0.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48369,511,261,0,772,66.19,Parmer,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48371,459,282,0,741,61.94,Pecos,Trans-Pecos,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48373,465,123,0,588,79.08,Polk,East Texas,86.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48375,448,118,0,566,79.15,Potter,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48377,571,513,0,1084,52.68,Presidio,Trans-Pecos,2.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48379,397,144,0,541,73.38,Rains,East Texas,0.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48381,349,122,0,471,74.1,Randall,High Plains,8.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48383,480,290,0,770,62.34,Reagan,Edwards Plateau,2.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48385,279,121,0,400,69.75,Real,Edwards Plateau,2.5,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48387,553,298,0,851,64.98,Red River,East Texas,0.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48389,455,242,0,697,65.28,Reeves,Trans-Pecos,4.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48391,425,146,0,571,74.43,Refugio,South Central,3.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48393,613,242,0,855,71.7,Roberts,High Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48395,503,286,0,789,63.75,Robertson,East Texas,5.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48397,461,254,0,715,64.48,Rockwall,North Central,25.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48399,334,140,0,474,70.46,Runnels,Low Rolling Plains,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48401,440,150,0,590,74.58,Rusk,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48403,508,271,0,779,65.21,Sabine,East Texas,1.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48405,423,200,0,623,67.9,San Augustine,East Texas,9.2,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48407,543,219,0,762,71.26,San Jacinto,East Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48409,482,246,0,728,66.21,San Patricio,South Central,6.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48411,431,128,0,559,77.1,San Saba,Edwards Plateau,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48413,369,171,0,540,68.33,Schleicher,Edwards Plateau,1.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48415,526,222,0,748,70.32,Scurry,Low Rolling Plains,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48417,346,154,0,500,69.2,Shackelford,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48419,515,140,0,655,78.63,Shelby,East Texas,54.8,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48421,644,461,0,1105,58.28,Sherman,High Plains,58.9,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48423,478,200,0,678,70.5,Smith,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48425,370,127,0,497,74.45,Somervell,North Central,18.3,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48427,602,344,0,946,63.64,Starr,South Texas,2.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48429,394,134,0,528,74.62,Stephens,North Central,1.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48431,446,132,0,578,77.16,Sterling,Edwards Plateau,72.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48433,407,185,0,592,68.75,Stonewall,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48435,444,186,0,630,70.48,Sutton,Edwards Plateau,67.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48437,463,183,0,646,71.67,Swisher,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48439,538,199,0,737,73.0,Tarrant,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48441,404,138,0,542,74.54,Taylor,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48443,705,386,0,1091,64.62,Terrell,Trans-Pecos,2.6,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48445,441,207,0,648,68.06,Terry,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48447,371,110,0,481,77.13,Throckmorton,North Central,41.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48449,600,301,0,901,66.59,Titus,East Texas,2.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48451,526,250,0,776,67.78,Tom Green,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48453,336,109,0,445,75.51,Travis,South Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48455,445,134,0,579,76.86,Trinity,East Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48457,529,278,0,807,65.55,Tyler,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48459,572,201,0,773,74.0,Upshur,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48461,457,213,0,670,68.21,Upton,Edwards Plateau,13.9,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48463,405,174,0,579,69.95,Uvalde,Edwards Plateau,2.8,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48465,627,428,0,1055,59.43,Val Verde,Edwards Plateau,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48467,467,139,0,606,77.06,Van Zandt,East Texas,1.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48469,464,228,0,692,67.05,Victoria,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48471,445,176,0,621,71.66,Walker,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48473,567,287,0,854,66.39,Waller,East Texas,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48475,471,228,0,699,67.38,Ward,Trans-Pecos,0.4,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48477,466,221,0,687,67.83,Washington,South Central,0.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48479,575,271,0,846,67.97,Webb,South Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48481,487,219,0,706,68.98,Wharton,Upper Coast,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48483,524,196,0,720,72.78,Wheeler,Low Rolling Plains,67.4,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48485,336,108,0,444,75.68,Wichita,Low Rolling Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48487,427,132,0,559,76.39,Wilbarger,Low Rolling Plains,100.0,True,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48489,478,262,0,740,64.59,Willacy,Lower Valley,30.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48491,516,189,0,705,73.19,Williamson,North Central,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48493,313,76,0,389,80.46,Wilson,South Central,61.7,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48495,354,131,0,485,72.99,Winkler,Trans-Pecos,6.7,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48497,465,151,0,616,75.49,Wise,North Central,0.1,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48499,380,129,0,509,74.66,Wood,East Texas,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48501,513,304,0,817,62.79,Yoakum,High Plains,0.0,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48503,408,184,0,592,68.92,Young,North Central,7.3,False,True
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48505,139,35,0,174,79.89,Zapata,South Texas,78.0,False,False
+MHI_P85_2D_w15_vs_MHI_P95_2D_w15,48507,136,18,0,154,88.31,Zavala,South Texas,100.0,True,False

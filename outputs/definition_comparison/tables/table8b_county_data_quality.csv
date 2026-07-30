@@ -1,0 +1,255 @@
+state,county_fips,county_name,climate_division,climdiv_id,analysis_days,temp_imputed_days,temperature_imputation_pct,imputation_band,native_analysis_days,fully_imputed_county,data_complete,artifact_excluded_days_max_per_metric_window,flag_exclude_from_county_ranking,flag_reason
+TX,48011,Armstrong,High Plains,4101,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48077,Clay,North Central,4103,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48119,Delta,North Central,4103,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48173,Glasscock,High Plains,4101,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48155,Foard,Low Rolling Plains,4102,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48247,Jim Hogg,South Texas,4109,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48197,Hardeman,Low Rolling Plains,4102,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48211,Hemphill,High Plains,4101,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48239,Jackson,Upper Coast,4108,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48185,Grimes,East Texas,4104,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48161,Freestone,East Texas,4104,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48133,Eastland,North Central,4103,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48301,Loving,Trans-Pecos,4105,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48255,Karnes,South Central,4107,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48393,Roberts,High Plains,4101,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48407,San Jacinto,East Texas,4104,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48473,Waller,East Texas,4104,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48455,Trinity,East Texas,4104,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48317,Martin,High Plains,4101,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48335,Mitchell,Low Rolling Plains,4102,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48487,Wilbarger,Low Rolling Plains,4102,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48507,Zavala,South Texas,4109,4018,4018,100.0,100% (fully imputed),0,True,False,0,True,temperature 100% IDW-imputed - no native station data
+TX,48009,Archer,North Central,4103,4018,3592,89.4,>50-<100%,426,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48145,Falls,North Central,4103,4018,3565,88.7,>50-<100%,453,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48373,Polk,East Texas,4104,4018,3454,86.0,>50-<100%,564,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48063,Camp,East Texas,4104,4018,3314,82.5,>50-<100%,704,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48281,Lampasas,Edwards Plateau,4106,4018,3228,80.3,>50-<100%,790,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48505,Zapata,South Texas,4109,4018,3133,78.0,>50-<100%,885,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48065,Carson,High Plains,4101,4018,3107,77.3,>50-<100%,911,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48129,Donley,Low Rolling Plains,4102,4018,3086,76.8,>50-<100%,932,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48431,Sterling,Edwards Plateau,4106,4018,2910,72.4,>50-<100%,1108,False,False,2,True,temperature imputation above the prespecified 10% cut
+TX,48323,Maverick,South Texas,4109,4018,2910,72.4,>50-<100%,1108,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48087,Collingsworth,Low Rolling Plains,4102,4018,2839,70.7,>50-<100%,1179,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48047,Brooks,South Texas,4109,4018,2819,70.2,>50-<100%,1199,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48293,Limestone,North Central,4103,4018,2783,69.3,>50-<100%,1235,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48435,Sutton,Edwards Plateau,4106,4018,2719,67.7,>50-<100%,1299,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48483,Wheeler,Low Rolling Plains,4102,4018,2707,67.4,>50-<100%,1311,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48115,Dawson,High Plains,4101,4018,2618,65.2,>50-<100%,1400,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48111,Dallam,High Plains,4101,4018,2506,62.4,>50-<100%,1512,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48493,Wilson,South Central,4107,4018,2481,61.7,>50-<100%,1537,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48193,Hamilton,North Central,4103,4018,2449,61.0,>50-<100%,1569,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48035,Bosque,North Central,4103,4018,2436,60.6,>50-<100%,1582,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48421,Sherman,High Plains,4101,4018,2368,58.9,>50-<100%,1650,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48151,Fisher,Low Rolling Plains,4102,4018,2353,58.6,>50-<100%,1665,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48419,Shelby,East Texas,4104,4018,2200,54.8,>50-<100%,1818,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48163,Frio,South Texas,4109,4018,1962,48.8,>25-50%,2056,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48271,Kinney,Edwards Plateau,4106,4018,1747,43.5,>25-50%,2271,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48447,Throckmorton,North Central,4103,4018,1648,41.0,>25-50%,2370,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48341,Moore,High Plains,4101,4018,1569,39.0,>25-50%,2449,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48357,Ochiltree,High Plains,4101,4018,1440,35.8,>25-50%,2578,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48261,Kenedy,South Texas,4109,4018,1325,33.0,>25-50%,2693,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48489,Willacy,Lower Valley,4110,4018,1206,30.0,>25-50%,2812,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48331,Milam,North Central,4103,4018,1071,26.7,>25-50%,2947,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48397,Rockwall,North Central,4103,4018,1006,25.0,>10-25%,3012,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48015,Austin,South Central,4107,4018,960,23.9,>10-25%,3058,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48033,Borden,Low Rolling Plains,4102,4018,934,23.2,>10-25%,3084,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48235,Irion,Edwards Plateau,4106,4018,914,22.7,>10-25%,3104,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48031,Blanco,Edwards Plateau,4106,4018,773,19.2,>10-25%,3245,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48051,Burleson,South Central,4107,4018,760,18.9,>10-25%,3258,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48425,Somervell,North Central,4103,4018,734,18.3,>10-25%,3284,False,False,1,True,temperature imputation above the prespecified 10% cut
+TX,48019,Bandera,Edwards Plateau,4106,4018,660,16.4,>10-25%,3358,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48461,Upton,Edwards Plateau,4106,4018,560,13.9,>10-25%,3458,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48137,Edwards,Edwards Plateau,4106,4018,555,13.8,>10-25%,3463,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48207,Haskell,Low Rolling Plains,4102,4018,475,11.8,>10-25%,3543,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48275,Knox,Low Rolling Plains,4102,4018,452,11.2,>10-25%,3566,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48117,Deaf Smith,High Plains,4101,4018,441,11.0,>10-25%,3577,False,False,0,True,temperature imputation above the prespecified 10% cut
+TX,48049,Brown,North Central,4103,4018,389,9.7,>5-10%,3629,False,True,1,False,
+TX,48405,San Augustine,East Texas,4104,4018,371,9.2,>5-10%,3647,False,True,1,False,
+TX,48381,Randall,High Plains,4101,4018,325,8.1,>5-10%,3693,False,True,0,False,
+TX,48091,Comal,South Central,4107,4018,313,7.8,>5-10%,3705,False,True,1,False,
+TX,48503,Young,North Central,4103,4018,294,7.3,>5-10%,3724,False,True,0,False,
+TX,48315,Marion,East Texas,4104,4018,294,7.3,>5-10%,3724,False,True,1,False,
+TX,48313,Madison,East Texas,4104,4018,286,7.1,>5-10%,3732,False,True,1,False,
+TX,48495,Winkler,Trans-Pecos,4105,4018,268,6.7,>5-10%,3750,False,True,0,False,
+TX,48409,San Patricio,South Central,4107,4018,257,6.4,>5-10%,3761,False,True,1,False,
+TX,48237,Jack,North Central,4103,4018,255,6.3,>5-10%,3763,False,True,0,False,
+TX,48241,Jasper,East Texas,4104,4018,228,5.7,>5-10%,3790,False,True,1,False,
+TX,48395,Robertson,East Texas,4104,4018,212,5.3,>5-10%,3806,False,True,1,False,
+TX,48353,Nolan,Low Rolling Plains,4102,4018,180,4.5,>0-5%,3838,False,True,0,False,
+TX,48159,Franklin,East Texas,4104,4018,175,4.4,>0-5%,3843,False,True,1,False,
+TX,48389,Reeves,Trans-Pecos,4105,4018,175,4.4,>0-5%,3843,False,True,0,False,
+TX,48025,Bee,South Central,4107,4018,159,4.0,>0-5%,3859,False,True,1,False,
+TX,48333,Mills,North Central,4103,4018,162,4.0,>0-5%,3856,False,True,1,False,
+TX,48093,Comanche,North Central,4103,4018,157,3.9,>0-5%,3861,False,True,0,False,
+TX,48391,Refugio,South Central,4107,4018,146,3.6,>0-5%,3872,False,True,1,False,
+TX,48307,McCulloch,Edwards Plateau,4106,4018,135,3.4,>0-5%,3883,False,True,0,False,
+TX,48003,Andrews,High Plains,4101,4018,129,3.2,>0-5%,3889,False,True,0,False,
+TX,48103,Crane,Trans-Pecos,4105,4018,112,2.8,>0-5%,3906,False,True,0,False,
+TX,48463,Uvalde,Edwards Plateau,4106,4018,111,2.8,>0-5%,3907,False,True,0,False,
+TX,48443,Terrell,Trans-Pecos,4105,4018,106,2.6,>0-5%,3912,False,True,0,False,
+TX,48385,Real,Edwards Plateau,4106,4018,101,2.5,>0-5%,3917,False,True,0,False,
+TX,48361,Orange,Upper Coast,4108,4018,102,2.5,>0-5%,3916,False,True,1,False,
+TX,48449,Titus,East Texas,4104,4018,98,2.4,>0-5%,3920,False,True,1,False,
+TX,48383,Reagan,Edwards Plateau,4106,4018,91,2.3,>0-5%,3927,False,True,0,False,
+TX,48287,Lee,South Central,4107,4018,90,2.2,>0-5%,3928,False,True,1,False,
+TX,48377,Presidio,Trans-Pecos,4105,4018,88,2.2,>0-5%,3930,False,True,0,False,
+TX,48427,Starr,South Texas,4109,4018,83,2.1,>0-5%,3935,False,True,1,False,
+TX,48365,Panola,East Texas,4104,4018,72,1.8,>0-5%,3946,False,True,1,False,
+TX,48289,Leon,East Texas,4104,4018,73,1.8,>0-5%,3945,False,True,1,False,
+TX,48429,Stephens,North Central,4103,4018,70,1.7,>0-5%,3948,False,True,0,False,
+TX,48467,Van Zandt,East Texas,4104,4018,70,1.7,>0-5%,3948,False,True,1,False,
+TX,48363,Palo Pinto,North Central,4103,4018,65,1.6,>0-5%,3953,False,True,0,False,
+TX,48127,Dimmit,South Texas,4109,4018,64,1.6,>0-5%,3954,False,True,0,False,
+TX,48123,DeWitt,South Central,4107,4018,58,1.4,>0-5%,3960,False,True,1,False,
+TX,48099,Coryell,North Central,4103,4018,57,1.4,>0-5%,3961,False,True,1,False,
+TX,48199,Hardin,East Texas,4104,4018,53,1.3,>0-5%,3965,False,True,1,False,
+TX,48327,Menard,Edwards Plateau,4106,4018,49,1.2,>0-5%,3969,False,True,0,False,
+TX,48403,Sabine,East Texas,4104,4018,47,1.2,>0-5%,3971,False,True,1,False,
+TX,48413,Schleicher,Edwards Plateau,4106,4018,43,1.1,>0-5%,3975,False,True,0,False,
+TX,48347,Nacogdoches,East Texas,4104,4018,45,1.1,>0-5%,3973,False,True,1,False,
+TX,48351,Newton,East Texas,4104,4018,38,0.9,>0-5%,3980,False,True,1,False,
+TX,48143,Erath,North Central,4103,4018,35,0.9,>0-5%,3983,False,True,0,False,
+TX,48285,Lavaca,South Central,4107,4018,32,0.8,>0-5%,3986,False,True,1,False,
+TX,48259,Kendall,Edwards Plateau,4106,4018,34,0.8,>0-5%,3984,False,True,1,False,
+TX,48131,Duval,South Texas,4109,4018,30,0.7,>0-5%,3988,False,True,1,False,
+TX,48175,Goliad,South Central,4107,4018,30,0.7,>0-5%,3988,False,True,1,False,
+TX,48227,Howard,High Plains,4101,4018,27,0.7,>0-5%,3991,False,True,0,False,
+TX,48209,Hays,South Central,4107,4018,30,0.7,>0-5%,3988,False,True,1,False,
+TX,48283,La Salle,South Texas,4109,4018,27,0.7,>0-5%,3991,False,True,0,False,
+TX,48097,Cooke,North Central,4103,4018,23,0.6,>0-5%,3995,False,True,0,False,
+TX,48149,Fayette,South Central,4107,4018,26,0.6,>0-5%,3992,False,True,1,False,
+TX,48387,Red River,East Texas,4104,4018,26,0.6,>0-5%,3992,False,True,0,False,
+TX,48257,Kaufman,North Central,4103,4018,25,0.6,>0-5%,3993,False,True,0,False,
+TX,48067,Cass,East Texas,4104,4018,23,0.6,>0-5%,3995,False,True,1,False,
+TX,48221,Hood,North Central,4103,4018,20,0.5,>0-5%,3998,False,True,0,False,
+TX,48105,Crockett,Edwards Plateau,4106,4018,19,0.5,>0-5%,3999,False,True,0,False,
+TX,48325,Medina,South Central,4107,4018,21,0.5,>0-5%,3997,False,True,1,False,
+TX,48379,Rains,East Texas,4104,4018,22,0.5,>0-5%,3996,False,True,1,False,
+TX,48295,Lipscomb,High Plains,4101,4018,16,0.4,>0-5%,4002,False,True,0,False,
+TX,48475,Ward,Trans-Pecos,4105,4018,15,0.4,>0-5%,4003,False,True,0,False,
+TX,48343,Morris,East Texas,4104,4018,15,0.4,>0-5%,4003,False,True,1,False,
+TX,48139,Ellis,North Central,4103,4018,13,0.3,>0-5%,4005,False,True,0,False,
+TX,48081,Coke,Edwards Plateau,4106,4018,12,0.3,>0-5%,4006,False,True,0,False,
+TX,48101,Cottle,Low Rolling Plains,4102,4018,11,0.3,>0-5%,4007,False,True,0,False,
+TX,48071,Chambers,Upper Coast,4108,4018,14,0.3,>0-5%,4004,False,True,0,False,
+TX,48021,Bastrop,South Central,4107,4018,12,0.3,>0-5%,4006,False,True,1,False,
+TX,48477,Washington,South Central,4107,4018,14,0.3,>0-5%,4004,False,True,1,False,
+TX,48415,Scurry,Low Rolling Plains,4102,4018,11,0.3,>0-5%,4007,False,True,0,False,
+TX,48135,Ector,Trans-Pecos,4105,4018,14,0.3,>0-5%,4004,False,True,0,False,
+TX,48367,Parker,North Central,4103,4018,9,0.2,>0-5%,4009,False,True,0,False,
+TX,48195,Hansford,High Plains,4101,4018,7,0.2,>0-5%,4011,False,True,0,False,
+TX,48157,Fort Bend,Upper Coast,4108,4018,8,0.2,>0-5%,4010,False,True,1,False,
+TX,48165,Gaines,High Plains,4101,4018,7,0.2,>0-5%,4011,False,True,0,False,
+TX,48073,Cherokee,East Texas,4104,4018,7,0.2,>0-5%,4011,False,True,1,False,
+TX,48007,Aransas,South Central,4107,4018,8,0.2,>0-5%,4010,False,True,1,False,
+TX,48277,Lamar,North Central,4103,4018,3,0.1,>0-5%,4015,False,True,0,False,
+TX,48311,McMullen,South Texas,4109,4018,6,0.1,>0-5%,4012,False,True,1,False,
+TX,48055,Caldwell,South Central,4107,4018,6,0.1,>0-5%,4012,False,True,1,False,
+TX,48027,Bell,North Central,4103,4018,6,0.1,>0-5%,4012,False,True,1,False,
+TX,48057,Calhoun,Upper Coast,4108,4018,4,0.1,>0-5%,4014,False,True,0,False,
+TX,48183,Gregg,East Texas,4104,4018,4,0.1,>0-5%,4014,False,True,1,False,
+TX,48147,Fannin,North Central,4103,4018,3,0.1,>0-5%,4015,False,True,0,False,
+TX,48417,Shackelford,North Central,4103,4018,4,0.1,>0-5%,4014,False,True,0,False,
+TX,48229,Hudspeth,Trans-Pecos,4105,4018,5,0.1,>0-5%,4013,False,True,0,False,
+TX,48095,Concho,Edwards Plateau,4106,4018,4,0.1,>0-5%,4014,False,True,0,False,
+TX,48399,Runnels,Low Rolling Plains,4102,4018,5,0.1,>0-5%,4013,False,True,1,False,
+TX,48411,San Saba,Edwards Plateau,4106,4018,3,0.1,>0-5%,4015,False,True,1,False,
+TX,48497,Wise,North Central,4103,4018,3,0.1,>0-5%,4015,False,True,0,False,
+TX,48041,Brazos,East Texas,4104,4018,3,0.1,>0-5%,4015,False,True,1,False,
+TX,48225,Houston,East Texas,4104,4018,5,0.1,>0-5%,4013,False,True,1,False,
+TX,48251,Johnson,North Central,4103,4018,3,0.1,>0-5%,4015,False,True,0,False,
+TX,48043,Brewster,Trans-Pecos,4105,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48029,Bexar,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48069,Castro,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48075,Childress,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48061,Cameron,Lower Valley,4110,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48089,Colorado,South Central,4107,4018,2,0.0,0% (fully native),4016,False,True,1,False,
+TX,48013,Atascosa,South Texas,4109,4018,2,0.0,0% (fully native),4016,False,True,0,False,
+TX,48017,Bailey,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48001,Anderson,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48005,Angelina,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48037,Bowie,East Texas,4104,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48039,Brazoria,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48023,Baylor,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48059,Callahan,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48053,Burnet,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48045,Briscoe,High Plains,4101,4018,2,0.0,0% (fully native),4016,False,True,0,False,
+TX,48169,Garza,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48179,Gray,High Plains,4101,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48177,Gonzales,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48125,Dickens,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48141,El Paso,Trans-Pecos,4105,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48181,Grayson,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48085,Collin,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48079,Cochran,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48083,Coleman,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48107,Crosby,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48109,Culberson,Trans-Pecos,4105,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48113,Dallas,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48121,Denton,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48249,Jim Wells,South Texas,4109,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48245,Jefferson,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48243,Jeff Davis,Trans-Pecos,4105,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48233,Hutchinson,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48231,Hunt,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48223,Hopkins,East Texas,4104,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48217,Hill,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48189,Hale,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48203,Harrison,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48201,Harris,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48191,Hall,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48205,Hartley,High Plains,4101,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48213,Henderson,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48215,Hidalgo,Lower Valley,4110,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48219,Hockley,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48187,Guadalupe,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48153,Floyd,High Plains,4101,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48171,Gillespie,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48167,Galveston,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48279,Lamb,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48253,Jones,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48263,Kent,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48265,Kerr,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48267,Kimble,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48297,Live Oak,South Texas,4109,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48273,Kleberg,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48291,Liberty,Upper Coast,4108,4018,2,0.0,0% (fully native),4016,False,True,1,False,
+TX,48269,King,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48299,Llano,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48303,Lubbock,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48305,Lynn,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48309,McLennan,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48375,Potter,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48371,Pecos,Trans-Pecos,4105,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48369,Parmer,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48359,Oldham,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48355,Nueces,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48349,Navarro,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48339,Montgomery,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48345,Motley,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48329,Midland,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48337,Montague,North Central,4103,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48319,Mason,Edwards Plateau,4106,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48321,Matagorda,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48423,Smith,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48401,Rusk,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48437,Swisher,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48433,Stonewall,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48441,Taylor,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48439,Tarrant,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48465,Val Verde,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48445,Terry,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48451,Tom Green,Edwards Plateau,4106,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48453,Travis,South Central,4107,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48457,Tyler,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48459,Upshur,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48469,Victoria,Upper Coast,4108,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48471,Walker,East Texas,4104,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48479,Webb,South Texas,4109,4018,1,0.0,0% (fully native),4017,False,True,0,False,
+TX,48481,Wharton,Upper Coast,4108,4018,1,0.0,0% (fully native),4017,False,True,1,False,
+TX,48491,Williamson,North Central,4103,4018,0,0.0,0% (fully native),4018,False,True,1,False,
+TX,48485,Wichita,Low Rolling Plains,4102,4018,0,0.0,0% (fully native),4018,False,True,0,False,
+TX,48499,Wood,East Texas,4104,4018,2,0.0,0% (fully native),4016,False,True,1,False,
+TX,48501,Yoakum,High Plains,4101,4018,0,0.0,0% (fully native),4018,False,True,0,False,

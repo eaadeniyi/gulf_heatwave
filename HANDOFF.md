@@ -5,7 +5,66 @@ state at the end of the session.
 
 ---
 
-## 0. LATEST ROUND (2026-07-29): the definition grid — 14 definitions × 4 windows
+## 0. LATEST ROUND (2026-07-30): the 16-definition COMPARISON PACKAGE
+
+A self-contained comparison package for **all 16 definitions** (Def 01/02 + the 14 grid
+definitions) × 4 threshold windows = **64 runs**, in `outputs/definition_comparison/`.
+**Read `DECISION_TABLE.md` first, then `figure_captions.md`, then `methods_notes.md`.**
+Rebuild with `python outputs/definition_comparison/scripts/run_package.py` (~20 min).
+
+**Def 01/02 were RE-RUN onto the current code path** (`scripts/s01_rerun_legacy.py`) because the
+published outputs were not comparable as they stood: they came from an older p02 (different
+output schema — no `event_id`, no `metric` column), only 2 of the 4 windows were ever run, and no
+input fingerprint was recorded. The re-run reproduces the published results **exactly** (46/46
+checks: every county-year, the complete event set, 170,894/48,323 and 52,786/17,428) and now sits
+at `outputs/TX/grid/MHI_P85_2D` and `MHI_P95_2D` alongside the other 14. `def_p85_2d`/`def_p95_2d`
+were never touched.
+
+**Contents:** a canonical long table (one row per county × date × definition × window, stored at
+its candidate-day support, 107 MB gzipped); the 8 required tables; 12 figure families —
+design matrix, count-vs-agreement, 16×16 day-level Jaccard, county-rank stability, monthly RATE
+heatmap, percentile/duration ladder over 2,794 county-years, window sensitivity, **254 county
+report cards**, event timelines, long-event audit, data-quality influence, pair disagreement;
+and a `qa/` record (provenance, reconciliation, 136 validation checks).
+
+**Headline results (w15, 254 counties) — consistent with the 56-run round and sharper:**
+1. **Axis ranking by day-level effect: metric 0.333 < percentile 0.492 < window 0.687 <
+   duration 0.747** (Jaccard medians, lower = bigger effect; 240 matched pairs).
+2. **Metric changes WHICH days, not HOW MANY** — median count ratio 1.12× at median Jaccard
+   0.333. Percentile is the count lever (2.03×, up to 3.54×).
+3. **County rankings are more stable than day agreement** (median ρ 0.744 vs median Jaccard
+   0.323) and the complete-data subset (188 counties) barely changes it — *but* Tmax-vs-Tmin
+   rank agreement is only **0.40–0.56** against 0.96 within a metric family. The metric axis
+   breaks county ORDER too, which no other axis does.
+4. **Cool-season loading confirmed as a RATE, not just a share:** 51–64% of heatwave days fall
+   outside Jun–Sep in all 16 definitions, measured per 1,000 **eligible** county-days. December
+   is the peak month by rate for every mean-HI definition.
+5. **734 events ≥ 21 days at w15** (3,133 across all 64 runs, longest 69 d); 150 audited
+   individually with station counts and imputation state, the remaining 584 tabulated. None
+   deleted.
+
+**Two QA findings that change how the pipeline must be read:**
+- **(a) Float parsing changed classification.** pandas' default CSV float parser is not
+  correctly rounded: a cached threshold written `101.74999999999999` reads back as `101.75`, and
+  under the strict `>` that silently drops county-days. Threshold caches must be read with
+  `float_precision="round_trip"` (19 of 128 reconciliation checks were off by 1–4 county-days
+  before the fix).
+- **(b) Exact ties are metric-dependent.** Tmax/Tmin are quantised to 0.1 °C, so a percentile
+  often lands exactly on an observed value: **1.13% (Tmax) / 1.44% (Tmin) / 0.00% (mean HI)** of
+  evaluable county-days sit on their own threshold. So `>` vs `>=` removes ~1–2% of days from the
+  temperature definitions and **none** from mean HI — an asymmetry inside every
+  Tmax/Tmin-vs-mean-HI comparison. Quantify it before leaning on those contrasts.
+
+**Test gate fixed:** `tests/test_reproduce_def01_def02.py` had been unable to compare the event
+sets since events were gzipped (it looked for `.csv`); it now accepts either and passes in full.
+
+**MHI_P85_3D / MHI_P95_3D remain NOT TESTED** and are carried as such everywhere (never zero,
+never interpolated across). They are the reason the duration axis rests on 28 matched pairs
+against 60 for percentile. Their thresholds are already cached, so running them is cheap.
+
+---
+
+## 0b. PREVIOUS ROUND (2026-07-29): the definition grid — 14 definitions × 4 windows
 
 A **definition grid** was added on top of Def 01/02: `metric × percentile × min duration`,
 each crossed with 4 threshold windows = **56 runs**, all 254 TX counties, 2015–2025.

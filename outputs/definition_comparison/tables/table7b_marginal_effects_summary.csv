@@ -1,0 +1,5 @@
+axis,n_matched_pairs,jaccard_median,jaccard_min,jaccard_max,count_ratio_median,count_ratio_min,count_ratio_max,rank_spearman_median,interpretation
+metric,56,0.333,0.1775,0.5605,1.1158,1.0071,1.2546,0.7058,lower Jaccard = this axis changes WHICH county-dates are classified more; count ratio far from 1 = it changes HOW MANY
+percentile,60,0.4916,0.2827,0.6876,2.0342,1.4544,3.5368,0.9642,lower Jaccard = this axis changes WHICH county-dates are classified more; count ratio far from 1 = it changes HOW MANY
+window,96,0.6874,0.5409,0.9333,1.0724,1.0008,1.3387,0.985,lower Jaccard = this axis changes WHICH county-dates are classified more; count ratio far from 1 = it changes HOW MANY
+duration,28,0.7468,0.6836,0.7969,1.339,1.2549,1.4629,0.9815,lower Jaccard = this axis changes WHICH county-dates are classified more; count ratio far from 1 = it changes HOW MANY

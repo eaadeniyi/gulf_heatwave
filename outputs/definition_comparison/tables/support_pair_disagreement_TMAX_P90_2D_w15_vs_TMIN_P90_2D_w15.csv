@@ -1,0 +1,255 @@
+pair,county_fips,a_only,b_only,shared,total_classified_by_either,disagreement_rate_pct,county_name,climate_division,temperature_imputation_pct,fully_imputed_county,data_complete
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48001,234,267,193,694,72.19,Anderson,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48003,223,190,154,567,72.84,Andrews,High Plains,3.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48005,261,363,201,825,75.64,Angelina,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48007,669,265,250,1184,78.89,Aransas,South Central,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48009,169,192,113,474,76.16,Archer,North Central,89.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48011,247,346,276,869,68.24,Armstrong,High Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48013,277,371,192,840,77.14,Atascosa,South Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48015,163,385,172,720,76.11,Austin,South Central,23.9,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48017,246,245,93,584,84.08,Bailey,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48019,377,333,98,808,87.87,Bandera,Edwards Plateau,16.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48021,259,455,227,941,75.88,Bastrop,South Central,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48023,195,305,192,692,72.25,Baylor,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48025,354,187,111,652,82.98,Bee,South Central,4.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48027,241,300,244,785,68.92,Bell,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48029,377,269,163,809,79.85,Bexar,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48031,368,289,155,812,80.91,Blanco,Edwards Plateau,19.2,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48033,176,199,147,522,71.84,Borden,Low Rolling Plains,23.2,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48035,143,244,138,525,73.71,Bosque,North Central,60.6,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48037,228,287,146,661,77.91,Bowie,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48039,350,501,249,1100,77.36,Brazoria,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48041,234,258,217,709,69.39,Brazos,East Texas,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48043,141,368,260,769,66.19,Brewster,Trans-Pecos,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48045,235,300,183,718,74.51,Briscoe,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48047,100,220,52,372,86.02,Brooks,South Texas,70.2,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48049,208,301,175,684,74.42,Brown,North Central,9.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48051,244,286,140,670,79.1,Burleson,South Central,18.9,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48053,284,318,246,848,70.99,Burnet,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48055,381,388,291,1060,72.55,Caldwell,South Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48057,346,348,177,871,79.68,Calhoun,Upper Coast,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48059,176,188,180,544,66.91,Callahan,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48061,417,288,338,1043,67.59,Cameron,Lower Valley,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48063,221,332,158,711,77.78,Camp,East Texas,82.5,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48065,143,506,231,880,73.75,Carson,High Plains,77.3,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48067,163,349,147,659,77.69,Cass,East Texas,0.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48069,180,323,137,640,78.59,Castro,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48071,134,410,136,680,80.0,Chambers,Upper Coast,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48073,159,215,121,495,75.56,Cherokee,East Texas,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48075,236,237,170,643,73.56,Childress,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48077,129,332,208,669,68.91,Clay,North Central,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48079,244,214,123,581,78.83,Cochran,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48081,254,143,54,451,88.03,Coke,Edwards Plateau,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48083,234,341,260,835,68.86,Coleman,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48085,183,366,179,728,75.41,Collin,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48087,149,231,83,463,82.07,Collingsworth,Low Rolling Plains,70.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48089,119,653,170,942,81.95,Colorado,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48091,241,345,161,747,78.45,Comal,South Central,7.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48093,303,255,276,834,66.91,Comanche,North Central,3.9,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48095,236,161,157,554,71.66,Concho,Edwards Plateau,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48097,163,212,123,498,75.3,Cooke,North Central,0.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48099,236,359,229,824,72.21,Coryell,North Central,1.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48101,236,215,175,626,72.04,Cottle,Low Rolling Plains,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48103,274,296,193,763,74.71,Crane,Trans-Pecos,2.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48105,321,302,177,800,77.88,Crockett,Edwards Plateau,0.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48107,239,302,210,751,72.04,Crosby,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48109,40,472,169,681,75.18,Culberson,Trans-Pecos,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48111,297,285,225,807,72.12,Dallam,High Plains,62.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48113,167,272,213,652,67.33,Dallas,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48115,134,613,207,954,78.3,Dawson,High Plains,65.2,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48117,252,336,167,755,77.88,Deaf Smith,High Plains,11.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48119,214,375,222,811,72.63,Delta,North Central,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48121,217,290,221,728,69.64,Denton,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48123,482,353,299,1134,73.63,DeWitt,South Central,1.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48125,243,234,124,601,79.37,Dickens,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48127,302,277,159,738,78.46,Dimmit,South Texas,1.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48129,145,428,148,721,79.47,Donley,Low Rolling Plains,76.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48131,280,255,177,712,75.14,Duval,South Texas,0.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48133,196,365,311,872,64.33,Eastland,North Central,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48135,171,361,228,760,70.0,Ector,Trans-Pecos,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48137,256,271,101,628,83.92,Edwards,Edwards Plateau,13.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48139,245,229,217,691,68.6,Ellis,North Central,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48141,395,307,118,820,85.61,El Paso,Trans-Pecos,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48143,270,294,258,822,68.61,Erath,North Central,0.9,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48145,243,161,182,586,68.94,Falls,North Central,88.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48147,218,319,167,704,76.28,Fannin,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48149,306,311,227,844,73.1,Fayette,South Central,0.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48151,182,214,144,540,73.33,Fisher,Low Rolling Plains,58.6,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48153,175,248,115,538,78.62,Floyd,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48155,234,289,252,775,67.48,Foard,Low Rolling Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48157,318,410,251,979,74.36,Fort Bend,Upper Coast,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48159,199,191,159,549,71.04,Franklin,East Texas,4.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48161,179,202,138,519,73.41,Freestone,East Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48163,155,525,132,812,83.74,Frio,South Texas,48.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48165,170,418,193,781,75.29,Gaines,High Plains,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48167,488,236,282,1006,71.97,Galveston,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48169,271,222,210,703,70.13,Garza,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48171,256,241,108,605,82.15,Gillespie,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48173,144,356,249,749,66.76,Glasscock,High Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48175,71,350,43,464,90.73,Goliad,South Central,0.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48177,401,380,246,1027,76.05,Gonzales,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48179,267,185,128,580,77.93,Gray,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48181,211,233,216,660,67.27,Grayson,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48183,222,379,207,808,74.38,Gregg,East Texas,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48185,272,360,290,922,68.55,Grimes,East Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48187,437,344,262,1043,74.88,Guadalupe,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48189,330,189,141,660,78.64,Hale,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48191,281,158,134,573,76.61,Hall,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48193,255,231,241,727,66.85,Hamilton,North Central,61.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48195,288,161,93,542,82.84,Hansford,High Plains,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48197,151,251,167,569,70.65,Hardeman,Low Rolling Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48199,374,325,204,903,77.41,Hardin,East Texas,1.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48201,406,300,314,1020,69.22,Harris,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48203,327,167,125,619,79.81,Harrison,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48205,402,201,122,725,83.17,Hartley,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48207,203,197,137,537,74.49,Haskell,Low Rolling Plains,11.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48209,272,288,156,716,78.21,Hays,South Central,0.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48211,159,315,158,632,75.0,Hemphill,High Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48213,194,386,168,748,77.54,Henderson,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48215,446,314,266,1026,74.07,Hidalgo,Lower Valley,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48217,264,183,221,668,66.92,Hill,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48219,149,279,81,509,84.09,Hockley,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48221,279,401,244,924,73.59,Hood,North Central,0.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48223,142,391,160,693,76.91,Hopkins,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48225,182,248,167,597,72.03,Houston,East Texas,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48227,243,217,152,612,75.16,Howard,High Plains,0.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48229,522,588,266,1376,80.67,Hudspeth,Trans-Pecos,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48231,235,341,196,772,74.61,Hunt,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48233,332,183,177,692,74.42,Hutchinson,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48235,354,210,185,749,75.3,Irion,Edwards Plateau,22.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48237,216,158,105,479,78.08,Jack,North Central,6.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48239,347,396,286,1029,72.21,Jackson,Upper Coast,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48241,218,392,218,828,73.67,Jasper,East Texas,5.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48243,245,304,417,966,56.83,Jeff Davis,Trans-Pecos,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48245,274,392,238,904,73.67,Jefferson,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48247,103,243,93,439,78.82,Jim Hogg,South Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48249,314,253,135,702,80.77,Jim Wells,South Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48251,165,211,137,513,73.29,Johnson,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48253,254,192,139,585,76.24,Jones,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48255,206,278,141,625,77.44,Karnes,South Central,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48257,176,298,170,644,73.6,Kaufman,North Central,0.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48259,408,391,310,1109,72.05,Kendall,Edwards Plateau,0.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48261,489,302,242,1033,76.57,Kenedy,South Texas,33.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48263,305,219,208,732,71.58,Kent,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48265,319,314,129,762,83.07,Kerr,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48267,371,311,147,829,82.27,Kimble,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48269,168,319,167,654,74.46,King,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48271,186,212,74,472,84.32,Kinney,Edwards Plateau,43.5,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48273,370,366,197,933,78.89,Kleberg,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48275,230,228,149,607,75.45,Knox,Low Rolling Plains,11.2,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48277,158,213,135,506,73.32,Lamar,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48279,255,278,142,675,78.96,Lamb,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48281,234,268,183,685,73.28,Lampasas,Edwards Plateau,80.3,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48283,346,514,362,1222,70.38,La Salle,South Texas,0.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48285,380,375,317,1072,70.43,Lavaca,South Central,0.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48287,244,297,212,753,71.85,Lee,South Central,2.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48289,241,199,107,547,80.44,Leon,East Texas,1.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48291,358,254,207,819,74.73,Liberty,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48293,121,426,188,735,74.42,Limestone,North Central,69.3,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48295,219,244,117,580,79.83,Lipscomb,High Plains,0.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48297,245,340,186,771,75.88,Live Oak,South Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48299,272,304,177,753,76.49,Llano,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48301,187,431,286,904,68.36,Loving,Trans-Pecos,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48303,208,316,193,717,73.08,Lubbock,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48305,226,259,131,616,78.73,Lynn,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48307,191,294,110,595,81.51,McCulloch,Edwards Plateau,3.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48309,320,258,283,861,67.13,McLennan,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48311,241,325,152,718,78.83,McMullen,South Texas,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48313,121,201,96,418,77.03,Madison,East Texas,7.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48315,214,248,121,583,79.25,Marion,East Texas,7.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48317,189,369,311,869,64.21,Martin,High Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48319,350,314,236,900,73.78,Mason,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48321,472,214,222,908,75.55,Matagorda,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48323,139,87,33,259,87.26,Maverick,South Texas,72.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48325,488,297,176,961,81.69,Medina,South Central,0.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48327,294,235,99,628,84.24,Menard,Edwards Plateau,1.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48329,172,377,261,810,67.78,Midland,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48331,305,214,200,719,72.18,Milam,North Central,26.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48333,245,156,143,544,73.71,Mills,North Central,4.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48335,135,274,168,577,70.88,Mitchell,Low Rolling Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48337,249,164,136,549,75.23,Montague,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48339,314,259,242,815,70.31,Montgomery,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48341,251,295,191,737,74.08,Moore,High Plains,39.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48343,154,168,107,429,75.06,Morris,East Texas,0.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48345,231,125,115,471,75.58,Motley,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48347,152,218,98,468,79.06,Nacogdoches,East Texas,1.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48349,173,388,217,778,72.11,Navarro,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48351,310,377,197,884,77.71,Newton,East Texas,0.9,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48353,200,173,189,562,66.37,Nolan,Low Rolling Plains,4.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48355,227,507,188,922,79.61,Nueces,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48357,197,483,205,885,76.84,Ochiltree,High Plains,35.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48359,273,208,105,586,82.08,Oldham,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48361,194,319,138,651,78.8,Orange,Upper Coast,2.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48363,198,302,273,773,64.68,Palo Pinto,North Central,1.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48365,131,356,149,636,76.57,Panola,East Texas,1.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48367,254,207,185,646,71.36,Parker,North Central,0.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48369,294,219,156,669,76.68,Parmer,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48371,268,253,258,779,66.88,Pecos,Trans-Pecos,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48373,194,199,141,534,73.6,Polk,East Texas,86.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48375,249,177,131,557,76.48,Potter,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48377,67,783,332,1182,71.91,Presidio,Trans-Pecos,2.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48379,163,303,123,589,79.12,Rains,East Texas,0.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48381,257,150,85,492,82.72,Randall,High Plains,8.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48383,401,298,219,918,76.14,Reagan,Edwards Plateau,2.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48385,325,226,70,621,88.73,Real,Edwards Plateau,2.5,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48387,204,353,168,725,76.83,Red River,East Texas,0.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48389,234,441,198,873,77.32,Reeves,Trans-Pecos,4.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48391,62,642,55,759,92.75,Refugio,South Central,3.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48393,226,307,213,746,71.45,Roberts,High Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48395,293,274,261,828,68.48,Robertson,East Texas,5.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48397,138,466,265,869,69.51,Rockwall,North Central,25.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48399,309,166,102,577,82.32,Runnels,Low Rolling Plains,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48401,230,261,160,651,75.42,Rusk,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48403,283,365,239,887,73.06,Sabine,East Texas,1.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48405,343,299,171,813,78.97,San Augustine,East Texas,9.2,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48407,193,375,226,794,71.54,San Jacinto,East Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48409,344,362,105,811,87.05,San Patricio,South Central,6.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48411,230,263,173,666,74.02,San Saba,Edwards Plateau,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48413,226,267,145,638,77.27,Schleicher,Edwards Plateau,1.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48415,170,359,233,762,69.42,Scurry,Low Rolling Plains,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48417,268,135,158,561,71.84,Shackelford,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48419,158,281,155,594,73.91,Shelby,East Texas,54.8,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48421,172,496,332,1000,66.8,Sherman,High Plains,58.9,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48423,214,308,186,708,73.73,Smith,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48425,113,340,120,573,79.06,Somervell,North Central,18.3,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48427,367,346,296,1009,70.66,Starr,South Texas,2.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48429,234,191,165,590,72.03,Stephens,North Central,1.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48431,159,277,173,609,71.59,Sterling,Edwards Plateau,72.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48433,233,221,151,605,75.04,Stonewall,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48435,243,306,126,675,81.33,Sutton,Edwards Plateau,67.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48437,254,238,142,634,77.6,Swisher,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48439,205,311,269,785,65.73,Tarrant,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48441,238,108,200,546,63.37,Taylor,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48443,390,437,219,1046,79.06,Terrell,Trans-Pecos,2.6,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48445,232,307,152,691,78.0,Terry,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48447,194,196,108,498,78.31,Throckmorton,North Central,41.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48449,353,289,127,769,83.49,Titus,East Texas,2.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48451,382,258,255,895,71.51,Tom Green,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48453,328,175,146,649,77.5,Travis,South Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48455,104,386,176,666,73.57,Trinity,East Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48457,313,325,219,857,74.45,Tyler,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48459,165,390,168,723,76.76,Upshur,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48461,275,291,159,725,78.07,Upton,Edwards Plateau,13.9,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48463,261,329,98,688,85.76,Uvalde,Edwards Plateau,2.8,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48465,390,439,332,1161,71.4,Val Verde,Edwards Plateau,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48467,213,218,146,577,74.7,Van Zandt,East Texas,1.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48469,433,240,160,833,80.79,Victoria,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48471,158,219,238,615,61.3,Walker,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48473,279,423,303,1005,69.85,Waller,East Texas,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48475,143,574,171,888,80.74,Ward,Trans-Pecos,0.4,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48477,161,438,187,786,76.21,Washington,South Central,0.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48479,248,382,272,902,69.84,Webb,South Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48481,287,329,181,797,77.29,Wharton,Upper Coast,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48483,198,287,162,647,74.96,Wheeler,Low Rolling Plains,67.4,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48485,212,140,101,453,77.7,Wichita,Low Rolling Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48487,143,246,164,553,70.34,Wilbarger,Low Rolling Plains,100.0,True,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48489,396,266,161,823,80.44,Willacy,Lower Valley,30.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48491,229,377,229,835,72.57,Williamson,North Central,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48493,133,247,91,471,80.68,Wilson,South Central,61.7,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48495,195,237,110,542,79.7,Winkler,Trans-Pecos,6.7,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48497,136,359,171,666,74.32,Wise,North Central,0.1,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48499,119,370,114,603,81.09,Wood,East Texas,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48501,241,371,226,838,73.03,Yoakum,High Plains,0.0,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48503,146,343,186,675,72.44,Young,North Central,7.3,False,True
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48505,86,85,51,222,77.03,Zapata,South Texas,78.0,False,False
+TMAX_P90_2D_w15_vs_TMIN_P90_2D_w15,48507,179,60,32,271,88.19,Zavala,South Texas,100.0,True,False

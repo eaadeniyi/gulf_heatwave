@@ -1,0 +1,47 @@
+state,check,scope,result,observed,expected,note,input_fingerprint,git_commit,checked_utc
+TX,county-year keys present in both,MHI_P85_2D[w15],PASS,0,0,2791 county-years compared,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days,MHI_P85_2D[w15],PASS,0,0,rows differing / 2791,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_events_started,MHI_P85_2D[w15],PASS,0,0,rows differing / 2791,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: longest_event_duration_days,MHI_P85_2D[w15],PASS,0,0,rows differing / 2791,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days_imputed,MHI_P85_2D[w15],PASS,0,0,rows differing / 2791,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: published-only events,MHI_P85_2D[w15],PASS,0,0,48323 published events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: rerun-only events,MHI_P85_2D[w15],PASS,0,0,48323 rerun events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event count,MHI_P85_2D[w15],PASS,48323,48323,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: heatwave days (QA pooled),MHI_P85_2D[w15],PASS,170894,170894,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: heatwave events,MHI_P85_2D[w15],PASS,48323,48323,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county median days,MHI_P85_2D[w15],PASS,677,677,raw median = 677.0,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county min days,MHI_P85_2D[w15],PASS,154,154,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county max days,MHI_P85_2D[w15],PASS,1230,1230,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year keys present in both,MHI_P85_2D[month],PASS,0,0,2793 county-years compared,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days,MHI_P85_2D[month],PASS,0,0,rows differing / 2793,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_events_started,MHI_P85_2D[month],PASS,0,0,rows differing / 2793,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: longest_event_duration_days,MHI_P85_2D[month],PASS,0,0,rows differing / 2793,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days_imputed,MHI_P85_2D[month],PASS,0,0,rows differing / 2793,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: published-only events,MHI_P85_2D[month],PASS,0,0,47470 published events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: rerun-only events,MHI_P85_2D[month],PASS,0,0,47470 rerun events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event count,MHI_P85_2D[month],PASS,47470,47470,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,new window produced,MHI_P85_2D[w05],PASS,True,True,window absent from the published round,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,new window produced,MHI_P85_2D[month_pm7],PASS,True,True,window absent from the published round,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year keys present in both,MHI_P95_2D[w15],PASS,0,0,2709 county-years compared,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days,MHI_P95_2D[w15],PASS,0,0,rows differing / 2709,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_events_started,MHI_P95_2D[w15],PASS,0,0,rows differing / 2709,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: longest_event_duration_days,MHI_P95_2D[w15],PASS,0,0,rows differing / 2709,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days_imputed,MHI_P95_2D[w15],PASS,0,0,rows differing / 2709,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: published-only events,MHI_P95_2D[w15],PASS,0,0,17428 published events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: rerun-only events,MHI_P95_2D[w15],PASS,0,0,17428 rerun events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event count,MHI_P95_2D[w15],PASS,17428,17428,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: heatwave days (QA pooled),MHI_P95_2D[w15],PASS,52786,52786,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: heatwave events,MHI_P95_2D[w15],PASS,17428,17428,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county median days,MHI_P95_2D[w15],PASS,196,196,raw median = 195.5,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county min days,MHI_P95_2D[w15],PASS,18,18,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,published headline: per-county max days,MHI_P95_2D[w15],PASS,516,516,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year keys present in both,MHI_P95_2D[month],PASS,0,0,2727 county-years compared,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days,MHI_P95_2D[month],PASS,0,0,rows differing / 2727,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_events_started,MHI_P95_2D[month],PASS,0,0,rows differing / 2727,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: longest_event_duration_days,MHI_P95_2D[month],PASS,0,0,rows differing / 2727,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,county-year exact: heatwave_days_imputed,MHI_P95_2D[month],PASS,0,0,rows differing / 2727,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: published-only events,MHI_P95_2D[month],PASS,0,0,17517 published events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event set: rerun-only events,MHI_P95_2D[month],PASS,0,0,17517 rerun events,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,event count,MHI_P95_2D[month],PASS,17517,17517,,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,new window produced,MHI_P95_2D[w05],PASS,True,True,window absent from the published round,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z
+TX,new window produced,MHI_P95_2D[month_pm7],PASS,True,True,window absent from the published round,md5:f0276ee5888539f9,1818bb9,2026-07-30T18:29:16Z

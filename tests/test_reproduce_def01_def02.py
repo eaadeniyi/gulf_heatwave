@@ -47,6 +47,15 @@ def check(label, got, want):
     return ok
 
 
+def read_events(tables_dir, wkey):
+    """Event table for one window, whether it was written plain or gzipped."""
+    for name in ("heatwave_events_%s.csv" % wkey, "heatwave_events_%s.csv.gz" % wkey):
+        p = os.path.join(tables_dir, name)
+        if os.path.exists(p):
+            return pd.read_csv(p, dtype={"county_fips": str})
+    raise FileNotFoundError("no event table for window %s in %s" % (wkey, tables_dir))
+
+
 def compare_frames(label, new, old, keys, value_cols):
     """Exact comparison of two summary tables on the given value columns."""
     m = old.merge(new, on=keys, how="outer", suffixes=("_old", "_new"), indicator=True)
@@ -104,10 +113,11 @@ try:
                                        "longest_event_duration_days", "heatwave_days_imputed"])
 
             # ---- the event set itself -------------------------------------------
-            pub_ev = pd.read_csv(os.path.join(pub_dir, "heatwave_events_%s.csv" % wkey),
-                                 dtype={"county_fips": str})
-            new_ev = pd.read_csv(os.path.join(new_dir, "heatwave_events_%s.csv" % wkey),
-                                 dtype={"county_fips": str})
+            # The PUBLISHED event tables are plain .csv; p02 now gzips them (the
+            # grid's 56 runs would otherwise dominate the repo). Accept either, so
+            # this gate keeps comparing the event sets across that format change.
+            pub_ev = read_events(pub_dir, wkey)
+            new_ev = read_events(new_dir, wkey)
             pk = lambda d: set(zip(d["county_fips"], d["start_date"].astype(str),
                                    d["end_date"].astype(str), d["event_duration_days"]))
             sp, sn = pk(pub_ev), pk(new_ev)
