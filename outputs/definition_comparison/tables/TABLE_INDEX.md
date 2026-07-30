@@ -10,5 +10,6 @@
 | 6 | Definition-pair agreement | `table6_definition_pair_agreement.csv` | one pair of runs; day-level sets of county-dates |
 | 7 | Matched-pair marginal effects | `table7_matched_pair_marginal_effects.csv + table7b_marginal_effects_summary.csv` | one matched pair (single axis differing); summary reports n pairs per axis |
 | 8 | Long-event and data-quality audit | `table8a_long_event_audit.csv + table8b_county_data_quality.csv` | one event >= 21 days; one county |
+| 9 | All definitions x windows x thresholds x results (consolidated; not one of the 8 required tables) | `table9_definitions_windows_thresholds_results.csv + .md` | one run = definition x window (64), plus the 2 untested cells x 4 windows |
 
 Tables 3-5 are written by `s02_canonical_long.py` (they are the aggregation levels of the canonical long table); tables 1, 2, 6, 7 and 8 by `s04_tables.py`. Support tables read by the figures are prefixed `support_`.

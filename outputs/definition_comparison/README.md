@@ -41,7 +41,7 @@ python run_package.py            # everything, in order
 python run_package.py --from s04 # from one step onward
 ```
 
-Provenance of this build: git `8ca290b+dirty`, input `md5:f0276ee5888539f9`.
+Provenance of this build: git `6266dee+dirty`, input `md5:f0276ee5888539f9`.
 
 ## Three things not to conclude from this package
 

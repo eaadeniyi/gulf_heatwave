@@ -362,6 +362,148 @@ def table8_audit(ev, ref, el):
 
 
 # =============================================================================
+# TABLE 9 -- one row per run: specification, THRESHOLD LEVELS, and results
+# =============================================================================
+_MONTH_OF_DOY = {i + 1: d.month for i, d in
+                 enumerate(pd.date_range("2000-01-01", "2000-12-31"))}
+
+
+def _threshold_summary(metric, pctl, window_key):
+    """What the percentile actually WORKS OUT TO, in degF, for one run.
+
+    Read from the pipeline's threshold cache (all counties x calendar keys x
+    analysis years), not from the canonical shards -- the shards hold candidate
+    days only, whose thresholds are not a representative sample. The Jun-Sep vs
+    Dec-Feb split is the point of a year-round relative definition: it shows how
+    far the bar drops in winter, which is why cool-season days qualify.
+    """
+    p = C.threshold_cache_path(STATE, metric, pctl, window_key)
+    if not os.path.exists(p):
+        return {}
+    key = "template_doy" if C.GRID_WINDOWS[window_key]["type"] == "centered" \
+        else "calendar_month"
+    t = pd.read_csv(p, usecols=[key, "threshold_value_f", "n_reference_values",
+                                "threshold_quality_flag"],
+                    float_precision="round_trip")
+    month = (t[key].map(_MONTH_OF_DOY) if key == "template_doy" else t[key])
+    v = t["threshold_value_f"]
+    js, df = v[month.isin(K.JUN_SEP)], v[month.isin([12, 1, 2])]
+    return {
+        "threshold_degF_median": round(float(v.median()), 1),
+        "threshold_degF_p5": round(float(v.quantile(0.05)), 1),
+        "threshold_degF_p95": round(float(v.quantile(0.95)), 1),
+        "threshold_degF_median_jun_sep": round(float(js.median()), 1),
+        "threshold_degF_median_dec_feb": round(float(df.median()), 1),
+        "threshold_degF_summer_minus_winter": round(float(js.median() - df.median()), 1),
+        "baseline_obs_per_threshold_median": int(t["n_reference_values"].median()),
+        "threshold_rows_low_n_ref": int((t["threshold_quality_flag"] == "low_n_ref").sum()),
+        "threshold_rows_total": len(t),
+    }
+
+
+def table9_definitions_windows_thresholds_results(runs, avail_ids, qa):
+    """The single table that answers 'what are all the definitions, their windows,
+    their thresholds and their results?' -- 16 definitions x 4 windows = 64 rows,
+    plus the two untested cells carried as explicit NOT TESTED rows."""
+    q = qa.set_index("run_id")
+    cache = {}
+    rows = []
+    for r in runs:
+        rid = r["run_id"]
+        if rid not in avail_ids or rid not in q.index:
+            continue
+        ck = (r["metric"], r["percentile"], r["window_key"])
+        if ck not in cache:
+            cache[ck] = _threshold_summary(*ck)
+        s = q.loc[rid]
+        row = {
+            "def_number": r["def_number"], "definition_id": r["definition_id"],
+            "metric": r["metric_code"], "metric_label": r["metric_label"],
+            "percentile": r["percentile"], "minimum_duration_days": r["min_duration"],
+            "window": r["window_key"], "window_label": r["window_label"],
+            "reference_method": C.BASELINE_SCHEME, "comparison_op": C.COMPARISON_OP,
+            "season_rule": C.SEASON, "absolute_floor": "none",
+            "status": "tested",
+        }
+        row.update(cache[ck])
+        row.update({
+            "heatwave_days_QA_pooled_2015_2025": int(s["heatwave_days_QA_pooled_2015_2025"]),
+            "heatwave_events_QA_pooled_2015_2025": int(s["heatwave_events_QA_pooled_2015_2025"]),
+            "per_county_days_median": int(s["per_county_heatwave_days_2015_2025_median"]),
+            "per_county_days_q25": int(s["per_county_heatwave_days_2015_2025_q25"]),
+            "per_county_days_q75": int(s["per_county_heatwave_days_2015_2025_q75"]),
+            "per_county_days_min": int(s["per_county_heatwave_days_2015_2025_min"]),
+            "per_county_days_max": int(s["per_county_heatwave_days_2015_2025_max"]),
+            "event_duration_days_median": s["event_duration_days_median"],
+            "event_duration_days_max": int(s["event_duration_days_max"]),
+            "events_at_or_over_review_length": int(s["events_at_or_over_review_length"]),
+            "pct_heatwave_days_in_jun_sep": s["pct_heatwave_days_in_jun_sep"],
+            "rate_jun_sep_per_1000_eligible": s["rate_jun_sep_per_1000_eligible"],
+            "rate_oct_may_per_1000_eligible": s["rate_oct_may_per_1000_eligible"],
+            "peak_month_by_rate": s["peak_month_by_rate"],
+            "pct_heatwave_days_imputed": s["pct_heatwave_days_imputed"],
+            "counties_with_any_heatwave_day": int(s["counties_with_any_heatwave_day"]),
+        })
+        rows.append(row)
+    for u in K.UNTESTED_CELLS:
+        for wkey in K.WINDOW_ORDER:
+            rows.append({
+                "def_number": "", "definition_id": u["definition_id"],
+                "metric": C.METRICS[u["metric"]]["code"],
+                "metric_label": C.METRICS[u["metric"]]["label"],
+                "percentile": u["percentile"], "minimum_duration_days": u["min_duration"],
+                "window": wkey, "window_label": C.GRID_WINDOWS[wkey]["label"],
+                "status": "NOT TESTED - never run; not zero, not interpolated",
+            })
+    df = pd.DataFrame(rows)
+    df.insert(0, "state", STATE)
+    order = {d: i for i, d in enumerate(K.def_order())}
+    df["__d"] = df["definition_id"].map(order).fillna(999)
+    df["__w"] = df["window"].map({w: i for i, w in enumerate(K.WINDOW_ORDER)})
+    df = df.sort_values(["__d", "__w"]).drop(columns=["__d", "__w"])
+    df.to_csv(os.path.join(K.DIR_TABLES,
+                           "table9_definitions_windows_thresholds_results.csv"), index=False)
+
+    # a readable markdown companion, compact enough to paste into a document
+    cols = ["definition_id", "window", "threshold_degF_median",
+            "threshold_degF_median_jun_sep", "threshold_degF_median_dec_feb",
+            "heatwave_days_QA_pooled_2015_2025", "heatwave_events_QA_pooled_2015_2025",
+            "per_county_days_median", "event_duration_days_median",
+            "event_duration_days_max", "pct_heatwave_days_in_jun_sep", "peak_month_by_rate"]
+    md = df[df["status"] == "tested"][cols].copy()
+    md.columns = ["definition", "window", "thr degF med", "thr Jun-Sep", "thr Dec-Feb",
+                  "hw days (QA)", "events (QA)", "days/county med", "dur med", "dur max",
+                  "% Jun-Sep", "peak month"]
+    with open(os.path.join(K.DIR_TABLES,
+                           "table9_definitions_windows_thresholds_results.md"), "w",
+              encoding="utf-8") as f:
+        f.write("# Table 9 - all definitions, windows, thresholds and results\n\n")
+        f.write("%s, %d-%d, %d counties. Every definition is a county-relative percentile of a "
+                "daily heat metric sustained over a minimum number of consecutive days, on a "
+                "walk-forward baseline (%s), evaluated year-round with a strict `%s` and NO "
+                "absolute floor.\n\n"
+                % (K.STATE_LABEL, C.ANALYSIS_YEARS[0], C.ANALYSIS_YEARS[1], 254,
+                   C.BASELINE_SCHEME, C.COMPARISON_OP))
+        f.write("**Thresholds are not single numbers.** Each is county- and calendar-specific "
+                "and re-estimated every year, so the columns give what the percentile works "
+                "out to in degF: the median over all counties x calendar keys x analysis "
+                "years, and the Jun-Sep and Dec-Feb medians. The gap between those two is why "
+                "a year-round relative definition flags cool-season days.\n\n")
+        f.write("Counts suffixed (QA) are pooled across counties and are QA quantities, never "
+                "substantive results; `days/county med` is the substantive county-level "
+                "figure. Durations are integer days. All counts are cumulative over "
+                "%d-%d, never annual.\n\n" % C.ANALYSIS_YEARS)
+        f.write(K.md_table(md))
+        f.write("\n\n`MHI_P85_3D` and `MHI_P95_3D` were never run at any window and are "
+                "carried in the CSV as explicit NOT TESTED rows.\n")
+    K.log("[table 9] definitions x windows x thresholds x results: %d rows (%d tested + %d "
+          "untested cells x %d windows)"
+          % (len(df), int((df["status"] == "tested").sum()), len(K.UNTESTED_CELLS),
+             len(K.WINDOW_ORDER)))
+    return df
+
+
+# =============================================================================
 # SUPPORT TABLES for the figures
 # =============================================================================
 def support_matrices(runs, sets, cy, ref):
@@ -630,6 +772,7 @@ def main():
 
     table1_registry(avail_ids)
     qa = table2_run_qa(runs, avail_ids, cy, cm, ev, el, ref)
+    table9_definitions_windows_thresholds_results(runs, avail_ids, qa)
 
     K.log("-" * 74)
     K.log("loading day-level sets (the identity of the classified county-dates)")
@@ -672,7 +815,11 @@ def main():
              "one matched pair (single axis differing); summary reports n pairs per axis"),
             (8, "Long-event and data-quality audit", "table8a_long_event_audit.csv "
                 "+ table8b_county_data_quality.csv",
-             "one event >= %d days; one county" % K.LONG_EVENT_REVIEW_DAYS)]:
+             "one event >= %d days; one county" % K.LONG_EVENT_REVIEW_DAYS),
+            (9, "All definitions x windows x thresholds x results (consolidated; "
+                "not one of the 8 required tables)",
+             "table9_definitions_windows_thresholds_results.csv + .md",
+             "one run = definition x window (64), plus the 2 untested cells x 4 windows")]:
             f.write("| %d | %s | `%s` | %s |\n" % (n, name, fn, unit))
         f.write("\nTables 3-5 are written by `s02_canonical_long.py` (they are the "
                 "aggregation levels of the canonical long table); tables 1, 2, 6, 7 and 8 "
