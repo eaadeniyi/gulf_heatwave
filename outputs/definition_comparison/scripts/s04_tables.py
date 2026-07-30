@@ -534,6 +534,53 @@ def support_pair_disagreement(sets, ref, cm):
     return idx
 
 
+def support_imputation_subgroups(ref, cy):
+    """Per-county exposure for the DATA-QUALITY SUBGROUPS, per definition.
+
+    Figure 11 correlates exposure against the imputation percentage across all
+    counties, which is dominated by the 93-county mass at 0% and therefore misses a
+    STEP at the fully-imputed end. This table compares the subgroups directly, and
+    it is where the Tmin-specific inflation shows up: the metric determines whether
+    IDW gap-filling raises the count or not, so this is a definition-level
+    data-quality property, not a single global caveat.
+    """
+    all_counties = sorted(ref["county_fips"].unique())
+    fully = set(ref.loc[ref["fully_imputed_county"], "county_fips"])
+    complete = set(ref.loc[ref["data_complete"], "county_fips"])
+    flagged = set(ref.loc[~ref["data_complete"], "county_fips"])
+    prim = cy[cy["window"] == K.PRIMARY_WINDOW]
+    rows = []
+    for d in K.def_order():
+        s = (prim[prim["definition_id"] == d].groupby("county_fips")["heatwave_days"].sum()
+             .reindex(all_counties, fill_value=0))
+        sc, sf, sg = (s[s.index.isin(complete)], s[s.index.isin(fully)],
+                      s[s.index.isin(flagged)])
+        rows.append({
+            "definition_id": d, "metric": d.split("_")[0],
+            "percentile": int(d.split("_")[1][1:]), "minimum_duration": int(d.split("_")[2][0]),
+            "window": K.PRIMARY_WINDOW,
+            "n_counties_all": len(s), "n_counties_complete": len(sc),
+            "n_counties_flagged": len(sg), "n_counties_fully_imputed": len(sf),
+            "median_days_all": int(s.median()),
+            "median_days_complete": int(sc.median()),
+            "median_days_flagged": int(sg.median()),
+            "median_days_fully_imputed": int(sf.median()),
+            "ratio_fully_imputed_over_complete": round(float(sf.median() / sc.median()), 3)
+            if sc.median() else np.nan,
+            "ratio_flagged_over_complete": round(float(sg.median() / sc.median()), 3)
+            if sc.median() else np.nan,
+        })
+    out = pd.DataFrame(rows)
+    out.insert(0, "state", STATE)
+    out.to_csv(os.path.join(K.DIR_TABLES, "support_imputation_subgroup_medians.csv"),
+               index=False)
+    by = out.groupby("metric")["ratio_fully_imputed_over_complete"]
+    K.log("[support] imputation subgroups: median(fully imputed)/median(complete) by metric -- "
+          + ", ".join("%s %.3f (%.3f-%.3f)" % (m, g.median(), g.min(), g.max())
+                      for m, g in by))
+    return out
+
+
 def support_example_counties(ref, cy):
     """The example counties used by the time-series and threshold-curve figures.
 
@@ -600,6 +647,7 @@ def main():
     support_monthly_rates(cm, el)
     support_window_sensitivity(runs, sets, cy)
     support_pair_disagreement(sets, ref, cm)
+    support_imputation_subgroups(ref, cy)
     support_example_counties(ref, cy)
 
     # a small index so the eight required tables are findable by number

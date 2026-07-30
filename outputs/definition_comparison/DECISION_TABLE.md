@@ -56,9 +56,9 @@ Never run. These two cells would complete the 3 x 3 x 2 factorial and are the re
 
 **`all Tmax and Tmin definitions`**
 
-Two independent issues. (i) The exact-tie asymmetry: 1.13% (Tmax) and 1.44% (Tmin) of evaluable county-days sit exactly on their threshold because the input is quantised to 0.1 degC, against 0.00% for mean HI - so the strict `>` silently removes days from the temperature definitions only. (ii) 66 of 254 counties exceed the 10% imputation cut and 22 have no native station record at all.
+Three independent issues. (i) The exact-tie asymmetry: 1.13% (Tmax) and 1.44% (Tmin) of evaluable county-days sit exactly on their threshold because the input is quantised to 0.1 degC, against 0.00% for mean HI - so the strict `>` silently removes days from the temperature definitions only. (ii) 66 of 254 counties exceed the 10% imputation cut and 22 have no native station record at all. (iii) That imputation is NOT metric-neutral: the fully imputed counties carry a median 1.22x the heatwave days of complete-data counties under every Tmin definition (range 1.16-1.30), against 0.97x under Tmax - IDW gap-filling inflates Tmin-based exposure specifically (Figure 13; support_imputation_subgroup_medians.csv).
 
-*Conditions before use:* Quantify the `>` vs `>=` effect before comparing a temperature definition against mean HI on day-level agreement; resolve the anchor-vs-composite temperature question (earlier agreement 0.45-0.73) before any county ranking.
+*Conditions before use:* Quantify the `>` vs `>=` effect before comparing a temperature definition against mean HI on day-level agreement; resolve the anchor-vs-composite temperature question (earlier agreement 0.45-0.73) before any county ranking; and report Tmin-based results on the complete-data subset, or with the imputation gap quantified.
 
 **`every definition in this package`**
 

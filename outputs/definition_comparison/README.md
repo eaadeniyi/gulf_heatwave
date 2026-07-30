@@ -18,7 +18,7 @@ Compares 16 county-level heatwave definitions x 4 threshold windows = 64 runs ov
 ## Layout
 
 ```
-figures/core/        Figures 1-7, 11, 12
+figures/core/        Figures 1-7, 11, 12, 13
 figures/supplement/  the weaker variants, kept for comparison
 county_profiles/     Figure 8: one report card per county + INDEX.csv
 tables/              the 8 required tables, the canonical long table,
@@ -41,7 +41,7 @@ python run_package.py            # everything, in order
 python run_package.py --from s04 # from one step onward
 ```
 
-Provenance of this build: git `1818bb9+dirty`, input `md5:f0276ee5888539f9`.
+Provenance of this build: git `8ca290b+dirty`, input `md5:f0276ee5888539f9`.
 
 ## Three things not to conclude from this package
 

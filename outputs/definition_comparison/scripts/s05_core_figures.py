@@ -629,6 +629,143 @@ def fig11_data_quality(cy, ref):
 
 
 # =============================================================================
+# FIGURE 13 -- per-county heatwave-day distribution, by definition
+# =============================================================================
+def slots_with_untested():
+    """def_order() with the two untested cells inserted in their correct
+    metric/percentile/duration positions, so the gap in the factorial is visible
+    where it actually falls rather than appended at the end."""
+    tested = set(K.def_order())
+    untested = {u["definition_id"] for u in K.UNTESTED_CELLS}
+    out = []
+    for mc in ("MHI", "TMAX", "TMIN"):
+        for p in (85, 90, 95):
+            for d in (2, 3):
+                did = "%s_P%d_%dD" % (mc, p, d)
+                if did in tested:
+                    out.append((did, True))
+                elif did in untested:
+                    out.append((did, False))
+    return out
+
+
+def fig13_county_distribution(cy, ref):
+    """One distribution per definition, each point a county.
+
+    The substantive county-level layer: how many heatwave days a county gets
+    under each definition, and how much counties differ. Pooled statewide totals
+    (table 2) cannot show the spread, and Figure 6 shows county-YEARS along the
+    percentile axis rather than one distribution per definition.
+    """
+    slots = slots_with_untested()
+    complete = set(ref.loc[ref["data_complete"], "county_fips"])
+    fully = set(ref.loc[ref["fully_imputed_county"], "county_fips"])
+    all_counties = sorted(ref["county_fips"].unique())
+
+    # per-county cumulative heatwave days for each definition at the primary window.
+    # Counties with no heatwave day are absent from the county-year table and are
+    # reindexed back in at zero -- a GENUINE zero (evaluated, flagged nothing),
+    # which is not the same as an untested definition and is never done for those.
+    prim = cy[cy["window"] == K.PRIMARY_WINDOW]
+    per_def = {}
+    for did, tested in slots:
+        if not tested:
+            continue
+        s = (prim[prim["definition_id"] == did].groupby("county_fips")["heatwave_days"].sum()
+             .reindex(all_counties, fill_value=0))
+        per_def[did] = s
+
+    ymax = max(float(s.max()) for s in per_def.values()) * 1.06
+    rng = np.random.default_rng(20260730)          # fixed seed: jitter is reproducible
+
+    fig, axs = plt.subplots(2, 1, figsize=(15.0, 11.0), sharex=True, sharey=True)
+    panels = [("A", "all counties", set(all_counties)),
+              ("B", "counties with <= %.0f%% imputed temperature" % K.IMPUTATION_MAX_PCT,
+               complete)]
+    for ax, (tag, label, keep) in zip(axs, panels):
+        for i, (did, tested) in enumerate(slots):
+            if not tested:
+                ax.axvspan(i - 0.45, i + 0.45, color=K.COLOR_NOT_TESTED, alpha=0.85, zorder=0)
+                ax.text(i, ymax * 0.5, "NOT TESTED", rotation=90, ha="center", va="center",
+                        fontsize=7.5, color="#8a4b08", fontweight="bold", zorder=3)
+                continue
+            mc = did.split("_")[0]
+            st = K.METRIC_STYLE[mc]
+            dur = int(did.split("_")[2][0])
+            v = per_def[did]
+            v = v[v.index.isin(keep)]
+            arr = v.to_numpy(dtype=float)
+
+            bp = ax.boxplot([arr], positions=[i], widths=0.62, patch_artist=True,
+                            showfliers=False, zorder=3,
+                            medianprops=dict(color="#111111", lw=1.8),
+                            whiskerprops=dict(color="#555555", lw=1.0),
+                            capprops=dict(color="#555555", lw=1.0))
+            box = bp["boxes"][0]
+            box.set_facecolor(st["color"])
+            box.set_alpha(0.30 if dur == 3 else 0.55)   # duration = fill weight, not colour
+            box.set_hatch(st["hatch"])
+            box.set_edgecolor(st["color"])
+            box.set_linewidth(1.1)
+
+            # every county drawn, so the shape of the distribution is visible and
+            # the flagged counties can be seen inside it
+            x = i + rng.uniform(-0.20, 0.20, size=arr.size)
+            f_mask = np.array([c in fully for c in v.index])
+            ax.plot(x[~f_mask], arr[~f_mask], lw=0, marker=st["marker"], ms=2.6,
+                    mfc=st["color"], mec="none", alpha=0.42, zorder=4)
+            if f_mask.any():
+                ax.plot(x[f_mask], arr[f_mask], lw=0, marker="X", ms=5.0, mfc="none",
+                        mec="#8a4b08", mew=1.1, zorder=5)
+            ax.annotate("%d" % round(float(np.median(arr))), xy=(i, np.median(arr)),
+                        xytext=(0, 7), textcoords="offset points", ha="center",
+                        fontsize=6.8, fontweight="bold", color="#111111", zorder=6,
+                        bbox=dict(fc="white", ec="none", alpha=0.75, pad=0.5))
+
+        for b in [i for i in range(1, len(slots))
+                  if slots[i][0].split("_")[0] != slots[i - 1][0].split("_")[0]]:
+            ax.axvline(b - 0.5, color="#222222", lw=0.9, zorder=2)
+        n = len([c for c in all_counties if c in keep])
+        ax.set_title("%s  %s  (n = %d counties per definition)" % (tag, label, n),
+                     fontsize=10, fontweight="bold", loc="left")
+        ax.set_ylabel("heatwave days per county, %s\n(cumulative, not annual)" % YEARS)
+        ax.set_ylim(0, ymax)
+        U.tidy_axes(ax, grid_axis="y")
+
+    axs[-1].set_xticks(range(len(slots)))
+    axs[-1].set_xticklabels(["%s.P%d.%dD" % (d.split("_")[0], int(d.split("_")[1][1:]),
+                                             int(d.split("_")[2][0])) for d, _ in slots],
+                            rotation=60, ha="right", fontsize=7.6)
+    for i, (d, tested) in enumerate(slots):
+        axs[-1].get_xticklabels()[i].set_color(
+            K.METRIC_STYLE[d.split("_")[0]]["color"] if tested else "#8a4b08")
+    handles = U.metric_legend_handles() + U.duration_legend_handles() + [
+        Line2D([0], [0], color="#8a4b08", marker="X", lw=0, ms=7, mfc="none", mew=1.2,
+               label="county with 100%% IDW-imputed temperature (n=%d)" % len(fully)),
+        Line2D([0], [0], color="#111111", lw=1.8, label="median county")]
+    # legend at FIGURE level between the title and panel A: the tallest distributions
+    # reach the top of the shared y scale, so an in-panel legend sits on their points,
+    # and an in-axes legend above the frame collides with the panel title
+    fig.legend(handles=handles, fontsize=7, ncol=4, loc="lower center",
+               bbox_to_anchor=(0.5, 1.005), framealpha=0.95, borderaxespad=0)
+    fig.suptitle("Figure 13  Per-county heatwave-day distribution by definition  "
+                 "(%s window, %s, %s)" % (K.PRIMARY_WINDOW, K.STATE_LABEL, YEARS),
+                 fontsize=12.5, fontweight="bold", y=1.075, x=0.01, ha="left")
+    U.footnote(fig, "unit of analysis: county (one point = one county's cumulative %s heatwave "
+                    "days; never an annual rate). Box = interquartile range with the median "
+                    "labelled; whiskers 1.5 IQR; every county is also drawn as a point, so the "
+                    "shape of the distribution and the position of the flagged counties are "
+                    "visible. Duration is encoded as fill weight and hatch, never as a "
+                    "separate colour. The two mean-HI 3-day cells were never run and are shown "
+                    "in place as NOT TESTED, not as zero. Panels share one y scale. A county's "
+                    "position here is NOT reliable on its own: earlier work found "
+                    "anchor-station vs composite-station temperature agreeing at only "
+                    "0.45-0.73, so the regional gradient is trustworthy and single-county "
+                    "values are not." % YEARS, y=-0.005)
+    U.savefig(fig, os.path.join(K.DIR_FIG_CORE, "fig13_county_day_distribution.png"))
+
+
+# =============================================================================
 # FIGURE 12 -- definition-pair disagreement
 # =============================================================================
 def _load_counties_geo():
@@ -761,6 +898,8 @@ def main():
     fig07_window_sensitivity(wsens, examples)
     K.log("[fig 11] data-quality influence")
     fig11_data_quality(cy, ref)
+    K.log("[fig 13] per-county heatwave-day distribution")
+    fig13_county_distribution(cy, ref)
     K.log("[fig 12] definition-pair disagreement (%d pairs)" % len(pidx))
     geo = _load_counties_geo()
     fig12_pair_disagreement(pidx, geo)

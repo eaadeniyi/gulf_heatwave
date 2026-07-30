@@ -200,6 +200,18 @@ def gather():
     n["tie_pct"] = {f: 100 * by.get(f, 0) / ev_by.get(f, 1) for f in ("TMAX", "TMIN", "MHI")}
     n["tie_total"] = int(by.sum())
 
+    # data-quality subgroups: does IDW gap-filling shift exposure, and does that
+    # depend on the metric? (surfaced by Figure 13, quantified in s04)
+    sub_path = os.path.join(T, "support_imputation_subgroup_medians.csv")
+    if os.path.exists(sub_path):
+        sub = rd("support_imputation_subgroup_medians.csv")
+        n["imp_sub"] = sub
+        for m in ("TMAX", "TMIN", "MHI"):
+            g = sub.loc[sub["metric"] == m, "ratio_fully_imputed_over_complete"]
+            n["imp_ratio_%s_med" % m] = float(g.median())
+            n["imp_ratio_%s_min" % m] = float(g.min())
+            n["imp_ratio_%s_max" % m] = float(g.max())
+        n["imp_ratio_all_med"] = float(sub["ratio_fully_imputed_over_complete"].median())
     n["val_pass"] = int((val["result"] == "PASS").sum())
     n["val_fail"] = int((val["result"] == "FAIL").sum())
     n["val_rep"] = int((val["result"] == "REPORTED").sum())
@@ -676,6 +688,70 @@ def figure_report(n):
                    "also depend on."))
 
     F.append(dict(
+        fig="Figure 13", name="Per-county heatwave-day distribution",
+        file="figures/core/fig13_county_day_distribution.png",
+        purpose="Show the substantive county-level layer directly: how many heatwave days a "
+                "county gets under each definition, and how widely counties differ - which a "
+                "pooled statewide total cannot express and a median alone hides.",
+        unit="county (one point = one county's cumulative %s heatwave days; never annual)"
+             % YEARS,
+        inputs="master_county_year_summary.csv, table8b_county_data_quality.csv, "
+               "support_imputation_subgroup_medians.csv",
+        transform="Per-county heatwave days summed over %s for each definition at the %s "
+                  "window. Counties with no heatwave day are reindexed in at zero - a genuine "
+                  "zero, since the definition was evaluated there. Box (IQR + median) with "
+                  "every one of the counties overplotted. Panel A all %d counties; panel B the "
+                  "%d at or below the prespecified %.0f%% imputation cut, on the same y scale."
+                  % (YEARS, P, n["n_counties"], n["n_complete"], K.IMPUTATION_MAX_PCT),
+        encoding="Metric = colour + marker + hatch; duration = fill weight (the >=3-day box is "
+                 "lighter), never a separate colour; the two untested cells occupy their "
+                 "correct factorial positions as flat grey NOT TESTED slots; the %d fully "
+                 "imputed counties are drawn as brown crosses inside each distribution."
+                 % n["n_fully_imputed"],
+        supports="The size and spread of county exposure under each definition side by side "
+                 "(per-county medians run from %d to %d days across the definitions), and the "
+                 "monotone percentile and duration effects within each metric family. It also "
+                 "shows that the overall distributions are not an artefact of the flagged "
+                 "counties - restricting to complete-data counties barely moves the medians. "
+                 "But drawing the fully imputed counties INSIDE each distribution exposes "
+                 "something Figure 11's correlation misses: those %d counties sit "
+                 "systematically higher under every Tmin definition (median ratio %.2f, range "
+                 "%.2f-%.2f vs complete-data counties) while being flat to slightly lower "
+                 "under Tmax (%.2f, %.2f-%.2f) and mildly higher under mean HI (%.2f). IDW "
+                 "gap-filling therefore interacts with the METRIC, which makes it a "
+                 "definition-level data-quality property rather than one global caveat. "
+                 "Numbers in tables/support_imputation_subgroup_medians.csv."
+                 % (n["med_days_min"], n["med_days_max"], n["n_fully_imputed"],
+                    n.get("imp_ratio_TMIN_med", float("nan")),
+                    n.get("imp_ratio_TMIN_min", float("nan")),
+                    n.get("imp_ratio_TMIN_max", float("nan")),
+                    n.get("imp_ratio_TMAX_med", float("nan")),
+                    n.get("imp_ratio_TMAX_min", float("nan")),
+                    n.get("imp_ratio_TMAX_max", float("nan")),
+                    n.get("imp_ratio_MHI_med", float("nan"))),
+        not_supports="Any individual county's value or rank. Earlier work found anchor-station "
+                     "vs multi-station composite temperature agreeing at only 0.45-0.73, so a "
+                     "single county's position within a distribution is not reliable even "
+                     "though the overall gradient is. It also says nothing about WHICH days "
+                     "each definition picked - two definitions can produce near-identical "
+                     "distributions here while sharing few actual county-dates (Figure 3).",
+        caption="Distribution of per-county heatwave days under %d heatwave definitions, %s, "
+                "%s, %s threshold window. Each point is one county's cumulative heatwave-day "
+                "count over %s (not an annual rate); boxes give the interquartile range with "
+                "the median labelled. Panel A: all %d counties. Panel B: the %d counties with "
+                "at most %.0f%% IDW-imputed temperature, on the same scale. Brown crosses mark "
+                "the %d counties with no native station record. The two mean-HI 3-day cells "
+                "were never run and appear in their factorial positions as NOT TESTED rather "
+                "than as zero."
+                % (n["n_defs"], K.STATE_LABEL, YEARS, P, YEARS, n["n_counties"],
+                   n["n_complete"], K.IMPUTATION_MAX_PCT, n["n_fully_imputed"]),
+        limitation="Cumulative totals over %s compress real year-to-year variation (Figure 8 "
+                   "panel A carries the county-year detail), and a box plot of 254 counties "
+                   "cannot show spatial structure - the same distribution could arise from a "
+                   "smooth regional gradient or from scattered county-level noise, which is "
+                   "why the maps in Figure 12 and the county cards in Figure 8 exist." % YEARS))
+
+    F.append(dict(
         fig="Figure 12", name="Definition-pair disagreement",
         file="figures/core/fig12_pair_disagreement_<pair>.png (%d pairs) "
              "(+ tables/support_pair_days_<pair>_a_only.csv.gz / _b_only.csv.gz)"
@@ -714,7 +790,9 @@ def figure_report(n):
                    "The map inherits the county-boundary and IDW caveats and, for the window "
                    "contrast, both panels come from the same underlying metric so the "
                    "disagreement is purely a baseline-pooling effect."))
-    return F
+    # keep the report in figure-number order regardless of the order the blocks are
+    # written in above
+    return sorted(F, key=lambda x: int(x["fig"].split()[-1]))
 
 
 def write_figure_captions(n, F):
@@ -848,7 +926,7 @@ def write_methods(n):
                 "reported observations. (`qa/s03_validation.md`)\n\n"
                 % (n["val_pass"] + n["val_fail"] + n["val_rep"], n["val_pass"],
                    n["val_fail"], n["val_rep"]))
-        f.write("### Two QA findings worth carrying forward\n\n")
+        f.write("### QA findings worth carrying forward\n\n")
         f.write("**(a) Float parsing changes classification.** pandas' default CSV float "
                 "parser is not correctly rounded. A cached threshold written as "
                 "`101.74999999999999` reads back as `101.75`, and under a strict `>` that "
@@ -866,6 +944,29 @@ def write_methods(n):
                 "Tmax/Tmin-vs-mean-HI comparison in this package. "
                 "(`qa/s02_knife_edge_days.csv`)\n\n"
                 % (tie["TMAX"], tie["TMIN"], tie["MHI"]))
+        if "imp_ratio_TMIN_med" in n:
+            f.write("**(c) IDW gap-filling interacts with the METRIC, so it is not one global "
+                    "caveat.** Comparing the %d fully imputed counties against the %d "
+                    "complete-data counties definition by definition (Figure 13; "
+                    "`tables/support_imputation_subgroup_medians.csv`): the fully imputed "
+                    "counties carry **%.0f-%.0f%% MORE** heatwave days under every Tmin "
+                    "definition (median ratio %.2f), but are **flat to slightly lower** under "
+                    "Tmax (%.2f, range %.2f-%.2f) and mildly higher under mean HI (%.2f). "
+                    "Figure 11's across-all-counties Spearman misses this because it is "
+                    "dominated by the 93 counties at 0%% imputation and the effect is a STEP at "
+                    "the fully imputed end, not a monotone trend: for `TMIN_P90_2D` that rho is "
+                    "-0.011 while the fully imputed subgroup sits %.0f%% higher. Any Tmin-based "
+                    "result should therefore be reported on the complete-data subset, or with "
+                    "this gap quantified.\n\n"
+                    % (n["n_fully_imputed"], n["n_complete"],
+                       100 * (n["imp_ratio_TMIN_min"] - 1), 100 * (n["imp_ratio_TMIN_max"] - 1),
+                       n["imp_ratio_TMIN_med"], n["imp_ratio_TMAX_med"],
+                       n["imp_ratio_TMAX_min"], n["imp_ratio_TMAX_max"],
+                       n["imp_ratio_MHI_med"],
+                       100 * (float(n["imp_sub"].loc[n["imp_sub"]["definition_id"]
+                                                     == "TMIN_P90_2D",
+                                                     "ratio_fully_imputed_over_complete"]
+                                    .iloc[0]) - 1)))
         f.write("## 6. Known gaps in this package\n\n")
         f.write("1. **The design is not balanced.** `MHI_P85_3D` and `MHI_P95_3D` were never "
                 "run, so the duration axis rests on %d matched pairs against %d for the "
@@ -989,16 +1090,25 @@ def write_decision_table(n):
         "cached, so running them is cheap. Never substitute zero or an interpolated value.")
 
     add(["all Tmax and Tmin definitions"], "needs data-quality validation",
-        "Two independent issues. (i) The exact-tie asymmetry: %.2f%% (Tmax) and %.2f%% "
+        "Three independent issues. (i) The exact-tie asymmetry: %.2f%% (Tmax) and %.2f%% "
         "(Tmin) of evaluable county-days sit exactly on their threshold because the input is "
         "quantised to 0.1 degC, against %.2f%% for mean HI - so the strict `>` silently "
         "removes days from the temperature definitions only. (ii) %d of %d counties exceed "
-        "the %.0f%% imputation cut and %d have no native station record at all."
+        "the %.0f%% imputation cut and %d have no native station record at all. (iii) That "
+        "imputation is NOT metric-neutral: the fully imputed counties carry a median %.2fx the "
+        "heatwave days of complete-data counties under every Tmin definition (range "
+        "%.2f-%.2f), against %.2fx under Tmax - IDW gap-filling inflates Tmin-based exposure "
+        "specifically (Figure 13; support_imputation_subgroup_medians.csv)."
         % (n["tie_pct"]["TMAX"], n["tie_pct"]["TMIN"], n["tie_pct"]["MHI"], n["n_flagged"],
-           n["n_counties"], K.IMPUTATION_MAX_PCT, n["n_fully_imputed"]),
+           n["n_counties"], K.IMPUTATION_MAX_PCT, n["n_fully_imputed"],
+           n.get("imp_ratio_TMIN_med", float("nan")),
+           n.get("imp_ratio_TMIN_min", float("nan")),
+           n.get("imp_ratio_TMIN_max", float("nan")),
+           n.get("imp_ratio_TMAX_med", float("nan"))),
         "Quantify the `>` vs `>=` effect before comparing a temperature definition against "
         "mean HI on day-level agreement; resolve the anchor-vs-composite temperature question "
-        "(earlier agreement 0.45-0.73) before any county ranking.")
+        "(earlier agreement 0.45-0.73) before any county ranking; and report Tmin-based "
+        "results on the complete-data subset, or with the imputation gap quantified.")
 
     add(["every definition in this package"], "needs data-quality validation",
         "All %d are year-round and carry no absolute floor, so %.0f-%.0f%% of their heatwave "
@@ -1088,6 +1198,7 @@ PRODUCED_BY = [
     ("figures/core/fig07", "s05_core_figures.py", "county-date / county-year / threshold"),
     ("figures/core/fig11", "s05_core_figures.py", "county"),
     ("figures/core/fig12", "s05_core_figures.py", "county-date"),
+    ("figures/core/fig13", "s05_core_figures.py", "county"),
     ("figures/supplement/", "s05_core_figures.py", "county-month"),
     ("county_profiles/", "s06_county_profiles.py", "county"),
     ("event_audits/fig09", "s07_event_audits.py", "county-date"),
@@ -1267,7 +1378,7 @@ def write_readme(n, commit, ihash):
                 % ("{:,}".format(n["days_min"]), n["days_min_def"],
                    "{:,}".format(n["days_max"]), n["days_max_def"]))
         f.write("\n## Layout\n\n```\n")
-        f.write("figures/core/        Figures 1-7, 11, 12\n"
+        f.write("figures/core/        Figures 1-7, 11, 12, 13\n"
                 "figures/supplement/  the weaker variants, kept for comparison\n"
                 "county_profiles/     Figure 8: one report card per county + INDEX.csv\n"
                 "tables/              the 8 required tables, the canonical long table,\n"

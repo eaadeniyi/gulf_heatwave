@@ -18,6 +18,7 @@ Primary threshold window: `w15`. Data-completeness cut: 10% imputed (188 of 254 
 | Figure 10 | Long-event audit | `event_audits/fig10_long_event_<run>_<event_id>.png` |
 | Figure 11 | Data-quality influence | `figures/core/fig11_data_quality_influence.png` |
 | Figure 12 | Definition-pair disagreement | `figures/core/fig12_pair_disagreement_<pair>.png` |
+| Figure 13 | Per-county heatwave-day distribution | `figures/core/fig13_county_day_distribution.png` |
 
 ---
 
@@ -330,6 +331,32 @@ Primary threshold window: `w15`. Data-completeness cut: 10% imputed (188 of 254 
 > Disagreement between <A> and <B>, Texas, 2015-2025, isolating the <axis> axis. (A) percentage of each county's classified county-dates that only one of the two definitions flags; counties above the 10% imputation cut are outlined. (B) the same disagreement by calendar month, with days claimed by only one definition shown separately from days both definitions classify. The complete A-only and B-only county-date lists accompany the figure as CSVs.
 
 **Known limitation.** A per-county RATE hides absolute volume: a county with 20 classified days and a 50% disagreement rate looks identical to one with 600 days at 50%. The map inherits the county-boundary and IDW caveats and, for the window contrast, both panels come from the same underlying metric so the disagreement is purely a baseline-pooling effect.
+
+---
+
+## Figure 13 - Per-county heatwave-day distribution
+
+**File** `figures/core/fig13_county_day_distribution.png`
+
+**Purpose.** Show the substantive county-level layer directly: how many heatwave days a county gets under each definition, and how widely counties differ - which a pooled statewide total cannot express and a median alone hides.
+
+**Unit of analysis.** county (one point = one county's cumulative 2015-2025 heatwave days; never annual)
+
+**Input file(s).** master_county_year_summary.csv, table8b_county_data_quality.csv, support_imputation_subgroup_medians.csv
+
+**Transformation.** Per-county heatwave days summed over 2015-2025 for each definition at the w15 window. Counties with no heatwave day are reindexed in at zero - a genuine zero, since the definition was evaluated there. Box (IQR + median) with every one of the counties overplotted. Panel A all 254 counties; panel B the 188 at or below the prespecified 10% imputation cut, on the same y scale.
+
+**Visual encoding.** Metric = colour + marker + hatch; duration = fill weight (the >=3-day box is lighter), never a separate colour; the two untested cells occupy their correct factorial positions as flat grey NOT TESTED slots; the 22 fully imputed counties are drawn as brown crosses inside each distribution.
+
+**Result supported.** The size and spread of county exposure under each definition side by side (per-county medians run from 141 to 701 days across the definitions), and the monotone percentile and duration effects within each metric family. It also shows that the overall distributions are not an artefact of the flagged counties - restricting to complete-data counties barely moves the medians. But drawing the fully imputed counties INSIDE each distribution exposes something Figure 11's correlation misses: those 22 counties sit systematically higher under every Tmin definition (median ratio 1.22, range 1.16-1.30 vs complete-data counties) while being flat to slightly lower under Tmax (0.97, 0.91-1.06) and mildly higher under mean HI (1.09). IDW gap-filling therefore interacts with the METRIC, which makes it a definition-level data-quality property rather than one global caveat. Numbers in tables/support_imputation_subgroup_medians.csv.
+
+**Result NOT supported.** Any individual county's value or rank. Earlier work found anchor-station vs multi-station composite temperature agreeing at only 0.45-0.73, so a single county's position within a distribution is not reliable even though the overall gradient is. It also says nothing about WHICH days each definition picked - two definitions can produce near-identical distributions here while sharing few actual county-dates (Figure 3).
+
+**Draft publication caption.**
+
+> Distribution of per-county heatwave days under 16 heatwave definitions, Texas, 2015-2025, w15 threshold window. Each point is one county's cumulative heatwave-day count over 2015-2025 (not an annual rate); boxes give the interquartile range with the median labelled. Panel A: all 254 counties. Panel B: the 188 counties with at most 10% IDW-imputed temperature, on the same scale. Brown crosses mark the 22 counties with no native station record. The two mean-HI 3-day cells were never run and appear in their factorial positions as NOT TESTED rather than as zero.
+
+**Known limitation.** Cumulative totals over 2015-2025 compress real year-to-year variation (Figure 8 panel A carries the county-year detail), and a box plot of 254 counties cannot show spatial structure - the same distribution could arise from a smooth regional gradient or from scattered county-level noise, which is why the maps in Figure 12 and the county cards in Figure 8 exist.
 
 ---
 

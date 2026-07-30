@@ -59,11 +59,13 @@ Consequences, handled explicitly: a county-day absent from a shard is 'not a can
 - **Rebuild reconciliation.** The canonical table's own heatwave-day and event counts are checked against every run's published pipeline summary: 128/128 agree exactly. (`qa/s02_reconciliation.csv`)
 - **Pre-comparison validation.** 136 checks: 121 pass, 0 fail, plus 15 reported observations. (`qa/s03_validation.md`)
 
-### Two QA findings worth carrying forward
+### QA findings worth carrying forward
 
 **(a) Float parsing changes classification.** pandas' default CSV float parser is not correctly rounded. A cached threshold written as `101.74999999999999` reads back as `101.75`, and under a strict `>` that silently drops county-days. Reading thresholds with `float_precision="round_trip"` is required, not cosmetic; before the fix, 19 of 128 reconciliation checks were off by 1-4 county-days.
 
 **(b) Exact ties are metric-dependent, and that is an asymmetry between definitions.** Tmax/Tmin are quantised to 0.1 degC, so a percentile frequently lands exactly on an observed value: 1.13% of evaluable county-days for Tmax and 1.44% for Tmin sit within 1e-9 degF of their own threshold, against **0.00%** for the derived mean heat index. The choice of strict `>` over `>=` therefore excludes ~1-2% of days for the temperature definitions and **no days at all** for the mean-HI definitions. That is a data-quantisation artefact, not physics, and it slightly biases every Tmax/Tmin-vs-mean-HI comparison in this package. (`qa/s02_knife_edge_days.csv`)
+
+**(c) IDW gap-filling interacts with the METRIC, so it is not one global caveat.** Comparing the 22 fully imputed counties against the 188 complete-data counties definition by definition (Figure 13; `tables/support_imputation_subgroup_medians.csv`): the fully imputed counties carry **16-30% MORE** heatwave days under every Tmin definition (median ratio 1.22), but are **flat to slightly lower** under Tmax (0.97, range 0.91-1.06) and mildly higher under mean HI (1.09). Figure 11's across-all-counties Spearman misses this because it is dominated by the 93 counties at 0% imputation and the effect is a STEP at the fully imputed end, not a monotone trend: for `TMIN_P90_2D` that rho is -0.011 while the fully imputed subgroup sits 16% higher. Any Tmin-based result should therefore be reported on the complete-data subset, or with this gap quantified.
 
 ## 6. Known gaps in this package
 
