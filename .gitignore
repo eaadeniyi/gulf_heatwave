@@ -36,6 +36,14 @@ outputs/definition_comparison/tables/eligibility_county_month.csv
 outputs/definition_comparison/county_profiles/*/
 outputs/definition_comparison/event_audits/*.png
 
+# Extreme-temperature tests (outputs/extreme_temp_tests/scripts/e01..e04).
+# TRACKED: all scripts, all figures, the e01/e02/e03 summary tables, the whole qa/
+# record and the written deliverables (~10 MB). NOT TRACKED (~116 MB, regenerable
+# by re-running e02, ~5 min): the per-run event / county-year / county-month /
+# daily tables for the 60 runs, and the 5.5 MB county-year temperature layer.
+outputs/extreme_temp_tests/runs/
+outputs/extreme_temp_tests/tables/e01_county_year_temperature.csv
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

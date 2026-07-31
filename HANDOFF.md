@@ -5,7 +5,60 @@ state at the end of the session.
 
 ---
 
-## 0. LATEST ROUND (2026-07-30): the 16-definition COMPARISON PACKAGE
+## 0. LATEST ROUND (2026-07-31): EXTREME-TEMPERATURE + ABSOLUTE-FLOOR TESTS
+
+In `outputs/extreme_temp_tests/` — **read `FINDINGS.md` first.** Three parts, own scripts
+(`e01`–`e04`), nothing in `pipeline/` or `outputs/definition_comparison/` touched.
+
+**Part 1 — Gulf-state temperature, 1979–2025, all 5 states** (TX/LA/MS/AL/FL) from the RAW
+GHCN county-day record (observed only, no IDW: the question was what the record IS). 2026
+excluded as a partial year. Coverage gate (≥328 valid days/county-year) + a BALANCED county
+panel for all period comparisons, because the reporting network shrinks (TX 225→189 counties).
+That control matters: Alabama's Tmax warming reads **+1.38 °F** balanced vs **+0.80 °F**
+unbalanced.
+- Warming since the 1980s (balanced, °F): **Tmax** MS +2.35, TX +2.04, LA +1.76, AL +1.38,
+  FL +1.17. **Tmin is larger in every state**: MS +3.43, FL +3.29, TX/AL +2.71, LA +2.64 —
+  the diurnal range is narrowing, so Tmin and Tmax definitions are diverging over time, not
+  just disagreeing day to day.
+- **The warming is concentrated OUTSIDE summer.** Tmax change by month: December **+6.2 °F in
+  TX**, +4.9 MS; February +5.0 AL, +4.8 MS; October +3.8 TX — while **Jun–Aug moved ≤ +2.4 °F
+  anywhere and went negative in 2 state-months.** This is the physical reason the year-round
+  relative definitions load onto the cool season.
+
+**Part 2 — county-relative Tmax, 80th/85th/90th × ≥2/≥3/≥5 days, all 4 windows (36 runs).**
+The 4 cells that overlap the delivered grid reproduce it **exactly (32/32 checks)**. Per-county
+median heatwave days at w15: 815 (P80/2D) → 162 (P90/5D). **The cool-season loading survives
+all nine cells (49–63% outside Jun–Sep)** — no percentile or duration choice fixes it.
+
+**Part 3 — absolute floors at 80 °F and 90 °F, tested BOTH ways** (the ask was ambiguous, so
+both readings were run):
+- **as a GATE** (percentile AND Tmax ≥ floor), 18 runs at w15: **90 °F takes the cool-season
+  share from ~60% to 20–30% and keeps 49–66% of days; 80 °F only reaches 40–54%** and keeps
+  75–86%. With a 90 °F floor, Nov–Mar go to ≈0 and the profile becomes single-peaked in August;
+  unfloored, the peak month is **December**.
+- **as ABSOLUTE-ONLY** (Tmax > floor, no percentile — no baseline, so no window axis), 6 runs:
+  **Tmax > 80 °F flags a median 2,040 county-days = 51% of ALL days in Texas** — not an extreme
+  criterion. Tmax > 90 °F flags 1,104 (27%) and is strongly seasonal (12% outside Jun–Sep).
+  Agreement with the relative rules is only **Jaccard 0.08–0.28**: different constructs, not
+  variants.
+- The floor also changes the GEOGRAPHY (fig E9): a relative rule flags similar counts
+  everywhere by construction; a floor concentrates exposure in the hottest counties.
+
+**So the floor/season decision now has numbers:** a 90 °F Tmax gate is the option the data
+supports, at the cost of ~half the classified days and a renamed construct ("unusual for this
+date AND hot in absolute terms"). An 80 °F floor is too low to change the definition's
+character in Texas.
+
+**QA note:** 643 county-days sit exactly on the 80 °F floor (2 on 90 °F) because a county-day
+Tmax is a multi-station average, so `>` vs `>=` is not equivalent — 0.063% of days, immaterial
+here but recorded in `qa/e02_floor_operator_check.csv`.
+
+Parts 2–3 are **TX only**; both are state-agnostic and run for another Gulf state once that
+state's county-day table is built (only TX has one).
+
+---
+
+## 0a. PREVIOUS ROUND (2026-07-30): the 16-definition COMPARISON PACKAGE
 
 A self-contained comparison package for **all 16 definitions** (Def 01/02 + the 14 grid
 definitions) × 4 threshold windows = **64 runs**, in `outputs/definition_comparison/`.
