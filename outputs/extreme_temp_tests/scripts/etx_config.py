@@ -113,6 +113,41 @@ TEMP_VARS = [("tmax_f", "daily maximum temperature", "Tmax"),
              ("tmin_f", "daily minimum temperature", "Tmin"),
              ("tmean_f", "daily mean temperature ((Tmax+Tmin)/2)", "Tmean")]
 
+# --- PUBLISHED INDEX NAMES ---------------------------------------------------
+# The internal keys above ("Tmax"/"Tmin"/"Tmean") are kept as machine-readable
+# column values so existing tables and scripts do not break, but everything a
+# READER sees is labelled with the standard names from the ETCCDI / WMO index
+# set, because "county-year mean Tmax" is not a quantity anyone outside this
+# repository would recognise:
+#
+#   TX / TN / TG   daily maximum / minimum / mean temperature
+#   TXm / TNm / TGm  the MEAN of those daily values over the averaging period
+#
+# See reference/TERMINOLOGY_AND_INDEX_CROSSWALK.md for the full mapping of this
+# project's vocabulary onto the published one, including where we deliberately
+# diverge from it.
+INDEX_NAME = {
+    "Tmax": dict(daily="TX", mean="TXm", daily_label="daily maximum temperature",
+                 mean_label="mean daily maximum temperature"),
+    "Tmin": dict(daily="TN", mean="TNm", daily_label="daily minimum temperature",
+                 mean_label="mean daily minimum temperature"),
+    "Tmean": dict(daily="TG", mean="TGm",
+                  daily_label="daily mean temperature ((TX+TN)/2)",
+                  mean_label="mean daily mean temperature ((TX+TN)/2)"),
+}
+
+
+def axis_label(short, period="annual", unit="degF"):
+    """Reader-facing axis label using the published index name.
+
+    e.g. axis_label("Tmax") -> "Annual mean daily maximum temperature, TXm (degF)"
+    """
+    n = INDEX_NAME[short]
+    lead = {"annual": "Annual mean", "monthly": "Mean", "decadal": "Decadal mean",
+            "": "Mean"}[period]
+    base = n["mean_label"].replace("mean ", "", 1)   # the lead already says "mean"
+    return "%s %s, %s (%s)" % (lead, base, n["mean"], unit)
+
 
 # =============================================================================
 # PART 2  --  county-relative daily-maximum-temperature definitions

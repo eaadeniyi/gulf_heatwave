@@ -45,6 +45,8 @@ def main():
     sd = rd("e01_state_decade_temperature.csv")
     mc = rd("e01_state_month_decadal_change.csv")
     sy = rd("e01_state_year_temperature.csv")
+    lvc_all = rd("e01_level_vs_change_summary.csv")
+    lvc = lvc_all[lvc_all["variable"] == "Tmax"]
     cy = rd("e01_county_year_temperature.csv", dtype={"county_fips": str})
     bal = rd("e01_balanced_panel_counties.csv", dtype={"county_fips": str})
     grid = rd("e03_part2_percentile_duration_grid.csv")
@@ -135,8 +137,23 @@ def main():
                 "(Tmax) definition are not just selecting different days, they are tracking "
                 "quantities that are changing at different rates.\n\n"
                 % (ch("FL", "Tmin"), ch("FL", "Tmax"), ch("AL", "Tmin"), ch("AL", "Tmax")))
-        f.write("**The warming is concentrated OUTSIDE summer** (Figure E4, bottom row). "
-                "Change in median Tmax, %s to %s, balanced panel:\n\n" % (first, last))
+        f.write("**Summer is the hottest season; the cool season is the fastest-warming one. "
+                "These are two different quantities and they do not conflict.** Figure E4 keeps "
+                "them in separate rows for that reason. In LEVEL, Jul-Aug TXm exceeds Dec-Feb "
+                "TXm by %.0f-%.0f degF across the five states - June to September is "
+                "unambiguously the hot part of the year. In CHANGE since the %s, Jul-Aug moved "
+                "by %+.2f to %+.2f degF while Nov-Mar rose %+.2f to %+.2f degF, i.e. the cool "
+                "season warmed **%.1f-%.1f degF more** than mid-summer did. Jun-Sep still "
+                "records the highest temperatures; it simply has not warmed much "
+                "(`tables/e01_level_vs_change_summary.csv`).\n\n"
+                % (lvc["level_summer_minus_winter_f"].min(),
+                   lvc["level_summer_minus_winter_f"].max(), first,
+                   lvc["change_jul_aug_f"].min(), lvc["change_jul_aug_f"].max(),
+                   lvc["change_nov_to_mar_f"].min(), lvc["change_nov_to_mar_f"].max(),
+                   lvc["change_coolseason_minus_summer_f"].min(),
+                   lvc["change_coolseason_minus_summer_f"].max()))
+        f.write("Change in TXm (mean daily maximum temperature) by month, %s to %s, balanced "
+                "panel:\n\n" % (first, last))
         mrow = pd.DataFrame({"state": K.STATES})
         for mo, nm in ((12, "Dec"), (2, "Feb"), (10, "Oct"), (7, "Jul"), (8, "Aug")):
             mrow[nm] = ["%+.1f" % tmax_mo.loc[s, mo] if s in tmax_mo.index else ""

@@ -26,7 +26,9 @@ Every figure and table referenced here is in `figures/` and `tables/`; provenanc
 
 **Tmin is warming faster than Tmax in every one of the five states** (Figure E3). The gap is largest in Florida (+3.29 against +1.17) and Alabama (+2.71 against +1.38). The diurnal range is narrowing, which is directly relevant to this project: a night-time (Tmin) definition and a day-time (Tmax) definition are not just selecting different days, they are tracking quantities that are changing at different rates.
 
-**The warming is concentrated OUTSIDE summer** (Figure E4, bottom row). Change in median Tmax, 1980s to 2020-2025*, balanced panel:
+**Summer is the hottest season; the cool season is the fastest-warming one. These are two different quantities and they do not conflict.** Figure E4 keeps them in separate rows for that reason. In LEVEL, Jul-Aug TXm exceeds Dec-Feb TXm by 20-34 degF across the five states - June to September is unambiguously the hot part of the year. In CHANGE since the 1980s, Jul-Aug moved by -0.24 to +0.70 degF while Nov-Mar rose +2.10 to +3.43 degF, i.e. the cool season warmed **1.6-3.1 degF more** than mid-summer did. Jun-Sep still records the highest temperatures; it simply has not warmed much (`tables/e01_level_vs_change_summary.csv`).
+
+Change in TXm (mean daily maximum temperature) by month, 1980s to 2020-2025*, balanced panel:
 
 | state | Dec | Feb | Oct | Jul | Aug |
 |---|---|---|---|---|---|

@@ -37,4 +37,4 @@ python e03_tables_and_figures.py        # tables + figures (~1 min)
 python e04_report.py                    # FINDINGS.md + README.md
 ```
 
-Provenance: git `475e4fa+dirty`, classification input `md5:f0276ee5888539f9`, python 3.14.3 / pandas 3.0.3.
+Provenance: git `20bd933+dirty`, classification input `md5:f0276ee5888539f9`, python 3.14.3 / pandas 3.0.3.

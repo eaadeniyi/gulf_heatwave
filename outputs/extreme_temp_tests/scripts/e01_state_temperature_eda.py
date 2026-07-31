@@ -243,9 +243,12 @@ def fig01_annual(sy, coverage):
                             alpha=0.13, lw=0, zorder=2)
             ax.plot(s["year"], s["median_f"], color=sty["color"], lw=1.6, zorder=3,
                     marker=sty["marker"], ms=3.4, label=sty["label"])
-        ax.set_ylabel("%s (degF)" % short)
-        ax.set_title("%s - median across qualifying counties, band = interquartile range "
-                     "across counties" % short, fontsize=9.5, fontweight="bold", loc="left")
+        ax.set_ylabel(K.axis_label(short, "annual").replace(", ", ",\n"))
+        ax.set_title("%s (%s) - median across qualifying counties, band = interquartile "
+                     "range across counties"
+                     % (K.axis_label(short, "annual").split(",")[0],
+                        K.INDEX_NAME[short]["mean"]),
+                     fontsize=9.5, fontweight="bold", loc="left")
         tidy(ax, grid_axis="both")
     # coverage panel: the reason the gate and the balanced panel exist
     ax = axs[-1]
@@ -297,20 +300,27 @@ def fig02_by_state(cy, sy):
                         textcoords="offset points", ha="center", fontsize=7.5,
                         fontweight="bold", color="#111111",
                         bbox=dict(fc="white", ec="none", alpha=0.8, pad=0.5))
-        ax.set_title("%s" % short, fontsize=10, fontweight="bold")
-        ax.set_ylabel("county-year mean %s (degF)" % short)
+        ax.set_title("%s  (%s)" % (K.INDEX_NAME[short]["mean"],
+                                   K.INDEX_NAME[short]["mean_label"]),
+                     fontsize=10, fontweight="bold")
+        ax.set_ylabel(K.axis_label(short, "annual").replace(", ", ",\n"))
         ax.set_xlabel("state")
         tidy(ax)
-    fig.suptitle("Figure E2  Gulf-state temperature, %s - by state\n"
-                 "every point is one county-year; boxes give the interquartile range across "
-                 "all county-years in the state" % YEARS_LABEL,
+    fig.suptitle("Figure E2  Annual mean temperature by state, %s\n"
+                 "one point = one county-year; boxes give the interquartile range across all "
+                 "county-years in the state" % YEARS_LABEL,
                  fontsize=12.5, fontweight="bold", y=1.02, x=0.01, ha="left")
-    footnote(fig, "unit of analysis: county-year. Includes only county-years passing the "
-                  "coverage gate (>= %d valid days). The spread WITHIN a state is comparable "
-                  "to the spread BETWEEN states - Texas alone spans a wider range than the "
-                  "gap between state medians - so a state-level mean is a weak summary of "
-                  "exposure and county-level values are the substantive layer."
-             % K.MIN_DAYS_PER_COUNTY_YEAR, y=-0.03)
+    footnote(fig, "Quantities are named as in the ETCCDI / WMO index set: TX, TN and TG are "
+                  "daily maximum, minimum and mean temperature, and TXm, TNm and TGm are their "
+                  "means over the averaging period - here one calendar year, so each point is "
+                  "an ANNUAL MEAN for one county (the county-year is the unit of observation, "
+                  "not part of the quantity's name). Includes only county-years passing the "
+                  "coverage gate (>= %d valid days). The spread WITHIN a state is comparable to "
+                  "the spread BETWEEN states - Texas alone spans a wider range than the gap "
+                  "between state medians - so a state-level mean is a weak summary of exposure "
+                  "and county-level values are the substantive layer. See "
+                  "reference/TERMINOLOGY_AND_INDEX_CROSSWALK.md."
+             % K.MIN_DAYS_PER_COUNTY_YEAR, y=-0.05)
     savefig(fig, "e01_fig02_distribution_by_state.png")
 
 
@@ -390,9 +400,10 @@ def fig04_monthly(sm, mchange):
                 color=K.COLOR_WARN)
         ax.set_xticks(range(1, 13))
         ax.set_xticklabels(K.MONTH_ABBR, fontsize=8)
-        ax.set_ylabel("%s (degF)" % short)
-        ax.set_title("%s by calendar month - median across counties, band = IQR across "
-                     "counties" % short, fontsize=9.5, fontweight="bold", loc="left")
+        ax.set_ylabel(K.axis_label(short, "monthly").replace(", ", ",\n"))
+        ax.set_title("LEVEL - %s by calendar month (median across counties, band = IQR)"
+                     % K.INDEX_NAME[short]["mean"], fontsize=9.5, fontweight="bold",
+                     loc="left")
         tidy(ax, grid_axis="both")
     axs[0, 0].legend(fontsize=8, ncol=2, loc="lower center")
     # --- which months warmed, per state ----------------------------------
@@ -412,20 +423,36 @@ def fig04_monthly(sm, mchange):
         ax.axvspan(4.5, 8.5, color=K.COLOR_WARN, alpha=0.07, zorder=0)
         ax.set_xticks(x)
         ax.set_xticklabels(K.MONTH_ABBR, fontsize=8)
-        ax.set_ylabel("change in median %s\n%s to %s (degF)" % (short, order[0], order[-1]))
-        ax.set_title("%s - which MONTHS warmed (balanced panel)" % short, fontsize=9.5,
-                     fontweight="bold", loc="left")
+        ax.set_ylabel("CHANGE in %s\n%s to %s (degF)"
+                      % (K.INDEX_NAME[short]["mean"], order[0], order[-1]))
+        ax.set_title("CHANGE - how much %s rose in each month (balanced panel)"
+                     % K.INDEX_NAME[short]["mean"], fontsize=9.5, fontweight="bold",
+                     loc="left")
         tidy(ax)
     axs[1, 0].legend(fontsize=7, ncol=3, loc="upper left")
-    fig.suptitle("Figure E4  Gulf-state temperature by month, %s" % YEARS_LABEL,
-                 fontsize=13, fontweight="bold", y=0.995, x=0.01, ha="left")
-    footnote(fig, "unit of analysis: county-month (a county's mean daily value for that "
-                  "calendar month), median across counties. Top row pools %s; bottom row is "
-                  "the %s-minus-%s difference on the balanced county panel, so it isolates "
-                  "the seasonal shape of the change from the seasonal cycle itself. A month "
-                  "that warmed more than the summer months matters directly for a year-round "
-                  "relative heatwave definition, because the threshold it must clear is "
-                  "estimated from that month's own history."
+    fig.suptitle("Figure E4  Temperature by calendar month, %s - LEVEL (top) and CHANGE "
+                 "(bottom)" % YEARS_LABEL,
+                 fontsize=13, fontweight="bold", y=1.035, x=0.01, ha="left")
+    # The two rows answer different questions and are easy to conflate, so the figure
+    # states the reconciliation itself rather than leaving it to the caption.
+    fig.text(0.01, 0.995,
+             "The two rows are different quantities and do not contradict each other: "
+             "summer is by far the HOTTEST part of the year (top), while the largest "
+             "INCREASE since the %s has been in winter and autumn (bottom). "
+             "Jun-Sep still has the highest temperatures; it simply has not warmed much."
+             % order[0], fontsize=9.5, color=K.COLOR_WARN, fontweight="bold",
+             ha="left", va="top")
+    footnote(fig, "unit of observation: county-month (a county's mean daily value for that "
+                  "calendar month), summarised as the median across counties. Quantities use "
+                  "the ETCCDI / WMO names - TXm and TNm are the means of daily maximum (TX) and "
+                  "daily minimum (TN) temperature. TOP row = level, pooled over %s. BOTTOM row "
+                  "= the %s-minus-%s difference on the balanced county panel, which isolates "
+                  "the seasonal shape of the CHANGE from the seasonal cycle itself. The bottom "
+                  "row is what matters for a year-round relative heatwave definition: the "
+                  "threshold a day must clear is estimated from that month's own history, so a "
+                  "month that warmed faster than its own past produces larger departures - "
+                  "which is why cool-season days qualify even though they are far cooler in "
+                  "absolute terms."
              % (YEARS_LABEL, order[-1], order[0]), y=-0.01)
     savefig(fig, "e01_fig04_monthly.png")
 
@@ -482,6 +509,36 @@ def main():
     sd = state_decade_summary(cy, keep)
     sm, mchange = state_month_summary(cm, keep)
 
+    # level vs change, stated numerically: the two quantities Figure E4 keeps apart
+    lvc = []
+    ch_col = [c for c in mchange.columns if c.startswith("change_")]
+    for short in ("Tmax", "Tmin", "Tmean"):
+        lv = sm[sm["variable"] == short].pivot_table(index="state", columns="month",
+                                                     values="median_f")
+        cg = (mchange[mchange["variable"] == short]
+              .pivot_table(index="state", columns="month", values=ch_col[0])
+              if ch_col else None)
+        for st in K.STATES:
+            if st not in lv.index:
+                continue
+            row = {"state": st, "variable": short,
+                   "index_name": K.INDEX_NAME[short]["mean"],
+                   "level_jul_aug_f": round(float(lv.loc[st, [7, 8]].mean()), 2),
+                   "level_dec_jan_feb_f": round(float(lv.loc[st, [12, 1, 2]].mean()), 2)}
+            row["level_summer_minus_winter_f"] = round(
+                row["level_jul_aug_f"] - row["level_dec_jan_feb_f"], 2)
+            if cg is not None and st in cg.index:
+                row["change_jul_aug_f"] = round(float(cg.loc[st, [7, 8]].mean()), 2)
+                row["change_nov_to_mar_f"] = round(
+                    float(cg.loc[st, [11, 12, 1, 2, 3]].mean()), 2)
+                row["change_coolseason_minus_summer_f"] = round(
+                    row["change_nov_to_mar_f"] - row["change_jul_aug_f"], 2)
+            lvc.append(row)
+    lvc = pd.DataFrame(lvc)
+    lvc["note"] = ("summer is hotter in LEVEL; the cool season warmed more in CHANGE - "
+                   "different quantities, not a contradiction")
+    lvc.to_csv(os.path.join(K.DIR_TABLES, "e01_level_vs_change_summary.csv"), index=False)
+
     ex = pd.DataFrame(extent)
     ex.to_csv(os.path.join(K.DIR_TABLES, "e01_record_extent_and_coverage.csv"), index=False)
     cy.to_csv(os.path.join(K.DIR_TABLES, "e01_county_year_temperature.csv"), index=False)
@@ -491,7 +548,17 @@ def main():
     mchange.to_csv(os.path.join(K.DIR_TABLES, "e01_state_month_decadal_change.csv"),
                    index=False)
     keep.to_csv(os.path.join(K.DIR_TABLES, "e01_balanced_panel_counties.csv"), index=False)
-    K.log("[write] 7 tables -> tables/e01_*.csv")
+    K.log("[write] 8 tables -> tables/e01_*.csv")
+    K.log("-" * 74)
+    K.log("LEVEL vs CHANGE (Tmax): summer is hotter, the cool season warmed more")
+    t = lvc[lvc["variable"] == "Tmax"]
+    for _, r in t.iterrows():
+        K.log("   %-3s  Jul-Aug level %.1f vs Dec-Feb %.1f (%+.1f)   |   "
+              "Jul-Aug change %+.2f vs Nov-Mar %+.2f (%+.2f)"
+              % (r["state"], r["level_jul_aug_f"], r["level_dec_jan_feb_f"],
+                 r["level_summer_minus_winter_f"], r.get("change_jul_aug_f", float("nan")),
+                 r.get("change_nov_to_mar_f", float("nan")),
+                 r.get("change_coolseason_minus_summer_f", float("nan"))))
 
     K.log("-" * 74)
     K.log("figures")
