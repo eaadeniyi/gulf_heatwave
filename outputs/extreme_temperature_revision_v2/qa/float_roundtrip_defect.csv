@@ -1,0 +1,4 @@
+percentile,window,threshold_rows,threshold_values_misparsed_by_default,pct_threshold_values_misparsed,evaluable_daily_records,daily_records_whose_condition_flips,note
+80,w15,1022604,27690,2.707793,1020572,0,the pandas default CSV float parser is not round-trip exact; reading the archived threshold cache without float_precision='round_trip' changes the relative condition on the county-dates that sit exactly on their threshold
+85,w15,1022604,35186,3.440824,1020572,1,the pandas default CSV float parser is not round-trip exact; reading the archived threshold cache without float_precision='round_trip' changes the relative condition on the county-dates that sit exactly on their threshold
+90,w15,1022604,36529,3.572155,1020572,1,the pandas default CSV float parser is not round-trip exact; reading the archived threshold cache without float_precision='round_trip' changes the relative condition on the county-dates that sit exactly on their threshold

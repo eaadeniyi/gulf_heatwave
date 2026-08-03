@@ -1,0 +1,5 @@
+palette,colours,pair_rule,pairs_checked,worst_normal_delta_e,worst_normal_pair,worst_protanopia_delta_e,worst_deuteranopia_delta_e,pairs_failing,pairs_in_floor_band,second_encoding,overall
+"states (figures E2-E4, one line or box per state)",5,all,10,16.32,Louisiana vs Alabama,13.03,13.05,0,0,marker shape per state (^ o s D v) and direct state labels,PASS
+"ordinal gate/family ramp (single hue, monotone lightness)",3,adjacent,2,22.49,no absolute gate vs 80 degF absolute gate,20.33,22.35,0,0,"hatch per step, monotone lightness, and direct value labels",PASS
+samples (figure comparing sample A with sample B),2,adjacent,1,28.95,Sample A: consistent-county vs Sample B: strict balanced,26.51,26.67,0,0,hatch per sample,PASS
+"seasons (diverging: warm and cool poles, neutral shoulder midpoint)",3,all,3,17.27,May and October vs November-April,15.15,12.45,0,0,direct percentage labels on every segment,PASS

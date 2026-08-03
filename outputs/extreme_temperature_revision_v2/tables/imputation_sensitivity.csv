@@ -1,0 +1,199 @@
+stratum,stratum_label,construct_id,counties,median_annual_classified_days,p25_annual_classified_days,p75_annual_classified_days,median_annual_event_count,median_cumulative_classified_days,classified_days_per_1000_valid,warm_season_rate_per_1000,shoulder_rate_per_1000,cool_season_rate_per_1000,pct_days_june_september,long_events_per_100_county_years,pct_classified_days_imputed
+all_counties,All counties,ABS_TX_A80_D2,254,184.0,168.0,205.75,13.0,2040.0,518.036,969.135,695.961,153.583,62.48,196.779,17.89
+all_counties,All counties,ABS_TX_A80_D3,254,177.0,160.25,198.75,10.0,1958.5,497.975,966.867,670.157,123.51,64.85,196.779,18.05
+all_counties,All counties,ABS_TX_A80_D5,254,165.0,149.25,186.0,6.0,1825.0,463.894,962.17,606.23,79.862,69.27,196.779,18.23
+all_counties,All counties,ABS_TX_A90_D2,254,100.0,84.0,115.0,10.0,1104.0,274.974,721.053,176.23,8.528,87.58,171.904,18.48
+all_counties,All counties,ABS_TX_A90_D3,254,96.0,79.0,111.0,7.0,1066.0,262.383,703.172,149.779,4.237,89.51,171.904,18.84
+all_counties,All counties,ABS_TX_A90_D5,254,88.0,70.0,106.0,5.0,977.5,241.181,662.165,112.528,1.854,91.7,171.904,19.19
+all_counties,All counties,HYB_TX_P80_D2_A80_W15,254,51.0,34.0,77.0,13.0,598.5,157.605,228.813,225.114,86.59,48.49,25.948,15.9
+all_counties,All counties,HYB_TX_P80_D2_A90_W15,254,32.0,16.0,53.0,8.0,403.0,101.607,227.499,129.771,7.246,74.78,23.586,16.06
+all_counties,All counties,HYB_TX_P80_D3_A80_W15,254,39.0,24.0,64.0,8.0,479.5,128.247,203.533,188.376,57.012,53.01,25.948,16.42
+all_counties,All counties,HYB_TX_P80_D3_A90_W15,254,26.0,12.0,46.0,5.0,337.0,86.952,202.316,105.174,3.078,77.71,23.586,16.71
+all_counties,All counties,HYB_TX_P80_D5_A80_W15,254,24.0,12.0,44.0,3.0,319.5,85.499,154.045,129.24,24.406,60.18,25.948,16.49
+all_counties,All counties,HYB_TX_P80_D5_A90_W15,254,16.0,5.0,34.0,2.0,238.5,63.665,153.133,70.976,0.952,80.34,23.586,16.69
+all_counties,All counties,HYB_TX_P85_D2_A80_W15,254,38.0,24.0,61.0,11.0,469.5,123.2,175.027,173.003,71.285,47.45,16.679,15.22
+all_counties,All counties,HYB_TX_P85_D2_A90_W15,254,23.0,11.0,42.0,6.0,315.5,80.302,174.642,110.202,6.583,72.64,15.748,15.3
+all_counties,All counties,HYB_TX_P85_D3_A80_W15,254,28.0,16.0,49.0,6.0,365.0,96.718,151.584,140.884,44.687,52.35,16.679,15.7
+all_counties,All counties,HYB_TX_P85_D3_A90_W15,254,18.0,7.0,36.0,4.0,255.0,66.674,151.264,87.365,2.667,75.77,15.748,15.83
+all_counties,All counties,HYB_TX_P85_D5_A80_W15,254,15.0,6.0,31.0,2.0,226.0,61.113,109.972,90.747,18.094,60.1,16.679,15.83
+all_counties,All counties,HYB_TX_P85_D5_A90_W15,254,11.0,0.0,24.0,2.0,174.0,46.549,109.784,56.163,0.703,78.77,15.748,15.96
+all_counties,All counties,HYB_TX_P90_D2_A80_W15,254,25.0,15.0,42.0,8.0,326.0,86.176,119.539,118.497,52.668,46.33,8.125,14.37
+all_counties,All counties,HYB_TX_P90_D2_A90_W15,254,14.0,6.0,29.0,4.0,218.0,56.786,119.448,83.641,5.428,70.26,7.874,14.38
+all_counties,All counties,HYB_TX_P90_D3_A80_W15,254,18.0,9.0,32.0,4.0,236.5,64.839,100.725,92.999,31.056,51.89,8.125,14.84
+all_counties,All counties,HYB_TX_P90_D3_A90_W15,254,11.0,3.0,23.75,2.0,168.0,45.512,100.64,63.939,2.107,73.86,7.874,14.94
+all_counties,All counties,HYB_TX_P90_D5_A80_W15,254,8.0,0.0,18.0,1.0,134.0,37.772,67.888,54.564,11.76,60.03,8.125,15.15
+all_counties,All counties,HYB_TX_P90_D5_A90_W15,254,5.0,0.0,15.0,1.0,105.5,29.336,67.868,37.863,0.486,77.27,7.874,15.32
+all_counties,All counties,REL_TX_P80_D2_W15,254,71.0,54.0,95.0,19.0,815.5,209.097,228.813,225.674,190.159,36.55,26.199,16.7
+all_counties,All counties,REL_TX_P80_D3_W15,254,54.0,40.0,79.0,11.0,651.0,168.499,203.533,188.994,137.91,40.34,26.199,17.17
+all_counties,All counties,REL_TX_P80_D5_W15,254,31.0,20.0,51.0,4.0,394.5,104.959,154.045,129.806,63.425,49.02,26.199,17.23
+all_counties,All counties,REL_TX_P85_D2_W15,254,51.0,38.0,73.0,15.0,617.0,157.759,175.027,173.165,140.867,37.06,16.714,16.01
+all_counties,All counties,REL_TX_P85_D3_W15,254,38.0,27.0,57.0,8.0,470.5,122.296,151.584,141.092,96.157,41.4,16.714,16.47
+all_counties,All counties,REL_TX_P85_D5_W15,254,20.0,12.0,34.0,3.0,273.0,72.767,109.972,90.869,41.536,50.48,16.714,16.44
+all_counties,All counties,REL_TX_P90_D2_W15,254,33.0,24.0,49.0,10.0,403.0,106.175,119.539,118.532,92.954,37.6,8.125,15.25
+all_counties,All counties,REL_TX_P90_D3_W15,254,23.0,15.0,36.0,5.0,297.5,79.127,100.725,93.045,59.831,42.52,8.125,15.69
+all_counties,All counties,REL_TX_P90_D5_W15,254,12.0,5.0,21.0,2.0,162.5,44.162,67.888,54.627,24.615,51.34,8.125,15.85
+any_observed,Counties with any observed temperature,ABS_TX_A80_D2,232,184.0,168.0,206.0,13.0,2040.5,518.28,967.965,694.756,155.274,62.38,199.569,10.15
+any_observed,Counties with any observed temperature,ABS_TX_A80_D3,232,177.0,160.0,199.0,10.0,1952.0,497.809,965.623,668.495,124.583,64.79,199.569,10.25
+any_observed,Counties with any observed temperature,ABS_TX_A80_D5,232,164.0,149.0,186.0,6.0,1817.5,463.209,960.693,603.562,80.388,69.27,199.569,10.34
+any_observed,Counties with any observed temperature,ABS_TX_A90_D2,232,99.0,84.0,115.0,10.0,1096.5,274.3,717.573,177.502,9.077,87.37,170.886,10.53
+any_observed,Counties with any observed temperature,ABS_TX_A90_D3,232,95.0,79.0,111.0,8.0,1055.5,261.217,698.934,150.268,4.572,89.37,170.886,10.74
+any_observed,Counties with any observed temperature,ABS_TX_A90_D5,232,87.0,69.0,105.0,5.0,965.0,239.621,657.083,112.884,2.008,91.59,170.886,10.95
+any_observed,Counties with any observed temperature,HYB_TX_P80_D2_A80_W15,232,51.0,34.0,77.0,14.0,597.0,158.592,229.303,225.111,88.252,48.29,26.058,8.5
+any_observed,Counties with any observed temperature,HYB_TX_P80_D2_A90_W15,232,32.0,16.75,53.0,8.0,403.0,102.092,227.96,130.315,7.728,74.58,23.903,8.54
+any_observed,Counties with any observed temperature,HYB_TX_P80_D3_A80_W15,232,40.0,24.0,64.0,8.0,477.5,128.568,203.322,187.544,58.086,52.82,26.058,8.72
+any_observed,Counties with any observed temperature,HYB_TX_P80_D3_A90_W15,232,26.0,12.0,46.0,5.0,335.0,86.971,202.076,104.99,3.34,77.6,23.903,8.84
+any_observed,Counties with any observed temperature,HYB_TX_P80_D5_A80_W15,232,24.0,12.0,44.0,3.0,318.0,85.327,153.534,127.749,24.913,60.1,26.058,8.39
+any_observed,Counties with any observed temperature,HYB_TX_P80_D5_A90_W15,232,16.0,5.0,34.0,2.0,236.5,63.472,152.632,70.59,1.031,80.32,23.903,8.52
+any_observed,Counties with any observed temperature,HYB_TX_P85_D2_A80_W15,232,38.5,25.0,61.0,11.0,470.5,124.221,175.944,172.995,72.729,47.31,16.928,7.94
+any_observed,Counties with any observed temperature,HYB_TX_P85_D2_A90_W15,232,23.0,11.0,42.0,6.0,316.5,80.888,175.545,110.609,7.017,72.48,16.027,7.94
+any_observed,Counties with any observed temperature,HYB_TX_P85_D3_A80_W15,232,28.0,16.0,49.0,6.0,365.0,97.192,151.97,140.225,45.607,52.22,16.928,8.16
+any_observed,Counties with any observed temperature,HYB_TX_P85_D3_A90_W15,232,18.0,7.0,36.0,4.0,253.5,66.891,151.649,87.199,2.901,75.72,16.027,8.15
+any_observed,Counties with any observed temperature,HYB_TX_P85_D5_A80_W15,232,15.0,6.0,31.0,2.0,225.5,61.226,110.145,89.917,18.489,60.09,16.928,8.02
+any_observed,Counties with any observed temperature,HYB_TX_P85_D5_A90_W15,232,11.0,0.0,24.0,2.0,171.0,46.572,109.939,55.794,0.77,78.85,16.027,8.03
+any_observed,Counties with any observed temperature,HYB_TX_P90_D2_A80_W15,232,25.0,16.0,42.0,8.0,328.0,87.06,120.433,118.68,53.784,46.2,8.19,7.2
+any_observed,Counties with any observed temperature,HYB_TX_P90_D2_A90_W15,232,15.0,6.0,30.0,4.0,222.0,57.357,120.333,84.165,5.804,70.07,7.915,7.19
+any_observed,Counties with any observed temperature,HYB_TX_P90_D3_A80_W15,232,18.0,9.0,32.0,4.0,237.5,65.263,101.277,92.363,31.757,51.83,8.19,7.37
+any_observed,Counties with any observed temperature,HYB_TX_P90_D3_A90_W15,232,11.0,3.0,24.0,2.0,168.0,45.746,101.184,63.701,2.294,73.88,7.915,7.35
+any_observed,Counties with any observed temperature,HYB_TX_P90_D5_A80_W15,232,8.0,0.0,18.0,1.0,133.0,37.823,67.97,53.968,12.012,60.02,8.19,7.23
+any_observed,Counties with any observed temperature,HYB_TX_P90_D5_A90_W15,232,5.0,0.0,15.0,1.0,105.0,29.318,67.947,37.472,0.532,77.41,7.915,7.23
+any_observed,Counties with any observed temperature,REL_TX_P80_D2_W15,232,71.0,54.0,95.0,19.0,814.5,209.393,229.303,225.674,190.425,36.58,26.332,8.92
+any_observed,Counties with any observed temperature,REL_TX_P80_D3_W15,232,54.0,40.0,79.0,11.0,648.5,168.162,203.322,188.17,137.657,40.38,26.332,9.13
+any_observed,Counties with any observed temperature,REL_TX_P80_D5_W15,232,31.0,20.0,51.0,4.0,390.0,104.392,153.534,128.299,63.142,49.12,26.332,8.89
+any_observed,Counties with any observed temperature,REL_TX_P85_D2_W15,232,52.0,38.0,73.0,15.0,617.0,158.305,175.944,173.153,141.355,37.12,16.967,8.36
+any_observed,Counties with any observed temperature,REL_TX_P85_D3_W15,232,38.0,27.0,57.0,8.0,469.0,122.273,151.97,140.434,96.075,41.51,16.967,8.53
+any_observed,Counties with any observed temperature,REL_TX_P85_D5_W15,232,20.0,12.0,35.0,3.0,272.5,72.733,110.145,90.005,41.646,50.58,16.967,8.47
+any_observed,Counties with any observed temperature,REL_TX_P90_D2_W15,232,33.0,24.0,49.0,10.0,403.0,106.711,120.433,118.718,93.368,37.69,8.19,7.68
+any_observed,Counties with any observed temperature,REL_TX_P90_D3_W15,232,23.0,15.0,36.0,5.0,297.0,79.231,101.277,92.413,59.884,42.69,8.19,7.81
+any_observed,Counties with any observed temperature,REL_TX_P90_D5_W15,232,11.0,5.0,21.0,2.0,162.0,44.158,67.97,54.037,24.753,51.41,8.19,7.86
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A80_D2,197,184.0,168.0,206.0,14.0,2040.0,517.766,967.137,694.858,154.761,62.39,201.984,1.64
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A80_D3,197,177.0,160.0,199.0,10.0,1941.0,497.101,964.732,668.465,123.765,64.82,201.984,1.65
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A80_D5,197,164.0,149.0,186.0,6.0,1815.0,462.502,959.705,602.944,79.841,69.31,201.984,1.66
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A90_D2,197,99.0,83.0,115.0,10.0,1092.0,273.514,714.344,177.658,9.613,87.23,170.374,1.66
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A90_D3,197,94.0,78.0,111.0,8.0,1043.0,260.039,695.099,149.687,4.979,89.28,170.374,1.68
+imputation_lt_20pct,Counties with less than 20% imputation,ABS_TX_A90_D5,197,87.0,69.0,105.0,5.0,962.0,238.202,652.61,112.427,2.317,91.51,170.374,1.7
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D2_A80_W15,197,53.0,35.0,78.0,14.0,608.0,161.373,233.321,228.278,90.067,48.29,27.78,1.29
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D2_A90_W15,197,33.0,17.0,54.0,8.0,412.0,103.952,232.005,132.106,8.141,74.54,25.381,1.14
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D3_A80_W15,197,41.0,24.0,65.0,8.0,492.0,130.84,206.851,190.452,59.295,52.8,27.78,1.29
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D3_A90_W15,197,27.0,12.0,46.0,5.0,345.0,88.464,205.64,105.951,3.62,77.64,25.381,1.16
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D5_A80_W15,197,25.0,12.0,44.0,3.0,323.0,87.436,156.782,131.064,25.844,59.89,27.78,1.19
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P80_D5_A90_W15,197,17.0,5.0,34.0,2.0,243.0,64.884,155.897,72.011,1.194,80.25,25.381,1.02
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D2_A80_W15,197,40.0,25.0,62.0,11.0,482.0,127.077,180.135,176.601,74.429,47.35,18.182,1.23
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D2_A90_W15,197,24.0,12.0,44.0,6.0,323.0,82.853,179.73,112.955,7.357,72.45,17.12,1.04
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D3_A80_W15,197,29.0,17.0,50.0,6.0,376.0,99.49,155.832,143.114,46.65,52.31,18.182,1.25
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D3_A90_W15,197,19.0,7.0,37.0,4.0,262.0,68.542,155.496,88.684,3.131,75.77,17.12,1.05
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D5_A80_W15,197,16.0,7.0,31.0,2.0,234.0,62.999,113.43,91.996,19.141,60.14,18.182,1.12
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P85_D5_A90_W15,197,11.0,0.0,25.0,2.0,181.0,47.938,113.207,57.051,0.894,78.87,17.12,0.92
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D2_A80_W15,197,27.0,16.0,43.0,8.0,338.0,89.671,124.055,122.192,55.407,46.21,8.722,1.11
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D2_A90_W15,197,15.0,7.0,31.0,5.0,232.0,59.135,123.938,86.711,6.089,70.0,8.399,0.9
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D3_A80_W15,197,18.0,10.0,33.0,4.0,251.0,67.242,104.488,94.631,32.807,51.9,8.722,1.08
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D3_A90_W15,197,11.0,3.0,25.0,2.0,176.0,47.146,104.379,65.104,2.485,73.95,8.399,0.87
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D5_A80_W15,197,9.0,4.0,19.0,1.0,141.0,39.279,70.797,55.577,12.492,60.2,8.722,0.99
+imputation_lt_20pct,Counties with less than 20% imputation,HYB_TX_P90_D5_A90_W15,197,5.0,0.0,15.0,1.0,114.0,30.449,70.771,38.302,0.626,77.63,8.399,0.78
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P80_D2_W15,197,72.0,55.0,96.0,20.0,827.0,212.746,233.321,228.806,193.405,36.63,28.103,1.42
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P80_D3_W15,197,56.0,40.0,80.0,11.0,659.0,170.898,206.851,191.04,139.813,40.43,28.103,1.41
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P80_D5_W15,197,32.0,20.0,51.0,4.0,405.0,106.84,156.782,131.585,64.765,49.01,28.103,1.41
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P85_D2_W15,197,53.0,39.0,74.0,16.0,629.0,161.695,180.135,176.764,144.13,37.21,18.228,1.34
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P85_D3_W15,197,39.0,27.0,58.0,8.0,479.0,125.065,155.832,143.338,98.109,41.62,18.228,1.34
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P85_D5_W15,197,21.0,12.0,35.0,3.0,278.0,74.727,113.43,92.093,42.74,50.7,18.228,1.31
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P90_D2_W15,197,34.0,24.0,50.0,11.0,418.0,109.674,124.055,122.229,95.701,37.78,8.722,1.24
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P90_D3_W15,197,24.0,16.0,37.0,6.0,304.0,81.501,104.488,94.683,61.522,42.82,8.722,1.26
+imputation_lt_20pct,Counties with less than 20% imputation,REL_TX_P90_D5_W15,197,12.0,5.0,21.0,2.0,166.0,45.743,70.797,55.659,25.49,51.69,8.722,1.3
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A80_D2,188,184.0,168.0,206.0,13.0,2040.5,517.927,967.078,695.077,155.05,62.36,202.031,0.99
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A80_D3,188,177.0,160.0,199.0,10.0,1944.5,497.426,964.716,669.183,124.186,64.78,202.031,1.0
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A80_D5,188,164.0,149.0,186.0,6.0,1815.5,462.962,959.647,603.981,80.451,69.23,202.031,1.01
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A90_D2,188,98.5,83.0,115.0,10.0,1084.5,273.469,713.963,177.63,9.787,87.2,169.923,1.0
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A90_D3,188,94.0,78.0,111.0,8.0,1042.5,260.032,694.819,149.763,5.127,89.25,169.923,1.02
+imputation_lt_10pct,Counties with less than 10% imputation,ABS_TX_A90_D5,188,86.0,68.0,105.0,5.0,956.0,238.096,652.04,112.599,2.427,91.47,169.923,1.02
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D2_A80_W15,188,53.0,35.75,79.0,14.0,608.0,161.795,233.5,229.269,90.458,48.2,27.853,0.67
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D2_A90_W15,188,33.0,17.0,54.0,8.0,410.0,104.042,232.18,131.949,8.259,74.53,25.484,0.62
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D3_A80_W15,188,41.0,25.0,65.0,8.0,492.0,131.299,207.082,191.575,59.679,52.68,27.853,0.65
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D3_A90_W15,188,27.0,12.0,47.0,5.0,344.5,88.57,205.881,105.837,3.711,77.64,25.484,0.62
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D5_A80_W15,188,25.0,13.0,45.0,3.0,325.0,87.958,157.458,131.801,26.188,59.79,27.853,0.58
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P80_D5_A90_W15,188,17.0,5.0,34.0,2.0,243.0,65.093,156.542,71.801,1.251,80.32,25.484,0.54
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D2_A80_W15,188,40.0,25.0,62.0,11.0,482.0,127.487,180.379,177.638,74.738,47.26,18.327,0.62
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D2_A90_W15,188,24.0,11.75,44.0,6.0,324.0,82.992,179.955,113.083,7.443,72.42,17.311,0.55
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D3_A80_W15,188,29.0,17.0,50.0,6.0,376.5,99.907,156.158,143.96,46.981,52.2,18.327,0.61
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D3_A90_W15,188,19.0,7.0,37.0,4.0,263.0,68.682,155.805,88.702,3.198,75.77,17.311,0.55
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D5_A80_W15,188,16.0,7.0,31.0,2.0,235.5,63.397,113.87,92.625,19.431,59.99,18.327,0.51
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P85_D5_A90_W15,188,11.0,0.0,25.0,2.0,181.5,48.138,113.648,57.239,0.936,78.85,17.311,0.49
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D2_A80_W15,188,27.0,16.0,44.0,8.0,338.0,90.048,124.338,122.957,55.715,46.12,8.897,0.56
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D2_A90_W15,188,15.0,7.0,31.0,5.0,232.5,59.292,124.215,86.846,6.173,69.97,8.559,0.47
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D3_A80_W15,188,18.0,10.0,33.0,4.0,251.0,67.649,104.802,95.487,33.123,51.74,8.897,0.53
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D3_A90_W15,188,11.0,3.0,25.0,2.0,176.5,47.314,104.687,65.288,2.553,73.9,8.559,0.44
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D5_A80_W15,188,9.0,5.0,19.0,1.0,142.0,39.553,71.087,56.038,12.692,60.03,8.897,0.48
+imputation_lt_10pct,Counties with less than 10% imputation,HYB_TX_P90_D5_A90_W15,188,5.0,0.0,15.0,1.0,114.0,30.565,71.059,38.326,0.656,77.65,8.559,0.42
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P80_D2_W15,188,73.0,55.0,96.0,20.0,827.0,213.457,233.5,229.808,194.376,36.54,28.191,0.76
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P80_D3_W15,188,56.0,41.0,80.0,12.0,662.5,171.6,207.082,192.145,140.693,40.31,28.191,0.73
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P80_D5_W15,188,32.0,21.0,51.25,4.0,406.5,107.543,157.458,132.246,65.5,48.9,28.191,0.72
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P85_D2_W15,188,53.0,40.0,74.0,16.0,630.5,162.341,180.379,177.809,144.911,37.11,18.375,0.7
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P85_D3_W15,188,39.0,28.0,58.0,8.0,483.0,125.676,156.158,144.194,98.828,41.5,18.375,0.68
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P85_D5_W15,188,21.0,12.0,35.25,3.0,282.5,75.264,113.87,92.726,43.308,50.53,18.375,0.64
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P90_D2_W15,188,34.0,24.0,50.0,11.0,422.0,110.233,124.338,122.996,96.374,37.67,8.897,0.64
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P90_D3_W15,188,24.0,16.0,37.0,6.0,309.5,82.04,104.802,95.542,62.104,42.67,8.897,0.63
+imputation_lt_10pct,Counties with less than 10% imputation,REL_TX_P90_D5_W15,188,12.0,5.0,21.0,2.0,166.5,46.112,71.087,56.124,25.878,51.49,8.897,0.67
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A80_D2,232,184.0,168.0,206.0,13.0,2040.5,518.28,967.965,694.756,155.274,62.38,199.569,10.15
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A80_D3,232,177.0,160.0,199.0,10.0,1952.0,497.809,965.623,668.495,124.583,64.79,199.569,10.25
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A80_D5,232,164.0,149.0,186.0,6.0,1817.5,463.209,960.693,603.562,80.388,69.27,199.569,10.34
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A90_D2,232,99.0,84.0,115.0,10.0,1096.5,274.3,717.573,177.502,9.077,87.37,170.886,10.53
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A90_D3,232,95.0,79.0,111.0,8.0,1055.5,261.217,698.934,150.268,4.572,89.37,170.886,10.74
+not_fully_imputed,Counties that are not fully imputed,ABS_TX_A90_D5,232,87.0,69.0,105.0,5.0,965.0,239.621,657.083,112.884,2.008,91.59,170.886,10.95
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D2_A80_W15,232,51.0,34.0,77.0,14.0,597.0,158.592,229.303,225.111,88.252,48.29,26.058,8.5
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D2_A90_W15,232,32.0,16.75,53.0,8.0,403.0,102.092,227.96,130.315,7.728,74.58,23.903,8.54
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D3_A80_W15,232,40.0,24.0,64.0,8.0,477.5,128.568,203.322,187.544,58.086,52.82,26.058,8.72
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D3_A90_W15,232,26.0,12.0,46.0,5.0,335.0,86.971,202.076,104.99,3.34,77.6,23.903,8.84
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D5_A80_W15,232,24.0,12.0,44.0,3.0,318.0,85.327,153.534,127.749,24.913,60.1,26.058,8.39
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P80_D5_A90_W15,232,16.0,5.0,34.0,2.0,236.5,63.472,152.632,70.59,1.031,80.32,23.903,8.52
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D2_A80_W15,232,38.5,25.0,61.0,11.0,470.5,124.221,175.944,172.995,72.729,47.31,16.928,7.94
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D2_A90_W15,232,23.0,11.0,42.0,6.0,316.5,80.888,175.545,110.609,7.017,72.48,16.027,7.94
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D3_A80_W15,232,28.0,16.0,49.0,6.0,365.0,97.192,151.97,140.225,45.607,52.22,16.928,8.16
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D3_A90_W15,232,18.0,7.0,36.0,4.0,253.5,66.891,151.649,87.199,2.901,75.72,16.027,8.15
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D5_A80_W15,232,15.0,6.0,31.0,2.0,225.5,61.226,110.145,89.917,18.489,60.09,16.928,8.02
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P85_D5_A90_W15,232,11.0,0.0,24.0,2.0,171.0,46.572,109.939,55.794,0.77,78.85,16.027,8.03
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D2_A80_W15,232,25.0,16.0,42.0,8.0,328.0,87.06,120.433,118.68,53.784,46.2,8.19,7.2
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D2_A90_W15,232,15.0,6.0,30.0,4.0,222.0,57.357,120.333,84.165,5.804,70.07,7.915,7.19
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D3_A80_W15,232,18.0,9.0,32.0,4.0,237.5,65.263,101.277,92.363,31.757,51.83,8.19,7.37
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D3_A90_W15,232,11.0,3.0,24.0,2.0,168.0,45.746,101.184,63.701,2.294,73.88,7.915,7.35
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D5_A80_W15,232,8.0,0.0,18.0,1.0,133.0,37.823,67.97,53.968,12.012,60.02,8.19,7.23
+not_fully_imputed,Counties that are not fully imputed,HYB_TX_P90_D5_A90_W15,232,5.0,0.0,15.0,1.0,105.0,29.318,67.947,37.472,0.532,77.41,7.915,7.23
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P80_D2_W15,232,71.0,54.0,95.0,19.0,814.5,209.393,229.303,225.674,190.425,36.58,26.332,8.92
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P80_D3_W15,232,54.0,40.0,79.0,11.0,648.5,168.162,203.322,188.17,137.657,40.38,26.332,9.13
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P80_D5_W15,232,31.0,20.0,51.0,4.0,390.0,104.392,153.534,128.299,63.142,49.12,26.332,8.89
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P85_D2_W15,232,52.0,38.0,73.0,15.0,617.0,158.305,175.944,173.153,141.355,37.12,16.967,8.36
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P85_D3_W15,232,38.0,27.0,57.0,8.0,469.0,122.273,151.97,140.434,96.075,41.51,16.967,8.53
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P85_D5_W15,232,20.0,12.0,35.0,3.0,272.5,72.733,110.145,90.005,41.646,50.58,16.967,8.47
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P90_D2_W15,232,33.0,24.0,49.0,10.0,403.0,106.711,120.433,118.718,93.368,37.69,8.19,7.68
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P90_D3_W15,232,23.0,15.0,36.0,5.0,297.0,79.231,101.277,92.413,59.884,42.69,8.19,7.81
+not_fully_imputed,Counties that are not fully imputed,REL_TX_P90_D5_W15,232,11.0,5.0,21.0,2.0,162.0,44.158,67.97,54.037,24.753,51.41,8.19,7.86
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A80_D2,176,184.0,167.0,207.0,13.0,2037.0,517.713,966.891,693.998,155.113,62.38,200.671,0.58
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A80_D3,176,177.0,159.0,199.0,10.0,1938.5,497.412,964.508,668.297,124.601,64.76,200.671,0.59
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A80_D5,176,164.0,148.0,186.0,6.0,1808.0,463.242,959.414,603.664,81.281,69.17,200.671,0.59
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A90_D2,176,99.0,83.0,116.0,10.0,1084.5,274.233,714.525,179.835,10.195,87.02,170.971,0.57
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A90_D3,176,94.0,78.0,111.0,8.0,1042.5,260.836,695.629,152.126,5.394,89.07,170.971,0.58
+anchor_stations,Anchor-station subset (stable reporting counties),ABS_TX_A90_D5,176,87.0,68.0,105.0,5.0,960.5,238.956,653.286,114.728,2.593,91.31,170.971,0.58
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D2_A80_W15,176,53.0,36.0,79.0,14.0,610.0,163.087,236.177,230.897,90.704,48.37,28.564,0.41
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D2_A90_W15,176,34.0,17.0,55.0,8.0,418.5,105.316,234.779,133.314,8.608,74.46,26.033,0.38
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D3_A80_W15,176,42.0,25.0,65.0,8.0,499.0,132.645,209.639,193.632,59.967,52.79,28.564,0.41
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D3_A90_W15,176,27.0,12.0,47.0,5.0,352.5,89.778,208.356,107.446,3.929,77.51,26.033,0.39
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D5_A80_W15,176,26.0,13.0,45.0,3.0,336.0,89.144,159.857,133.148,26.503,59.89,28.564,0.38
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P80_D5_A90_W15,176,18.0,5.0,35.0,2.0,249.5,66.126,158.879,73.039,1.336,80.25,26.033,0.35
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D2_A80_W15,176,40.0,26.0,63.0,11.0,485.5,128.551,182.58,179.161,74.878,47.44,18.905,0.39
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D2_A90_W15,176,25.0,12.0,44.0,6.0,327.5,84.08,182.127,114.286,7.762,72.35,17.82,0.36
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D3_A80_W15,176,30.0,17.0,50.0,6.0,378.5,101.013,158.316,145.719,47.156,52.35,18.905,0.41
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D3_A90_W15,176,19.0,8.0,37.0,4.0,266.0,69.702,157.939,89.951,3.391,75.68,17.82,0.37
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D5_A80_W15,176,16.0,7.0,32.0,2.0,238.0,64.265,115.618,93.7,19.636,60.09,18.905,0.38
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P85_D5_A90_W15,176,11.0,0.0,25.0,2.0,186.0,48.915,115.381,58.218,1.0,78.78,17.82,0.38
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D2_A80_W15,176,27.0,17.0,44.0,8.0,339.5,90.918,126.016,124.075,55.955,46.29,9.143,0.37
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D2_A90_W15,176,15.0,7.0,31.0,5.0,237.0,60.123,125.885,87.685,6.437,69.93,8.781,0.31
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D3_A80_W15,176,19.0,10.0,34.0,4.0,251.5,68.431,106.219,96.624,33.356,51.84,9.143,0.36
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D3_A90_W15,176,11.0,3.75,25.0,3.0,179.0,47.984,106.096,66.032,2.701,73.85,8.781,0.3
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D5_A80_W15,176,9.0,5.0,19.0,1.0,145.0,40.237,72.386,57.035,12.854,60.09,9.143,0.33
+anchor_stations,Anchor-station subset (stable reporting counties),HYB_TX_P90_D5_A90_W15,176,5.0,0.0,15.0,1.0,115.5,31.133,72.356,38.99,0.701,77.63,8.781,0.28
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P80_D2_W15,176,73.0,56.0,97.0,20.0,828.5,215.157,236.177,231.472,195.43,36.66,28.926,0.44
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P80_D3_W15,176,57.0,41.0,81.0,12.0,668.0,173.385,209.639,194.24,141.852,40.38,28.926,0.44
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P80_D5_W15,176,32.5,21.0,52.0,5.0,411.0,108.953,159.857,133.623,66.256,49.0,28.926,0.44
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P85_D2_W15,176,54.0,40.0,75.0,16.0,639.0,163.732,182.58,179.344,145.707,37.24,18.957,0.41
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P85_D3_W15,176,39.0,28.0,59.0,9.0,486.0,127.093,158.316,145.969,99.623,41.61,18.957,0.41
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P85_D5_W15,176,21.0,12.0,36.0,3.0,283.0,76.22,115.618,93.808,43.688,50.66,18.957,0.43
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P90_D2_W15,176,35.0,25.0,50.0,11.0,427.0,111.258,126.016,124.117,96.927,37.83,9.143,0.37
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P90_D3_W15,176,24.0,16.0,38.0,6.0,310.5,82.948,106.219,96.683,62.588,42.77,9.143,0.38
+anchor_stations,Anchor-station subset (stable reporting counties),REL_TX_P90_D5_W15,176,12.0,5.0,22.0,2.0,169.5,46.806,72.386,57.126,26.061,51.65,9.143,0.4

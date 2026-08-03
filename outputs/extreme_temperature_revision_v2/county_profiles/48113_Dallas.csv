@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48113,Dallas,2015,6,24,6,0,365,65.753,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2016,6,25,7,0,366,68.306,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2017,5,18,6,0,365,49.315,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2018,6,29,8,0,365,79.452,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2019,4,12,3,0,365,32.877,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2020,5,16,4,0,366,43.716,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2021,6,28,10,0,365,76.712,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2022,10,45,9,0,365,123.288,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2023,9,46,10,0,365,126.027,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2024,9,33,4,0,366,90.164,median classified-day count,anchor: 95% or more observed,0.0
+48113,Dallas,2025,4,22,7,0,365,60.274,median classified-day count,anchor: 95% or more observed,0.0

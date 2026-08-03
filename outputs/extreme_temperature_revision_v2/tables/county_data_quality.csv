@@ -1,0 +1,255 @@
+county_fips,county_name,analysis_days,temp_imputed_days,pct_analysis_days_imputed,native_analysis_days,fully_imputed_county,observed_share,any_observed,imputation_lt_20pct,imputation_lt_10pct,not_fully_imputed,anchor_stations,all_counties,data_quality_label
+48011,Armstrong,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48077,Clay,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48119,Delta,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48173,Glasscock,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48155,Foard,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48247,Jim Hogg,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48197,Hardeman,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48211,Hemphill,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48239,Jackson,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48185,Grimes,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48161,Freestone,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48133,Eastland,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48301,Loving,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48255,Karnes,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48393,Roberts,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48407,San Jacinto,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48473,Waller,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48455,Trinity,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48317,Martin,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48335,Mitchell,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48487,Wilbarger,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48507,Zavala,4018,4018,100.0,0,True,0.0,False,False,False,False,False,True,fully imputed (no observed temperature)
+48009,Archer,4018,3592,89.4,426,False,0.10599999999999998,True,False,False,True,False,True,20% or more imputed
+48145,Falls,4018,3565,88.7,453,False,0.11299999999999999,True,False,False,True,False,True,20% or more imputed
+48373,Polk,4018,3454,86.0,564,False,0.14,True,False,False,True,False,True,20% or more imputed
+48063,Camp,4018,3314,82.5,704,False,0.17500000000000004,True,False,False,True,False,True,20% or more imputed
+48281,Lampasas,4018,3228,80.3,790,False,0.19700000000000006,True,False,False,True,False,True,20% or more imputed
+48505,Zapata,4018,3133,78.0,885,False,0.21999999999999997,True,False,False,True,False,True,20% or more imputed
+48065,Carson,4018,3107,77.3,911,False,0.22699999999999998,True,False,False,True,False,True,20% or more imputed
+48129,Donley,4018,3086,76.8,932,False,0.23199999999999998,True,False,False,True,False,True,20% or more imputed
+48431,Sterling,4018,2910,72.4,1108,False,0.2759999999999999,True,False,False,True,False,True,20% or more imputed
+48323,Maverick,4018,2910,72.4,1108,False,0.2759999999999999,True,False,False,True,False,True,20% or more imputed
+48087,Collingsworth,4018,2839,70.7,1179,False,0.2929999999999999,True,False,False,True,False,True,20% or more imputed
+48047,Brooks,4018,2819,70.2,1199,False,0.29799999999999993,True,False,False,True,False,True,20% or more imputed
+48293,Limestone,4018,2783,69.3,1235,False,0.30700000000000005,True,False,False,True,False,True,20% or more imputed
+48435,Sutton,4018,2719,67.7,1299,False,0.32299999999999995,True,False,False,True,False,True,20% or more imputed
+48483,Wheeler,4018,2707,67.4,1311,False,0.32599999999999996,True,False,False,True,False,True,20% or more imputed
+48115,Dawson,4018,2618,65.2,1400,False,0.348,True,False,False,True,False,True,20% or more imputed
+48111,Dallam,4018,2506,62.4,1512,False,0.376,True,False,False,True,False,True,20% or more imputed
+48493,Wilson,4018,2481,61.7,1537,False,0.383,True,False,False,True,False,True,20% or more imputed
+48193,Hamilton,4018,2449,61.0,1569,False,0.39,True,False,False,True,False,True,20% or more imputed
+48035,Bosque,4018,2436,60.6,1582,False,0.394,True,False,False,True,False,True,20% or more imputed
+48421,Sherman,4018,2368,58.9,1650,False,0.41100000000000003,True,False,False,True,False,True,20% or more imputed
+48151,Fisher,4018,2353,58.6,1665,False,0.41400000000000003,True,False,False,True,False,True,20% or more imputed
+48419,Shelby,4018,2200,54.8,1818,False,0.45200000000000007,True,False,False,True,False,True,20% or more imputed
+48163,Frio,4018,1962,48.8,2056,False,0.512,True,False,False,True,False,True,20% or more imputed
+48271,Kinney,4018,1747,43.5,2271,False,0.565,True,False,False,True,False,True,20% or more imputed
+48447,Throckmorton,4018,1648,41.0,2370,False,0.5900000000000001,True,False,False,True,False,True,20% or more imputed
+48341,Moore,4018,1569,39.0,2449,False,0.61,True,False,False,True,False,True,20% or more imputed
+48357,Ochiltree,4018,1440,35.8,2578,False,0.642,True,False,False,True,False,True,20% or more imputed
+48261,Kenedy,4018,1325,33.0,2693,False,0.6699999999999999,True,False,False,True,False,True,20% or more imputed
+48489,Willacy,4018,1206,30.0,2812,False,0.7,True,False,False,True,False,True,20% or more imputed
+48331,Milam,4018,1071,26.7,2947,False,0.733,True,False,False,True,False,True,20% or more imputed
+48397,Rockwall,4018,1006,25.0,3012,False,0.75,True,False,False,True,False,True,20% or more imputed
+48015,Austin,4018,960,23.9,3058,False,0.761,True,False,False,True,False,True,20% or more imputed
+48033,Borden,4018,934,23.2,3084,False,0.768,True,False,False,True,False,True,20% or more imputed
+48235,Irion,4018,914,22.7,3104,False,0.773,True,False,False,True,False,True,20% or more imputed
+48031,Blanco,4018,773,19.2,3245,False,0.808,True,True,False,True,False,True,10-20% imputed
+48051,Burleson,4018,760,18.9,3258,False,0.811,True,True,False,True,False,True,10-20% imputed
+48425,Somervell,4018,734,18.3,3284,False,0.817,True,True,False,True,False,True,10-20% imputed
+48019,Bandera,4018,660,16.4,3358,False,0.8360000000000001,True,True,False,True,False,True,10-20% imputed
+48461,Upton,4018,560,13.9,3458,False,0.861,True,True,False,True,False,True,10-20% imputed
+48137,Edwards,4018,555,13.8,3463,False,0.862,True,True,False,True,False,True,10-20% imputed
+48207,Haskell,4018,475,11.8,3543,False,0.882,True,True,False,True,False,True,10-20% imputed
+48275,Knox,4018,452,11.2,3566,False,0.888,True,True,False,True,False,True,10-20% imputed
+48117,Deaf Smith,4018,441,11.0,3577,False,0.89,True,True,False,True,False,True,10-20% imputed
+48049,Brown,4018,389,9.7,3629,False,0.903,True,True,True,True,False,True,under 10% imputed
+48405,San Augustine,4018,371,9.2,3647,False,0.908,True,True,True,True,False,True,under 10% imputed
+48381,Randall,4018,325,8.1,3693,False,0.919,True,True,True,True,False,True,under 10% imputed
+48091,Comal,4018,313,7.8,3705,False,0.922,True,True,True,True,False,True,under 10% imputed
+48503,Young,4018,294,7.3,3724,False,0.927,True,True,True,True,False,True,under 10% imputed
+48315,Marion,4018,294,7.3,3724,False,0.927,True,True,True,True,False,True,under 10% imputed
+48313,Madison,4018,286,7.1,3732,False,0.929,True,True,True,True,False,True,under 10% imputed
+48495,Winkler,4018,268,6.7,3750,False,0.933,True,True,True,True,False,True,under 10% imputed
+48409,San Patricio,4018,257,6.4,3761,False,0.9359999999999999,True,True,True,True,False,True,under 10% imputed
+48237,Jack,4018,255,6.3,3763,False,0.937,True,True,True,True,False,True,under 10% imputed
+48241,Jasper,4018,228,5.7,3790,False,0.943,True,True,True,True,False,True,under 10% imputed
+48395,Robertson,4018,212,5.3,3806,False,0.947,True,True,True,True,False,True,under 10% imputed
+48353,Nolan,4018,180,4.5,3838,False,0.955,True,True,True,True,True,True,anchor: 95% or more observed
+48159,Franklin,4018,175,4.4,3843,False,0.956,True,True,True,True,True,True,anchor: 95% or more observed
+48389,Reeves,4018,175,4.4,3843,False,0.956,True,True,True,True,True,True,anchor: 95% or more observed
+48025,Bee,4018,159,4.0,3859,False,0.96,True,True,True,True,True,True,anchor: 95% or more observed
+48333,Mills,4018,162,4.0,3856,False,0.96,True,True,True,True,True,True,anchor: 95% or more observed
+48093,Comanche,4018,157,3.9,3861,False,0.961,True,True,True,True,True,True,anchor: 95% or more observed
+48391,Refugio,4018,146,3.6,3872,False,0.964,True,True,True,True,True,True,anchor: 95% or more observed
+48307,McCulloch,4018,135,3.4,3883,False,0.966,True,True,True,True,True,True,anchor: 95% or more observed
+48003,Andrews,4018,129,3.2,3889,False,0.968,True,True,True,True,True,True,anchor: 95% or more observed
+48103,Crane,4018,112,2.8,3906,False,0.972,True,True,True,True,True,True,anchor: 95% or more observed
+48463,Uvalde,4018,111,2.8,3907,False,0.972,True,True,True,True,True,True,anchor: 95% or more observed
+48443,Terrell,4018,106,2.6,3912,False,0.974,True,True,True,True,True,True,anchor: 95% or more observed
+48385,Real,4018,101,2.5,3917,False,0.975,True,True,True,True,True,True,anchor: 95% or more observed
+48361,Orange,4018,102,2.5,3916,False,0.975,True,True,True,True,True,True,anchor: 95% or more observed
+48449,Titus,4018,98,2.4,3920,False,0.976,True,True,True,True,True,True,anchor: 95% or more observed
+48383,Reagan,4018,91,2.3,3927,False,0.977,True,True,True,True,True,True,anchor: 95% or more observed
+48287,Lee,4018,90,2.2,3928,False,0.978,True,True,True,True,True,True,anchor: 95% or more observed
+48377,Presidio,4018,88,2.2,3930,False,0.978,True,True,True,True,True,True,anchor: 95% or more observed
+48427,Starr,4018,83,2.1,3935,False,0.979,True,True,True,True,True,True,anchor: 95% or more observed
+48365,Panola,4018,72,1.8,3946,False,0.982,True,True,True,True,True,True,anchor: 95% or more observed
+48289,Leon,4018,73,1.8,3945,False,0.982,True,True,True,True,True,True,anchor: 95% or more observed
+48429,Stephens,4018,70,1.7,3948,False,0.983,True,True,True,True,True,True,anchor: 95% or more observed
+48467,Van Zandt,4018,70,1.7,3948,False,0.983,True,True,True,True,True,True,anchor: 95% or more observed
+48363,Palo Pinto,4018,65,1.6,3953,False,0.984,True,True,True,True,True,True,anchor: 95% or more observed
+48127,Dimmit,4018,64,1.6,3954,False,0.984,True,True,True,True,True,True,anchor: 95% or more observed
+48123,DeWitt,4018,58,1.4,3960,False,0.986,True,True,True,True,True,True,anchor: 95% or more observed
+48099,Coryell,4018,57,1.4,3961,False,0.986,True,True,True,True,True,True,anchor: 95% or more observed
+48199,Hardin,4018,53,1.3,3965,False,0.987,True,True,True,True,True,True,anchor: 95% or more observed
+48327,Menard,4018,49,1.2,3969,False,0.988,True,True,True,True,True,True,anchor: 95% or more observed
+48403,Sabine,4018,47,1.2,3971,False,0.988,True,True,True,True,True,True,anchor: 95% or more observed
+48413,Schleicher,4018,43,1.1,3975,False,0.989,True,True,True,True,True,True,anchor: 95% or more observed
+48347,Nacogdoches,4018,45,1.1,3973,False,0.989,True,True,True,True,True,True,anchor: 95% or more observed
+48351,Newton,4018,38,0.9,3980,False,0.991,True,True,True,True,True,True,anchor: 95% or more observed
+48143,Erath,4018,35,0.9,3983,False,0.991,True,True,True,True,True,True,anchor: 95% or more observed
+48285,Lavaca,4018,32,0.8,3986,False,0.992,True,True,True,True,True,True,anchor: 95% or more observed
+48259,Kendall,4018,34,0.8,3984,False,0.992,True,True,True,True,True,True,anchor: 95% or more observed
+48131,Duval,4018,30,0.7,3988,False,0.993,True,True,True,True,True,True,anchor: 95% or more observed
+48175,Goliad,4018,30,0.7,3988,False,0.993,True,True,True,True,True,True,anchor: 95% or more observed
+48227,Howard,4018,27,0.7,3991,False,0.993,True,True,True,True,True,True,anchor: 95% or more observed
+48209,Hays,4018,30,0.7,3988,False,0.993,True,True,True,True,True,True,anchor: 95% or more observed
+48283,La Salle,4018,27,0.7,3991,False,0.993,True,True,True,True,True,True,anchor: 95% or more observed
+48097,Cooke,4018,23,0.6,3995,False,0.994,True,True,True,True,True,True,anchor: 95% or more observed
+48149,Fayette,4018,26,0.6,3992,False,0.994,True,True,True,True,True,True,anchor: 95% or more observed
+48387,Red River,4018,26,0.6,3992,False,0.994,True,True,True,True,True,True,anchor: 95% or more observed
+48257,Kaufman,4018,25,0.6,3993,False,0.994,True,True,True,True,True,True,anchor: 95% or more observed
+48067,Cass,4018,23,0.6,3995,False,0.994,True,True,True,True,True,True,anchor: 95% or more observed
+48221,Hood,4018,20,0.5,3998,False,0.995,True,True,True,True,True,True,anchor: 95% or more observed
+48105,Crockett,4018,19,0.5,3999,False,0.995,True,True,True,True,True,True,anchor: 95% or more observed
+48325,Medina,4018,21,0.5,3997,False,0.995,True,True,True,True,True,True,anchor: 95% or more observed
+48379,Rains,4018,22,0.5,3996,False,0.995,True,True,True,True,True,True,anchor: 95% or more observed
+48295,Lipscomb,4018,16,0.4,4002,False,0.996,True,True,True,True,True,True,anchor: 95% or more observed
+48475,Ward,4018,15,0.4,4003,False,0.996,True,True,True,True,True,True,anchor: 95% or more observed
+48343,Morris,4018,15,0.4,4003,False,0.996,True,True,True,True,True,True,anchor: 95% or more observed
+48139,Ellis,4018,13,0.3,4005,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48081,Coke,4018,12,0.3,4006,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48101,Cottle,4018,11,0.3,4007,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48071,Chambers,4018,14,0.3,4004,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48021,Bastrop,4018,12,0.3,4006,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48477,Washington,4018,14,0.3,4004,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48415,Scurry,4018,11,0.3,4007,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48135,Ector,4018,14,0.3,4004,False,0.997,True,True,True,True,True,True,anchor: 95% or more observed
+48367,Parker,4018,9,0.2,4009,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48195,Hansford,4018,7,0.2,4011,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48157,Fort Bend,4018,8,0.2,4010,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48165,Gaines,4018,7,0.2,4011,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48073,Cherokee,4018,7,0.2,4011,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48007,Aransas,4018,8,0.2,4010,False,0.998,True,True,True,True,True,True,anchor: 95% or more observed
+48277,Lamar,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48311,McMullen,4018,6,0.1,4012,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48055,Caldwell,4018,6,0.1,4012,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48027,Bell,4018,6,0.1,4012,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48057,Calhoun,4018,4,0.1,4014,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48183,Gregg,4018,4,0.1,4014,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48147,Fannin,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48417,Shackelford,4018,4,0.1,4014,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48229,Hudspeth,4018,5,0.1,4013,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48095,Concho,4018,4,0.1,4014,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48399,Runnels,4018,5,0.1,4013,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48411,San Saba,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48497,Wise,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48041,Brazos,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48225,Houston,4018,5,0.1,4013,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48251,Johnson,4018,3,0.1,4015,False,0.999,True,True,True,True,True,True,anchor: 95% or more observed
+48043,Brewster,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48029,Bexar,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48069,Castro,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48075,Childress,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48061,Cameron,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48089,Colorado,4018,2,0.0,4016,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48013,Atascosa,4018,2,0.0,4016,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48017,Bailey,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48001,Anderson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48005,Angelina,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48037,Bowie,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48039,Brazoria,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48023,Baylor,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48059,Callahan,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48053,Burnet,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48045,Briscoe,4018,2,0.0,4016,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48169,Garza,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48179,Gray,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48177,Gonzales,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48125,Dickens,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48141,El Paso,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48181,Grayson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48085,Collin,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48079,Cochran,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48083,Coleman,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48107,Crosby,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48109,Culberson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48113,Dallas,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48121,Denton,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48249,Jim Wells,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48245,Jefferson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48243,Jeff Davis,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48233,Hutchinson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48231,Hunt,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48223,Hopkins,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48217,Hill,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48189,Hale,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48203,Harrison,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48201,Harris,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48191,Hall,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48205,Hartley,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48213,Henderson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48215,Hidalgo,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48219,Hockley,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48187,Guadalupe,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48153,Floyd,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48171,Gillespie,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48167,Galveston,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48279,Lamb,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48253,Jones,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48263,Kent,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48265,Kerr,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48267,Kimble,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48297,Live Oak,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48273,Kleberg,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48291,Liberty,4018,2,0.0,4016,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48269,King,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48299,Llano,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48303,Lubbock,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48305,Lynn,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48309,McLennan,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48375,Potter,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48371,Pecos,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48369,Parmer,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48359,Oldham,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48355,Nueces,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48349,Navarro,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48339,Montgomery,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48345,Motley,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48329,Midland,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48337,Montague,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48319,Mason,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48321,Matagorda,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48423,Smith,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48401,Rusk,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48437,Swisher,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48433,Stonewall,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48441,Taylor,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48439,Tarrant,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48465,Val Verde,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48445,Terry,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48451,Tom Green,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48453,Travis,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48457,Tyler,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48459,Upshur,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48469,Victoria,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48471,Walker,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48479,Webb,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48481,Wharton,4018,1,0.0,4017,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48491,Williamson,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48485,Wichita,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48499,Wood,4018,2,0.0,4016,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed
+48501,Yoakum,4018,0,0.0,4018,False,1.0,True,True,True,True,True,True,anchor: 95% or more observed

@@ -1,0 +1,10 @@
+{
+  "gate": 90.0,
+  "percentile": 90,
+  "duration": 3,
+  "days_ge": 46448,
+  "days_gt": 46448,
+  "events_ge": 8613,
+  "events_gt": 8613,
+  "records_exactly_on_gate": 2
+}

@@ -1,0 +1,397 @@
+construct_id,construct_family,month,season,classified_days,valid_daily_observations,counties,classified_days_per_1000_valid,month_name,short_label,percentile,duration_days,absolute_gate_f,threshold_window,day_label,denominator_definition
+ABS_TX_A80_D2,absolute,1,cool,993,86614,254,11.465,Jan,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,2,cool,5804,78994,254,73.474,Feb,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,3,cool,17336,86614,254,200.152,Mar,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,4,cool,37312,83820,254,445.144,Apr,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,5,shoulder,66691,86614,254,769.979,May,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,6,warm,81362,83820,254,970.675,Jun,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,7,warm,86161,86614,254,994.77,Jul,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,8,warm,85264,86614,254,984.414,Aug,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,9,warm,77560,83820,254,925.316,Sep,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,10,shoulder,53869,86614,254,621.943,Oct,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,11,cool,12866,83820,254,153.496,Nov,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D2,absolute,12,cool,3475,86614,254,40.121,Dec,TX->80-D2,,2,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,1,cool,522,86614,254,6.027,Jan,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,2,cool,3573,78994,254,45.231,Feb,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,3,cool,13601,86614,254,157.03,Mar,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,4,cool,31798,83820,254,379.361,Apr,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,5,shoulder,64617,86614,254,746.034,May,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,6,warm,81289,83820,254,969.804,Jun,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,7,warm,86138,86614,254,994.504,Jul,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,8,warm,85167,86614,254,983.294,Aug,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,9,warm,76980,83820,254,918.397,Sep,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,10,shoulder,51473,86614,254,594.28,Oct,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,11,cool,10506,83820,254,125.34,Nov,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D3,absolute,12,cool,2555,86614,254,29.499,Dec,TX->80-D3,,3,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,1,cool,199,86614,254,2.298,Jan,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,2,cool,1346,78994,254,17.039,Feb,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,3,cool,8130,86614,254,93.865,Mar,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,4,cool,22473,83820,254,268.11,Apr,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,5,shoulder,59216,86614,254,683.677,May,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,6,warm,80963,83820,254,965.915,Jun,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,7,warm,86128,86614,254,994.389,Jul,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,8,warm,84909,86614,254,980.315,Aug,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,9,warm,75973,83820,254,906.383,Sep,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,10,shoulder,45800,86614,254,528.783,Oct,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,11,cool,7086,83820,254,84.538,Nov,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A80_D5,absolute,12,cool,1214,86614,254,14.016,Dec,TX->80-D5,,5,80.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,1,cool,5,86614,254,0.058,Jan,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,2,cool,165,78994,254,2.089,Feb,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,3,cool,855,86614,254,9.871,Mar,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,4,cool,2934,83820,254,35.004,Apr,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,5,shoulder,19066,86614,254,220.126,May,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,6,warm,55531,83820,254,662.503,Jun,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,7,warm,73651,86614,254,850.336,Jul,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,8,warm,71578,86614,254,826.402,Aug,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,9,warm,45024,83820,254,537.151,Sep,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,10,shoulder,11462,86614,254,132.334,Oct,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,11,cool,349,83820,254,4.164,Nov,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D2,absolute,12,cool,11,86614,254,0.127,Dec,TX->90-D2,,2,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,1,cool,4,86614,254,0.046,Jan,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,2,cool,58,78994,254,0.734,Feb,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,3,cool,469,86614,254,5.415,Mar,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,4,cool,1427,83820,254,17.025,Apr,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,5,shoulder,16868,86614,254,194.749,May,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,6,warm,53873,83820,254,642.723,Jun,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,7,warm,72489,86614,254,836.92,Jul,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,8,warm,70519,86614,254,814.176,Aug,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,9,warm,42808,83820,254,510.713,Sep,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,10,shoulder,9078,86614,254,104.81,Oct,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,11,cool,186,83820,254,2.219,Nov,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D3,absolute,12,cool,2,86614,254,0.023,Dec,TX->90-D3,,3,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,1,cool,0,86614,254,0.0,Jan,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,2,cool,15,78994,254,0.19,Feb,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,3,cool,128,86614,254,1.478,Mar,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,4,cool,709,83820,254,8.459,Apr,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,5,shoulder,13024,86614,254,150.368,May,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,6,warm,49346,83820,254,588.714,Jun,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,7,warm,70171,86614,254,810.158,Jul,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,8,warm,67943,86614,254,784.434,Aug,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,9,warm,38251,83820,254,456.347,Sep,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,10,shoulder,6469,86614,254,74.688,Oct,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,11,cool,87,83820,254,1.038,Nov,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+ABS_TX_A90_D5,absolute,12,cool,0,86614,254,0.0,Dec,TX->90-D5,,5,90.0,none,absolute hot-spell day,the daily high is present
+HYB_TX_P80_D2_A80_W15,hybrid,1,cool,998,86614,254,11.522,Jan,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,2,cool,5381,78994,254,68.119,Feb,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,3,cool,12898,86614,254,148.914,Mar,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,4,cool,11419,83820,254,136.232,Apr,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,5,shoulder,16396,86614,254,189.3,May,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,6,warm,17702,83820,254,211.191,Jun,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,7,warm,19604,86614,254,226.338,Jul,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,8,warm,20770,86614,254,239.8,Aug,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,9,warm,19919,83820,254,237.64,Sep,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,10,shoulder,22600,86614,254,260.928,Oct,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,11,cool,9723,83820,254,115.999,Nov,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A80_W15,hybrid,12,cool,3437,86614,254,39.682,Dec,TX-P80-D2+A80,80.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,1,cool,5,86614,254,0.058,Jan,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,2,cool,165,78994,254,2.089,Feb,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,3,cool,833,86614,254,9.617,Mar,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,4,cool,2308,83820,254,27.535,Apr,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,5,shoulder,12724,86614,254,146.905,May,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,6,warm,17674,83820,254,210.857,Jun,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,7,warm,19604,86614,254,226.338,Jul,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,8,warm,20758,86614,254,239.661,Aug,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,9,warm,19511,83820,254,232.773,Sep,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,10,shoulder,9756,86614,254,112.638,Oct,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,11,cool,348,83820,254,4.152,Nov,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D2_A90_W15,hybrid,12,cool,11,86614,254,0.127,Dec,TX-P80-D2+A90,80.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,1,cool,515,86614,254,5.946,Jan,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,2,cool,3132,78994,254,39.649,Feb,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,3,cool,9224,86614,254,106.495,Mar,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,4,cool,6268,83820,254,74.779,Apr,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,5,shoulder,13860,86614,254,160.02,May,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,6,warm,15481,83820,254,184.693,Jun,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,7,warm,17732,86614,254,204.724,Jul,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,8,warm,18654,86614,254,215.369,Aug,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,9,warm,17511,83820,254,208.912,Sep,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,10,shoulder,18772,86614,254,216.732,Oct,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,11,cool,7258,83820,254,86.59,Nov,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A80_W15,hybrid,12,cool,2478,86614,254,28.61,Dec,TX-P80-D3+A80,80.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,1,cool,4,86614,254,0.046,Jan,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,2,cool,58,78994,254,0.734,Feb,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,3,cool,439,86614,254,5.068,Mar,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,4,cool,871,83820,254,10.391,Apr,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,5,shoulder,10907,86614,254,125.927,May,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,6,warm,15452,83820,254,184.347,Jun,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,7,warm,17732,86614,254,204.724,Jul,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,8,warm,18640,86614,254,215.208,Aug,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,9,warm,17139,83820,254,204.474,Sep,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,10,shoulder,7312,86614,254,84.421,Oct,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,11,cool,185,83820,254,2.207,Nov,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D3_A90_W15,hybrid,12,cool,2,86614,254,0.023,Dec,TX-P80-D3+A90,80.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,1,cool,210,86614,254,2.425,Jan,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,2,cool,903,78994,254,11.431,Feb,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,3,cool,3993,86614,254,46.101,Mar,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,4,cool,2034,83820,254,24.266,Apr,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,5,shoulder,9779,86614,254,112.903,May,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,6,warm,11090,83820,254,132.307,Jun,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,7,warm,14054,86614,254,162.26,Jul,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,8,warm,14877,86614,254,171.762,Aug,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,9,warm,12488,83820,254,148.986,Sep,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,10,shoulder,12609,86614,254,145.577,Oct,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,11,cool,4073,83820,254,48.592,Nov,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A80_W15,hybrid,12,cool,1148,86614,254,13.254,Dec,TX-P80-D5+A80,80.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,1,cool,0,86614,254,0.0,Jan,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,2,cool,15,78994,254,0.19,Feb,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,3,cool,97,86614,254,1.12,Mar,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,4,cool,286,83820,254,3.412,Apr,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,5,shoulder,7566,86614,254,87.353,May,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,6,warm,11065,83820,254,132.009,Jun,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,7,warm,14054,86614,254,162.26,Jul,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,8,warm,14870,86614,254,171.681,Aug,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,9,warm,12209,83820,254,145.657,Sep,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,10,shoulder,4729,86614,254,54.599,Oct,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,11,cool,84,83820,254,1.002,Nov,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P80_D5_A90_W15,hybrid,12,cool,0,86614,254,0.0,Dec,TX-P80-D5+A90,80.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,1,cool,964,86614,254,11.13,Jan,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,2,cool,5001,78994,254,63.309,Feb,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,3,cool,10625,86614,254,122.671,Mar,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,4,cool,7788,83820,254,92.913,Apr,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,5,shoulder,12573,86614,254,145.161,May,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,6,warm,13093,83820,254,156.204,Jun,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,7,warm,15073,86614,254,174.025,Jul,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,8,warm,16720,86614,254,193.04,Aug,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,9,warm,14775,83820,254,176.271,Sep,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,10,shoulder,17396,86614,254,200.845,Oct,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,11,cool,8431,83820,254,100.585,Nov,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A80_W15,hybrid,12,cool,3295,86614,254,38.042,Dec,TX-P85-D2+A80,85.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,1,cool,5,86614,254,0.058,Jan,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,2,cool,165,78994,254,2.089,Feb,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,3,cool,807,86614,254,9.317,Mar,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,4,cool,2000,83820,254,23.861,Apr,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,5,shoulder,10532,86614,254,121.597,May,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,6,warm,13083,83820,254,156.084,Jun,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,7,warm,15073,86614,254,174.025,Jul,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,8,warm,16720,86614,254,193.04,Aug,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,9,warm,14654,83820,254,174.827,Sep,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,10,shoulder,8558,86614,254,98.806,Oct,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,11,cool,346,83820,254,4.128,Nov,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D2_A90_W15,hybrid,12,cool,11,86614,254,0.127,Dec,TX-P85-D2+A90,85.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,1,cool,489,86614,254,5.646,Jan,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,2,cool,2810,78994,254,35.572,Feb,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,3,cool,7329,86614,254,84.617,Mar,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,4,cool,3623,83820,254,43.224,Apr,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,5,shoulder,10531,86614,254,121.585,May,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,6,warm,11055,83820,254,131.89,Jun,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,7,warm,13353,86614,254,154.167,Jul,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,8,warm,14790,86614,254,170.758,Aug,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,9,warm,12472,83820,254,148.795,Sep,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,10,shoulder,13874,86614,254,160.182,Oct,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,11,cool,6036,83820,254,72.011,Nov,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A80_W15,hybrid,12,cool,2346,86614,254,27.086,Dec,TX-P85-D3+A80,85.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,1,cool,4,86614,254,0.046,Jan,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,2,cool,58,78994,254,0.734,Feb,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,3,cool,411,86614,254,4.745,Mar,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,4,cool,694,83820,254,8.28,Apr,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,5,shoulder,8909,86614,254,102.859,May,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,6,warm,11047,83820,254,131.794,Jun,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,7,warm,13353,86614,254,154.167,Jul,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,8,warm,14790,86614,254,170.758,Aug,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,9,warm,12371,83820,254,147.59,Sep,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,10,shoulder,6225,86614,254,71.871,Oct,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,11,cool,182,83820,254,2.171,Nov,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D3_A90_W15,hybrid,12,cool,2,86614,254,0.023,Dec,TX-P85-D3+A90,85.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,1,cool,194,86614,254,2.24,Jan,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,2,cool,771,78994,254,9.76,Feb,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,3,cool,2846,86614,254,32.858,Mar,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,4,cool,1041,83820,254,12.419,Apr,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,5,shoulder,7108,86614,254,82.065,May,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,6,warm,7551,83820,254,90.086,Jun,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,7,warm,10075,86614,254,116.321,Jul,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,8,warm,11564,86614,254,133.512,Aug,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,9,warm,8296,83820,254,98.974,Sep,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,10,shoulder,8612,86614,254,99.43,Oct,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,11,cool,3261,83820,254,38.905,Nov,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A80_W15,hybrid,12,cool,1051,86614,254,12.134,Dec,TX-P85-D5+A80,85.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,1,cool,0,86614,254,0.0,Jan,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,2,cool,15,78994,254,0.19,Feb,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,3,cool,75,86614,254,0.866,Mar,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,4,cool,182,83820,254,2.171,Apr,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,5,shoulder,5950,86614,254,68.696,May,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,6,warm,7540,83820,254,89.955,Jun,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,7,warm,10075,86614,254,116.321,Jul,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,8,warm,11564,86614,254,133.512,Aug,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,9,warm,8243,83820,254,98.342,Sep,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,10,shoulder,3779,86614,254,43.63,Oct,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,11,cool,84,83820,254,1.002,Nov,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P85_D5_A90_W15,hybrid,12,cool,0,86614,254,0.0,Dec,TX-P85-D5+A90,85.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,1,cool,850,86614,254,9.814,Jan,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,2,cool,4463,78994,254,56.498,Feb,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,3,cool,7391,86614,254,85.333,Mar,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,4,cool,4393,83820,254,52.41,Apr,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,5,shoulder,8610,86614,254,99.407,May,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,6,warm,8466,83820,254,101.002,Jun,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,7,warm,10470,86614,254,120.881,Jul,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,8,warm,12428,86614,254,143.487,Aug,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,9,warm,9383,83820,254,111.942,Sep,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,10,shoulder,11917,86614,254,137.587,Oct,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,11,cool,6582,83820,254,78.525,Nov,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A80_W15,hybrid,12,cool,2996,86614,254,34.59,Dec,TX-P90-D2+A80,90.0,2,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,1,cool,5,86614,254,0.058,Jan,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,2,cool,162,78994,254,2.051,Feb,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,3,cool,734,86614,254,8.474,Mar,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,4,cool,1501,83820,254,17.907,Apr,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,5,shoulder,7760,86614,254,89.593,May,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,6,warm,8466,83820,254,101.002,Jun,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,7,warm,10470,86614,254,120.881,Jul,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,8,warm,12428,86614,254,143.487,Aug,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,9,warm,9352,83820,254,111.572,Sep,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,10,shoulder,6729,86614,254,77.69,Oct,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,11,cool,336,83820,254,4.009,Nov,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D2_A90_W15,hybrid,12,cool,11,86614,254,0.127,Dec,TX-P90-D2+A90,90.0,2,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,1,cool,410,86614,254,4.734,Jan,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,2,cool,2367,78994,254,29.964,Feb,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,3,cool,4756,86614,254,54.91,Mar,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,4,cool,1588,83820,254,18.945,Apr,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,5,shoulder,7143,86614,254,82.469,May,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,6,warm,6918,83820,254,82.534,Jun,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,7,warm,9144,86614,254,105.572,Jul,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,8,warm,10820,86614,254,124.922,Aug,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,9,warm,7452,83820,254,88.905,Sep,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,10,shoulder,8967,86614,254,103.528,Oct,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,11,cool,4521,83820,254,53.937,Nov,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A80_W15,hybrid,12,cool,2087,86614,254,24.095,Dec,TX-P90-D3+A80,90.0,3,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,1,cool,4,86614,254,0.046,Jan,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,2,cool,57,78994,254,0.722,Feb,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,3,cool,351,86614,254,4.052,Mar,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,4,cool,481,83820,254,5.738,Apr,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,5,shoulder,6438,86614,254,74.33,May,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,6,warm,6918,83820,254,82.534,Jun,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,7,warm,9144,86614,254,105.572,Jul,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,8,warm,10820,86614,254,124.922,Aug,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,9,warm,7423,83820,254,88.559,Sep,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,10,shoulder,4638,86614,254,53.548,Oct,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,11,cool,172,83820,254,2.052,Nov,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D3_A90_W15,hybrid,12,cool,2,86614,254,0.023,Dec,TX-P90-D3+A90,90.0,3,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,1,cool,138,86614,254,1.593,Jan,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,2,cool,641,78994,254,8.115,Feb,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,3,cool,1477,86614,254,17.053,Mar,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,4,cool,339,83820,254,4.044,Apr,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,5,shoulder,4543,86614,254,52.451,May,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,6,warm,4438,83820,254,52.947,Jun,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,7,warm,6299,86614,254,72.725,Jul,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,8,warm,8015,86614,254,92.537,Aug,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,9,warm,4389,83820,254,52.362,Sep,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,10,shoulder,4909,86614,254,56.677,Oct,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,11,cool,2472,83820,254,29.492,Nov,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A80_W15,hybrid,12,cool,889,86614,254,10.264,Dec,TX-P90-D5+A80,90.0,5,80.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,1,cool,0,86614,254,0.0,Jan,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,2,cool,14,78994,254,0.177,Feb,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,3,cool,53,86614,254,0.612,Mar,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,4,cool,96,83820,254,1.145,Apr,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,5,shoulder,4073,86614,254,47.025,May,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,6,warm,4438,83820,254,52.947,Jun,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,7,warm,6299,86614,254,72.725,Jul,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,8,warm,8015,86614,254,92.537,Aug,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,9,warm,4382,83820,254,52.279,Sep,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,10,shoulder,2486,86614,254,28.702,Oct,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,11,cool,83,83820,254,0.99,Nov,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+HYB_TX_P90_D5_A90_W15,hybrid,12,cool,0,86614,254,0.0,Dec,TX-P90-D5+A90,90.0,5,90.0,w15,hybrid heat-event day,relative eligibility AND the absolute gate is evaluable
+REL_TX_P80_D2_W15,relative,1,cool,12824,86614,254,148.059,Jan,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,2,cool,17384,78994,254,220.067,Feb,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,3,cool,17743,86614,254,204.851,Mar,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,4,cool,11530,83820,254,137.557,Apr,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,5,shoulder,16396,86614,254,189.3,May,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,6,warm,17702,83820,254,211.191,Jun,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,7,warm,19604,86614,254,226.338,Jul,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,8,warm,20770,86614,254,239.8,Aug,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,9,warm,19919,83820,254,237.64,Sep,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,10,shoulder,22697,86614,254,262.048,Oct,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,11,cool,15370,83820,254,183.369,Nov,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D2_W15,relative,12,cool,21460,86614,254,247.766,Dec,TX-P80-D2,80.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,1,cool,8712,86614,254,100.584,Jan,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,2,cool,12880,78994,254,163.05,Feb,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,3,cool,12917,86614,254,149.133,Mar,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,4,cool,6378,83820,254,76.092,Apr,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,5,shoulder,13860,86614,254,160.02,May,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,6,warm,15481,83820,254,184.693,Jun,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,7,warm,17732,86614,254,204.724,Jul,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,8,warm,18654,86614,254,215.369,Aug,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,9,warm,17511,83820,254,208.912,Sep,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,10,shoulder,18879,86614,254,217.967,Oct,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,11,cool,11217,83820,254,133.822,Nov,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D3_W15,relative,12,cool,17744,86614,254,204.863,Dec,TX-P80-D3,80.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,1,cool,2421,86614,254,27.952,Jan,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,2,cool,4794,78994,254,60.688,Feb,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,3,cool,5673,86614,254,65.497,Mar,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,4,cool,2090,83820,254,24.934,Apr,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,5,shoulder,9779,86614,254,112.903,May,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,6,warm,11090,83820,254,132.307,Jun,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,7,warm,14054,86614,254,162.26,Jul,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,8,warm,14877,86614,254,171.762,Aug,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,9,warm,12488,83820,254,148.986,Sep,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,10,shoulder,12707,86614,254,146.708,Oct,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,11,cool,5998,83820,254,71.558,Nov,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P80_D5_W15,relative,12,cool,11147,86614,254,128.697,Dec,TX-P80-D5,80.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,1,cool,9191,86614,254,106.114,Jan,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,2,cool,13260,78994,254,167.861,Feb,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,3,cool,12922,86614,254,149.191,Mar,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,4,cool,7808,83820,254,93.152,Apr,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,5,shoulder,12573,86614,254,145.161,May,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,6,warm,13093,83820,254,156.204,Jun,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,7,warm,15073,86614,254,174.025,Jul,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,8,warm,16720,86614,254,193.04,Aug,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,9,warm,14775,83820,254,176.271,Sep,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,10,shoulder,17424,86614,254,201.168,Oct,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,11,cool,11385,83820,254,135.827,Nov,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D2_W15,relative,12,cool,16780,86614,254,193.733,Dec,TX-P85-D2,85.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,1,cool,5671,86614,254,65.474,Jan,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,2,cool,9183,78994,254,116.249,Feb,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,3,cool,8972,86614,254,103.586,Mar,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,4,cool,3637,83820,254,43.391,Apr,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,5,shoulder,10531,86614,254,121.585,May,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,6,warm,11055,83820,254,131.89,Jun,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,7,warm,13353,86614,254,154.167,Jul,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,8,warm,14790,86614,254,170.758,Aug,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,9,warm,12472,83820,254,148.795,Sep,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,10,shoulder,13910,86614,254,160.598,Oct,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,11,cool,7778,83820,254,92.794,Nov,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D3_W15,relative,12,cool,13460,86614,254,155.402,Dec,TX-P85-D3,85.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,1,cool,1376,86614,254,15.887,Jan,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,2,cool,2857,78994,254,36.167,Feb,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,3,cool,3528,86614,254,40.732,Mar,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,4,cool,1045,83820,254,12.467,Apr,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,5,shoulder,7108,86614,254,82.065,May,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,6,warm,7551,83820,254,90.086,Jun,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,7,warm,10075,86614,254,116.321,Jul,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,8,warm,11564,86614,254,133.512,Aug,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,9,warm,8296,83820,254,98.974,Sep,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,10,shoulder,8633,86614,254,99.672,Oct,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,11,cool,4137,83820,254,49.356,Nov,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P85_D5_W15,relative,12,cool,8094,86614,254,93.449,Dec,TX-P85-D5,85.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,1,cool,5711,86614,254,65.936,Jan,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,2,cool,9203,78994,254,116.503,Feb,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,3,cool,8143,86614,254,94.015,Mar,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,4,cool,4395,83820,254,52.434,Apr,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,5,shoulder,8610,86614,254,99.407,May,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,6,warm,8466,83820,254,101.002,Jun,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,7,warm,10470,86614,254,120.881,Jul,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,8,warm,12428,86614,254,143.487,Aug,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,9,warm,9383,83820,254,111.942,Sep,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,10,shoulder,11923,86614,254,137.657,Oct,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,11,cool,7781,83820,254,92.83,Nov,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D2_W15,relative,12,cool,11846,86614,254,136.768,Dec,TX-P90-D2,90.0,2,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,1,cool,3171,86614,254,36.611,Jan,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,2,cool,5966,78994,254,75.525,Feb,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,3,cool,5263,86614,254,60.764,Mar,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,4,cool,1588,83820,254,18.945,Apr,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,5,shoulder,7143,86614,254,82.469,May,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,6,warm,6918,83820,254,82.534,Jun,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,7,warm,9144,86614,254,105.572,Jul,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,8,warm,10820,86614,254,124.922,Aug,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,9,warm,7452,83820,254,88.905,Sep,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,10,shoulder,8975,86614,254,103.621,Oct,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,11,cool,5100,83820,254,60.845,Nov,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D3_W15,relative,12,cool,9215,86614,254,106.392,Dec,TX-P90-D3,90.0,3,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,1,cool,634,86614,254,7.32,Jan,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,2,cool,1689,78994,254,21.381,Feb,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,3,cool,1613,86614,254,18.623,Mar,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,4,cool,339,83820,254,4.044,Apr,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,5,shoulder,4543,86614,254,52.451,May,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,6,warm,4438,83820,254,52.947,Jun,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,7,warm,6299,86614,254,72.725,Jul,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,8,warm,8015,86614,254,92.537,Aug,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,9,warm,4389,83820,254,52.362,Sep,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,10,shoulder,4920,86614,254,56.804,Oct,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,11,cool,2813,83820,254,33.56,Nov,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists
+REL_TX_P90_D5_W15,relative,12,cool,5379,86614,254,62.103,Dec,TX-P90-D5,90.0,5,,w15,relative warm-spell day,the daily high is present AND a historical threshold exists

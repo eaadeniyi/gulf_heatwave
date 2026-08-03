@@ -1,0 +1,100 @@
+construct_id,construct_family,season,classified_days,valid_daily_observations,pct_of_classified_days,classified_days_per_1000_valid,season_label,short_label
+ABS_TX_A80_D2,absolute,cool,77786,506476,14.71,153.583,November-April,TX->80-D2
+ABS_TX_A80_D2,absolute,shoulder,120560,173228,22.8,695.961,May and October,TX->80-D2
+ABS_TX_A80_D2,absolute,warm,330347,340868,62.48,969.135,June-September,TX->80-D2
+ABS_TX_A80_D3,absolute,cool,62555,506476,12.31,123.51,November-April,TX->80-D3
+ABS_TX_A80_D3,absolute,shoulder,116090,173228,22.84,670.157,May and October,TX->80-D3
+ABS_TX_A80_D3,absolute,warm,329574,340868,64.85,966.867,June-September,TX->80-D3
+ABS_TX_A80_D5,absolute,cool,40448,506476,8.54,79.862,November-April,TX->80-D5
+ABS_TX_A80_D5,absolute,shoulder,105016,173228,22.18,606.23,May and October,TX->80-D5
+ABS_TX_A80_D5,absolute,warm,327973,340868,69.27,962.17,June-September,TX->80-D5
+ABS_TX_A90_D2,absolute,cool,4319,506476,1.54,8.528,November-April,TX->90-D2
+ABS_TX_A90_D2,absolute,shoulder,30528,173228,10.88,176.23,May and October,TX->90-D2
+ABS_TX_A90_D2,absolute,warm,245784,340868,87.58,721.053,June-September,TX->90-D2
+ABS_TX_A90_D3,absolute,cool,2146,506476,0.8,4.237,November-April,TX->90-D3
+ABS_TX_A90_D3,absolute,shoulder,25946,173228,9.69,149.779,May and October,TX->90-D3
+ABS_TX_A90_D3,absolute,warm,239689,340868,89.51,703.172,June-September,TX->90-D3
+ABS_TX_A90_D5,absolute,cool,939,506476,0.38,1.854,November-April,TX->90-D5
+ABS_TX_A90_D5,absolute,shoulder,19493,173228,7.92,112.528,May and October,TX->90-D5
+ABS_TX_A90_D5,absolute,warm,225711,340868,91.7,662.165,June-September,TX->90-D5
+HYB_TX_P80_D2_A80_W15,hybrid,cool,43856,506476,27.27,86.59,November-April,TX-P80-D2+A80
+HYB_TX_P80_D2_A80_W15,hybrid,shoulder,38996,173228,24.24,225.114,May and October,TX-P80-D2+A80
+HYB_TX_P80_D2_A80_W15,hybrid,warm,77995,340868,48.49,228.813,June-September,TX-P80-D2+A80
+HYB_TX_P80_D2_A90_W15,hybrid,cool,3670,506476,3.54,7.246,November-April,TX-P80-D2+A90
+HYB_TX_P80_D2_A90_W15,hybrid,shoulder,22480,173228,21.68,129.771,May and October,TX-P80-D2+A90
+HYB_TX_P80_D2_A90_W15,hybrid,warm,77547,340868,74.78,227.499,June-September,TX-P80-D2+A90
+HYB_TX_P80_D3_A80_W15,hybrid,cool,28875,506476,22.06,57.012,November-April,TX-P80-D3+A80
+HYB_TX_P80_D3_A80_W15,hybrid,shoulder,32632,173228,24.93,188.376,May and October,TX-P80-D3+A80
+HYB_TX_P80_D3_A80_W15,hybrid,warm,69378,340868,53.01,203.533,June-September,TX-P80-D3+A80
+HYB_TX_P80_D3_A90_W15,hybrid,cool,1559,506476,1.76,3.078,November-April,TX-P80-D3+A90
+HYB_TX_P80_D3_A90_W15,hybrid,shoulder,18219,173228,20.53,105.174,May and October,TX-P80-D3+A90
+HYB_TX_P80_D3_A90_W15,hybrid,warm,68963,340868,77.71,202.316,June-September,TX-P80-D3+A90
+HYB_TX_P80_D5_A80_W15,hybrid,cool,12361,506476,14.17,24.406,November-April,TX-P80-D5+A80
+HYB_TX_P80_D5_A80_W15,hybrid,shoulder,22388,173228,25.66,129.24,May and October,TX-P80-D5+A80
+HYB_TX_P80_D5_A80_W15,hybrid,warm,52509,340868,60.18,154.045,June-September,TX-P80-D5+A80
+HYB_TX_P80_D5_A90_W15,hybrid,cool,482,506476,0.74,0.952,November-April,TX-P80-D5+A90
+HYB_TX_P80_D5_A90_W15,hybrid,shoulder,12295,173228,18.92,70.976,May and October,TX-P80-D5+A90
+HYB_TX_P80_D5_A90_W15,hybrid,warm,52198,340868,80.34,153.133,June-September,TX-P80-D5+A90
+HYB_TX_P85_D2_A80_W15,hybrid,cool,36104,506476,28.71,71.285,November-April,TX-P85-D2+A80
+HYB_TX_P85_D2_A80_W15,hybrid,shoulder,29969,173228,23.84,173.003,May and October,TX-P85-D2+A80
+HYB_TX_P85_D2_A80_W15,hybrid,warm,59661,340868,47.45,175.027,June-September,TX-P85-D2+A80
+HYB_TX_P85_D2_A90_W15,hybrid,cool,3334,506476,4.07,6.583,November-April,TX-P85-D2+A90
+HYB_TX_P85_D2_A90_W15,hybrid,shoulder,19090,173228,23.29,110.202,May and October,TX-P85-D2+A90
+HYB_TX_P85_D2_A90_W15,hybrid,warm,59530,340868,72.64,174.642,June-September,TX-P85-D2+A90
+HYB_TX_P85_D3_A80_W15,hybrid,cool,22633,506476,22.93,44.687,November-April,TX-P85-D3+A80
+HYB_TX_P85_D3_A80_W15,hybrid,shoulder,24405,173228,24.72,140.884,May and October,TX-P85-D3+A80
+HYB_TX_P85_D3_A80_W15,hybrid,warm,51670,340868,52.35,151.584,June-September,TX-P85-D3+A80
+HYB_TX_P85_D3_A90_W15,hybrid,cool,1351,506476,1.99,2.667,November-April,TX-P85-D3+A90
+HYB_TX_P85_D3_A90_W15,hybrid,shoulder,15134,173228,22.24,87.365,May and October,TX-P85-D3+A90
+HYB_TX_P85_D3_A90_W15,hybrid,warm,51561,340868,75.77,151.264,June-September,TX-P85-D3+A90
+HYB_TX_P85_D5_A80_W15,hybrid,cool,9164,506476,14.69,18.094,November-April,TX-P85-D5+A80
+HYB_TX_P85_D5_A80_W15,hybrid,shoulder,15720,173228,25.2,90.747,May and October,TX-P85-D5+A80
+HYB_TX_P85_D5_A80_W15,hybrid,warm,37486,340868,60.1,109.972,June-September,TX-P85-D5+A80
+HYB_TX_P85_D5_A90_W15,hybrid,cool,356,506476,0.75,0.703,November-April,TX-P85-D5+A90
+HYB_TX_P85_D5_A90_W15,hybrid,shoulder,9729,173228,20.48,56.163,May and October,TX-P85-D5+A90
+HYB_TX_P85_D5_A90_W15,hybrid,warm,37422,340868,78.77,109.784,June-September,TX-P85-D5+A90
+HYB_TX_P90_D2_A80_W15,hybrid,cool,26675,506476,30.33,52.668,November-April,TX-P90-D2+A80
+HYB_TX_P90_D2_A80_W15,hybrid,shoulder,20527,173228,23.34,118.497,May and October,TX-P90-D2+A80
+HYB_TX_P90_D2_A80_W15,hybrid,warm,40747,340868,46.33,119.539,June-September,TX-P90-D2+A80
+HYB_TX_P90_D2_A90_W15,hybrid,cool,2749,506476,4.74,5.428,November-April,TX-P90-D2+A90
+HYB_TX_P90_D2_A90_W15,hybrid,shoulder,14489,173228,25.0,83.641,May and October,TX-P90-D2+A90
+HYB_TX_P90_D2_A90_W15,hybrid,warm,40716,340868,70.26,119.448,June-September,TX-P90-D2+A90
+HYB_TX_P90_D3_A80_W15,hybrid,cool,15729,506476,23.77,31.056,November-April,TX-P90-D3+A80
+HYB_TX_P90_D3_A80_W15,hybrid,shoulder,16110,173228,24.35,92.999,May and October,TX-P90-D3+A80
+HYB_TX_P90_D3_A80_W15,hybrid,warm,34334,340868,51.89,100.725,June-September,TX-P90-D3+A80
+HYB_TX_P90_D3_A90_W15,hybrid,cool,1067,506476,2.3,2.107,November-April,TX-P90-D3+A90
+HYB_TX_P90_D3_A90_W15,hybrid,shoulder,11076,173228,23.85,63.939,May and October,TX-P90-D3+A90
+HYB_TX_P90_D3_A90_W15,hybrid,warm,34305,340868,73.86,100.64,June-September,TX-P90-D3+A90
+HYB_TX_P90_D5_A80_W15,hybrid,cool,5956,506476,15.45,11.76,November-April,TX-P90-D5+A80
+HYB_TX_P90_D5_A80_W15,hybrid,shoulder,9452,173228,24.52,54.564,May and October,TX-P90-D5+A80
+HYB_TX_P90_D5_A80_W15,hybrid,warm,23141,340868,60.03,67.888,June-September,TX-P90-D5+A80
+HYB_TX_P90_D5_A90_W15,hybrid,cool,246,506476,0.82,0.486,November-April,TX-P90-D5+A90
+HYB_TX_P90_D5_A90_W15,hybrid,shoulder,6559,173228,21.91,37.863,May and October,TX-P90-D5+A90
+HYB_TX_P90_D5_A90_W15,hybrid,warm,23134,340868,77.27,67.868,June-September,TX-P90-D5+A90
+REL_TX_P80_D2_W15,relative,cool,96311,506476,45.13,190.159,November-April,TX-P80-D2
+REL_TX_P80_D2_W15,relative,shoulder,39093,173228,18.32,225.674,May and October,TX-P80-D2
+REL_TX_P80_D2_W15,relative,warm,77995,340868,36.55,228.813,June-September,TX-P80-D2
+REL_TX_P80_D3_W15,relative,cool,69848,506476,40.62,137.91,November-April,TX-P80-D3
+REL_TX_P80_D3_W15,relative,shoulder,32739,173228,19.04,188.994,May and October,TX-P80-D3
+REL_TX_P80_D3_W15,relative,warm,69378,340868,40.34,203.533,June-September,TX-P80-D3
+REL_TX_P80_D5_W15,relative,cool,32123,506476,29.99,63.425,November-April,TX-P80-D5
+REL_TX_P80_D5_W15,relative,shoulder,22486,173228,20.99,129.806,May and October,TX-P80-D5
+REL_TX_P80_D5_W15,relative,warm,52509,340868,49.02,154.045,June-September,TX-P80-D5
+REL_TX_P85_D2_W15,relative,cool,71346,506476,44.31,140.867,November-April,TX-P85-D2
+REL_TX_P85_D2_W15,relative,shoulder,29997,173228,18.63,173.165,May and October,TX-P85-D2
+REL_TX_P85_D2_W15,relative,warm,59661,340868,37.06,175.027,June-September,TX-P85-D2
+REL_TX_P85_D3_W15,relative,cool,48701,506476,39.02,96.157,November-April,TX-P85-D3
+REL_TX_P85_D3_W15,relative,shoulder,24441,173228,19.58,141.092,May and October,TX-P85-D3
+REL_TX_P85_D3_W15,relative,warm,51670,340868,41.4,151.584,June-September,TX-P85-D3
+REL_TX_P85_D5_W15,relative,cool,21037,506476,28.33,41.536,November-April,TX-P85-D5
+REL_TX_P85_D5_W15,relative,shoulder,15741,173228,21.2,90.869,May and October,TX-P85-D5
+REL_TX_P85_D5_W15,relative,warm,37486,340868,50.48,109.972,June-September,TX-P85-D5
+REL_TX_P90_D2_W15,relative,cool,47079,506476,43.45,92.954,November-April,TX-P90-D2
+REL_TX_P90_D2_W15,relative,shoulder,20533,173228,18.95,118.532,May and October,TX-P90-D2
+REL_TX_P90_D2_W15,relative,warm,40747,340868,37.6,119.539,June-September,TX-P90-D2
+REL_TX_P90_D3_W15,relative,cool,30303,506476,37.52,59.831,November-April,TX-P90-D3
+REL_TX_P90_D3_W15,relative,shoulder,16118,173228,19.96,93.045,May and October,TX-P90-D3
+REL_TX_P90_D3_W15,relative,warm,34334,340868,42.52,100.725,June-September,TX-P90-D3
+REL_TX_P90_D5_W15,relative,cool,12467,506476,27.66,24.615,November-April,TX-P90-D5
+REL_TX_P90_D5_W15,relative,shoulder,9463,173228,21.0,54.627,May and October,TX-P90-D5
+REL_TX_P90_D5_W15,relative,warm,23141,340868,51.34,67.888,June-September,TX-P90-D5

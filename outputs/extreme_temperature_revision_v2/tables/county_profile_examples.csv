@@ -1,0 +1,7 @@
+profile_role,county_fips,county_name,construct_id,data_quality_label,pct_analysis_days_imputed,fully_imputed_county,cumulative_classified_days,median_annual_classified_days,median_annual_event_count,longest_event_days,peak_month,pct_days_june_september,month_01_classified_days,month_02_classified_days,month_03_classified_days,month_04_classified_days,month_05_classified_days,month_06_classified_days,month_07_classified_days,month_08_classified_days,month_09_classified_days,month_10_classified_days,month_11_classified_days,month_12_classified_days
+highest classified-day count,48007,Aransas,REL_TX_P90_D3_W15,anchor: 95% or more observed,0.2,False,747,72.0,12.0,38,Jun,44.31,31,47,53,28,76,93,78,91,69,65,54,62
+median classified-day count,48113,Dallas,REL_TX_P90_D3_W15,anchor: 95% or more observed,0.0,False,298,25.0,6.0,10,Dec,32.89,20,24,23,0,31,15,29,31,23,28,16,58
+lowest classified-day count,48391,Refugio,REL_TX_P90_D3_W15,anchor: 95% or more observed,3.6,False,59,3.0,1.0,6,Dec,10.17,3,15,3,0,3,0,0,3,3,3,3,23
+fully imputed county,48011,Armstrong,REL_TX_P90_D3_W15,fully imputed (no observed temperature),100.0,True,363,27.0,7.0,15,Aug,42.98,17,33,24,5,40,20,42,59,35,44,14,30
+anchor county (95%+ observed),48181,Grayson,REL_TX_P90_D3_W15,anchor: 95% or more observed,0.0,False,311,23.0,5.0,10,Dec,36.66,23,17,12,9,21,31,27,29,27,40,25,50
+Harris County (most populous),48201,Harris,REL_TX_P90_D3_W15,anchor: 95% or more observed,0.0,False,580,42.0,10.0,47,Sep,42.24,24,41,60,10,41,47,65,65,68,61,39,59

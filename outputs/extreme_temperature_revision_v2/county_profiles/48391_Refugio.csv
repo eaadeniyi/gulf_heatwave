@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48391,Refugio,2015,2,7,4,1,365,19.178,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2016,1,3,3,0,366,8.197,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2017,4,12,3,0,365,32.877,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2018,0,0,0,0,365,0.0,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2019,0,0,0,0,365,0.0,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2020,0,0,0,0,366,0.0,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2021,2,10,5,0,365,27.397,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2022,0,0,0,0,365,0.0,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2023,1,3,3,0,365,8.219,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2024,1,3,3,0,366,8.197,lowest classified-day count,anchor: 95% or more observed,3.6
+48391,Refugio,2025,6,21,6,3,365,57.534,lowest classified-day count,anchor: 95% or more observed,3.6

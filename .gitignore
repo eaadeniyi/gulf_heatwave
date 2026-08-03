@@ -44,6 +44,19 @@ outputs/definition_comparison/event_audits/*.png
 outputs/extreme_temp_tests/runs/
 outputs/extreme_temp_tests/tables/e01_county_year_temperature.csv
 
+# Extreme-temperature REVISION v2 (outputs/extreme_temperature_revision_v2/scripts/
+# run_revision.py, ~9 min). TRACKED: all scripts, all 21 figures, the data
+# dictionary, the definition registry, the whole qa/ record, the county profiles,
+# the event audits and the written deliverables (~55 MB). NOT TRACKED (~470 MB,
+# fully regenerable): the individual event catalogues and the monthly county-level
+# layers, which are row-per-event and row-per-county-month tables.
+outputs/extreme_temperature_revision_v2/tables/individual_*.csv
+outputs/extreme_temperature_revision_v2/tables/county_monthly_*.csv
+outputs/extreme_temperature_revision_v2/tables/county_annual_all_constructs.csv
+outputs/extreme_temperature_revision_v2/tables/long_event_audit.csv
+outputs/extreme_temperature_revision_v2/current_vs_revised/reproduction/
+outputs/extreme_temperature_revision_v2/qa/_classified_day_sets.npz
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db

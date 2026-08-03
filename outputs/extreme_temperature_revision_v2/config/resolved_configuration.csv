@@ -1,0 +1,36 @@
+setting,value,note
+study_period_part1,1979-2025,Part 1 years; 2026 excluded (partial)
+analysis_years_part2_3,2015-2025,classification years
+states_part1,"TX,LA,MS,AL,FL",Gulf states described in Part 1
+state_part2_3,TX,only state with a built county-day table
+min_days_per_county_year,328,valid daily observations required for an annual county-level observation
+min_days_per_county_month,25,valid daily observations required for a monthly county-level summary
+periods,1980-1989 | 1990-1999 | 2000-2009 | 2010-2019 | 2020-2025,comparison periods
+recent_period_length_years,6,"2020-2025 is a six-year recent period, not a decade"
+sample_A_rule,1980-1989>=8 yr; 1990-1999>=8 yr; 2000-2009>=8 yr; 2010-2019>=8 yr; 2020-2025>=5 yr,Sample A: minimum qualifying annual observations per period
+sample_B_years_per_period,6,Sample B: identical number of annual observations in every period
+sample_B_selection_rule,K qualifying years closest to the period midpoint; ties broken toward the earlier year,"deterministic, no randomness"
+county_period_statistic,mean,annual county-level observations -> one value per county per period
+state_period_statistic,median,"across counties, each county contributing exactly one value"
+bootstrap_resamples,2000,resampling unit: county
+bootstrap_interval,2.5-97.5 pct,percentile interval
+bootstrap_seed,20260801,fixed seed; bit-reproducible
+percentiles,"80,85,90",relative thresholds
+durations_days,"2,3,5",minimum run lengths
+threshold_windows,"w05,w15,month,month_pm7",baseline pooling windows
+primary_window,w15,centred 15-day calendar window
+absolute_gates_f,"80,90",absolute daily-high gates; NOT National Weather Service thresholds
+warm_season_months,"6,7,8,9",Prespecified warm season: June-September
+shoulder_season_months,"5,10",May and October
+cool_season_months,"11,12,1,2,3,4",November-April
+long_event_audit_days,15,every longer event is audited
+long_event_strict_days,20,reported separately
+relative_comparison_operator,>,daily high strictly above the historical percentile
+hybrid_gate_operator,>=,as implemented in the pipeline; > is tested
+absolute_comparison_operator,>,'above 90 degF'
+baseline_scheme,walk_forward_1979_to_Yminus1,year Y judged on 1979..Y-1
+anchor_min_observed_share,0.95,anchor-station subset definition
+plausible_tmax_f,"(-40.0, 135.0)","flag only, never edit"
+plausible_tmin_f,"(-50.0, 110.0)","flag only, never edit"
+benchmark_product,heatWaveUS national GHCN county-day (nearest-station assignment),shares the GHCN-Daily station observations; differs in station-to-county assignment and county aggregation
+benchmark_years,2015-2024,benchmark coverage

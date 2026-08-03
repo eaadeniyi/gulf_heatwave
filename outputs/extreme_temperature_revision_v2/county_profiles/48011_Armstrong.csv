@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48011,Armstrong,2015,6,23,5,23,365,63.014,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2016,8,27,4,27,366,73.77,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2017,7,24,5,24,365,65.753,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2018,4,25,9,25,365,68.493,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2019,6,24,6,24,365,65.753,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2020,6,32,7,32,366,87.432,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2021,6,25,6,25,365,68.493,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2022,9,48,14,48,365,131.507,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2023,11,49,9,49,365,134.247,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2024,12,53,15,53,366,144.809,fully imputed county,fully imputed (no observed temperature),100.0
+48011,Armstrong,2025,8,33,8,33,365,90.411,fully imputed county,fully imputed (no observed temperature),100.0

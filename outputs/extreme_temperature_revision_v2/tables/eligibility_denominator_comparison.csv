@@ -1,0 +1,13 @@
+month,month_name,season,valid_daily_observations_relative,valid_daily_observations_hybrid,valid_daily_observations_absolute,relative_equals_hybrid,relative_equals_absolute,absolute_minus_relative,primary_window,conclusion
+1,Jan,cool,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+2,Feb,cool,78994,78994,78994,True,True,0,w15,identical: the same denominator may be used for both families
+3,Mar,cool,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+4,Apr,cool,83820,83820,83820,True,True,0,w15,identical: the same denominator may be used for both families
+5,May,shoulder,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+6,Jun,warm,83820,83820,83820,True,True,0,w15,identical: the same denominator may be used for both families
+7,Jul,warm,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+8,Aug,warm,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+9,Sep,warm,83820,83820,83820,True,True,0,w15,identical: the same denominator may be used for both families
+10,Oct,shoulder,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families
+11,Nov,cool,83820,83820,83820,True,True,0,w15,identical: the same denominator may be used for both families
+12,Dec,cool,86614,86614,86614,True,True,0,w15,identical: the same denominator may be used for both families

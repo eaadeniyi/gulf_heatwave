@@ -1,0 +1,6 @@
+state,state_name,daily_county_level_observations,counties_in_file,first_date,last_date,pct_daily_records_with_daily_high,pct_daily_records_with_daily_low,median_contributing_stations_high,annual_observations_meeting_coverage,annual_observations_total,records_quarantined_high_below_low,records_with_high_below_low_after_quarantine,records_with_duplicate_county_date
+TX,Texas,4220797,254,1979-01-01,2025-12-31,90.73,90.41,1.0,9984,10848,16,0,0
+LA,Louisiana,1048350,65,1979-01-01,2025-12-31,77.3,77.05,1.0,2140,2296,1,0,0
+MS,Mississippi,1284436,82,1979-01-01,2025-12-31,81.79,81.2,1.0,2641,3058,1,0,0
+AL,Alabama,1071761,67,1979-01-01,2025-12-31,85.62,85.01,1.0,2341,2634,0,0,0
+FL,Florida,1053259,67,1979-01-01,2025-12-31,95.33,95.04,2.0,2609,2844,0,0,0

@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48181,Grayson,2015,6,31,6,0,365,84.932,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2016,5,22,8,0,366,60.109,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2017,5,15,3,0,365,41.096,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2018,4,21,8,0,365,57.534,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2019,6,19,4,0,365,52.055,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2020,3,10,4,0,366,27.322,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2021,4,23,9,0,365,63.014,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2022,13,51,8,0,365,139.726,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2023,11,55,10,0,365,150.685,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2024,12,40,4,0,366,109.29,anchor county (95%+ observed),anchor: 95% or more observed,0.0
+48181,Grayson,2025,4,24,9,0,365,65.753,anchor county (95%+ observed),anchor: 95% or more observed,0.0

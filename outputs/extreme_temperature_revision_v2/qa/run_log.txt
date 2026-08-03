@@ -1,0 +1,389 @@
+##############################################################################
+# EXTREME-TEMPERATURE REVISION v2
+# The analysis uses a county-by-day panel in which each record represents one county on one calendar date.
+##############################################################################
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 1/12  r01_reproduce_audit  --  Stage 1: reproduce and audit the existing pipeline
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r01  STAGE 1 -- reproduce the existing pipeline and audit it
+==============================================================================
+provenance: python 3.14.3, pandas 3.0.3, numpy 2.4.6, git 550d9e5+dirty
+------------------------------------------------------------------------------
+[1/4] checksumming current outputs and inputs ...
+      357 artifacts (0 missing)
+------------------------------------------------------------------------------
+[2/4] re-executing the current scripts with redirected outputs ...
+      e01 PASS (28s) 
+      e03 PASS (12s) 
+------------------------------------------------------------------------------
+[3/4] comparing reproduced artifacts with the current ones ...
+      29/29 artifacts reproduce; 0 discrepancy(ies)
+------------------------------------------------------------------------------
+[4/4] writing the aggregation and figure-lineage inventories ...
+      22 aggregations catalogued, 6 flagged BLOCKING
+        BLOCKING  e01        'balanced panel' membership
+        BLOCKING  e01        state x period temperature level and change
+        BLOCKING  e01        state x month level, and state x month period difference
+        BLOCKING  e03        monthly classification rate
+        BLOCKING  e03        figure E9 caption
+        BLOCKING  e04        written claims
+==============================================================================
+r01 done in 1.0 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 2/12  r02_temperature_panel  --  Stage 2: county temperature panel and sanity checks
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r02  STAGE 2 -- county temperature panel and sanity checks
+==============================================================================
+The analysis uses a county-by-day panel in which each record represents one county on one calendar date.
+[load] TX  4,220,797 daily records, 254 counties, 90.7% with a daily high, 9984/10848 annual observations meet coverage
+[load] LA  1,048,350 daily records,  65 counties, 77.3% with a daily high, 2140/2296 annual observations meet coverage
+[load] MS  1,284,436 daily records,  82 counties, 81.8% with a daily high, 2641/3058 annual observations meet coverage
+[load] AL  1,071,761 daily records,  67 counties, 85.6% with a daily high, 2341/2634 annual observations meet coverage
+[load] FL  1,053,259 daily records,  67 counties, 95.3% with a daily high, 2609/2844 annual observations meet coverage
+------------------------------------------------------------------------------
+DECLARED QUARANTINE (quarantine_whole_county_date_and_report)
+   18 raw county-dates have a daily high below the same day's daily low and are removed
+   of these, 13 have the daily high and daily low averaged over DIFFERENT numbers of stations -- the county aggregation, not the station observations, is the source
+   0 fall inside the Texas 2015-2025 classification window (Part 2 and Part 3 are unaffected)
+   full records preserved in qa/quarantined_inverted_daily_records.csv
+------------------------------------------------------------------------------
+TEST A -- daily temperature logic: 34 checks, 0 FAIL, 3 FLAG
+   FLAG   TX  inverted_county_dates_quarantined_from_raw_input 16/4220813 records
+   FLAG   LA  inverted_county_dates_quarantined_from_raw_input 1/1048351 records
+   FLAG   MS  inverted_county_dates_quarantined_from_raw_input 1/1284437 records
+------------------------------------------------------------------------------
+data-quality flags (nothing altered):
+   abrupt_annual_discontinuity_with_station_change                   8 / 58,359
+   abrupt_annual_discontinuity_without_station_change              109 / 58,359
+   warm_season_daily_high_only_plausible_as_celsius                  0 / 82,635
+   insufficient_annual_coverage                                  6,672 / 65,031
+   insufficient_monthly_coverage                                25,437 / 763,988
+------------------------------------------------------------------------------
+[write] county_annual_temperature.csv   65,031 rows
+[write] county_monthly_temperature.csv  763,988 rows
+[write] revised_temperature_monthly_sanity_check.csv  180 rows
+[write] summer_audit_jun_aug_jun_sep.csv              30 rows
+[write] qa/summer_temperature_review.md
+------------------------------------------------------------------------------
+Jun-Sep Average daily high temperature median across counties: AL 89.0  FL 90.7  LA 90.6  MS 89.7  TX 92.6
+Jun-Sep Average daily low temperature median across counties: AL 67.3  FL 71.5  LA 70.6  MS 67.9  TX 69.3
+Jun-Sep Average daily temperature    median across counties: AL 78.1  FL 81.1  LA 80.7  MS 78.8  TX 81.0
+r02 done in 0.5 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 3/12  r03_period_aggregation  --  Stages 3-4: equal-county period aggregation
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r03  STAGES 3-4 -- equal-county period aggregation
+==============================================================================
+qualifying annual county-level observations inside the periods: 57,007
+------------------------------------------------------------------------------
+SAMPLE SIZES (counties retained, per state and variable)
+   Sample A rule: 1980-1989 >= 8 qualifying years; 1990-1999 >= 8 qualifying years; 2000-2009 >= 8 qualifying years; 2010-2019 >= 8 qualifying years; 2020-2025 >= 5 qualifying years
+   Sample B rule: exactly 6 annual observations per period (K qualifying years closest to the period midpoint; ties broken toward the earlier year)
+   st  var      any-data     Sample A     Sample B   current 'balanced panel'
+   TX  Tmax          247          140          148   195
+   TX  Tmin          247          135          145   194
+   TX  Tavg          247          128          139   194
+   LA  Tmax           59           26           23   37
+   LA  Tmin           59           26           23   37
+   LA  Tavg           59           26           23   36
+   MS  Tmax           73           25           23   43
+   MS  Tmin           73           18           21   43
+   MS  Tavg           73           18           21   42
+   AL  Tmax           65           28           35   44
+   AL  Tmin           64           27           32   43
+   AL  Tavg           64           26           30   42
+   FL  Tmax           66           37           36   49
+   FL  Tmin           66           34           36   49
+   FL  Tavg           66           32           34   49
+------------------------------------------------------------------------------
+TEST C -- period weighting
+   PASS   one_value_per_county_per_state_period                      0 duplicated (sample, state, variable, county, period) rows
+   PASS   same_county_count_in_every_period__consistent_county       county counts per period: {('AL', 'Tavg'): {'1980-1989': 26, '1990-199
+   PASS   same_county_count_in_every_period__strict_balanced         county counts per period: {('AL', 'Tavg'): {'1980-1989': 30, '1990-199
+   PASS   strict_balanced_contributes_identical_annual_counts        every county-period must use exactly 6 annual observations; observed r
+   REPORT counties_excluded_for_insufficient_coverage__consistent_county AL/Tavg 38 of 64 excluded; AL/Tmax 37 of 65 excluded; AL/Tmin 37 of 64
+   REPORT counties_excluded_for_insufficient_coverage__strict_balanced AL/Tavg 34 of 64 excluded; AL/Tmax 30 of 65 excluded; AL/Tmin 32 of 64
+   PASS   duplicating_one_annual_record_does_not_change_the_state_estimate duplicated 48001 in 1980; max change in any state-period median = 0 de
+[write] county_period_temperature.csv                   7,475 rows
+[write] state_period_temperature_equal_county.csv       150 rows
+[write] state_month_period_temperature_equal_county.csv 1800 rows
+[write] period_comparison_current_vs_revised.csv        150 rows
+------------------------------------------------------------------------------
+DIFFERENCE from 1980-1989 to 2020-2025 (degF), daily high temperature
+   st     current   Sample A revised [95% CI]  Sample B revised [95% CI] 
+   TX      +2.04   +1.94 [+1.53, +2.48] n=140 +2.27 [+1.79, +2.72] n=148
+   LA      +1.75   +2.08 [+1.79, +2.64] n=26  +2.20 [+1.55, +2.72] n=23 
+   MS      +2.35   +1.86 [+1.22, +3.60] n=25  +2.11 [+0.94, +3.47] n=23 
+   AL      +1.38   +1.62 [+0.94, +2.64] n=28  +1.17 [+0.61, +2.09] n=35 
+   FL      +1.17   +1.53 [+0.55, +2.12] n=37  +1.30 [+0.35, +1.97] n=36 
+
+   duplicating one annual county-level record changes the revised estimate by 0 degF and the current pooled estimate by 0.004 degF
+r03 done in 0.1 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 4/12  r04_trends  --  Stage 5: descriptive trend sensitivity
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r04  STAGE 5 -- trend sensitivity (descriptive; no causal claim)
+==============================================================================
+stable-station subset: TX 10, LA 1, MS 0, AL 2, FL 6
+[write] state_annual_series.csv   2589 rows
+[write] trend_sensitivity.csv     57 rows
+------------------------------------------------------------------------------
+sensitivity 7 (benchmark product): NOT AVAILABLE. The only second temperature product in this repository covers 2015-2024, which does not reach the 1979-2014 part of the record, and r05 shows it to be byte-identical to the project data in any case. No slope here has been checked against an independent product.
+------------------------------------------------------------------------------
+SEN SLOPE, degF per decade, daily high temperature (95%% Sen interval)
+   st  all reporting counties         consistent-county (Sample A)  
+   TX  +0.45 [+0.20, +0.73]           +0.47 [+0.19, +0.71]          
+   LA  +0.44 [+0.21, +0.69]           +0.54 [+0.31, +0.78]          
+   MS  +0.53 [+0.23, +0.82]           +0.52 [+0.23, +0.78]          
+   AL  +0.28 [+0.02, +0.52]           +0.41 [+0.15, +0.68]          
+   FL  +0.19 [+0.01, +0.41]           +0.32 [+0.12, +0.51]          
+
+   This result may reflect climate change, station-network composition, data coverage, or remaining inhomogeneity and does not isolate causation.
+r04 done in 2.0 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 5/12  r05_benchmark  --  Stage 6: external benchmarking
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r05  STAGE 6 -- external benchmarking
+==============================================================================
+candidate benchmark: heatWaveUS national GHCN county-day (nearest-station assignment)
+running the identity test -- is it actually different data?
+   TX  Tmax     767,112 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   TX  Tmin     766,307 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   LA  Tmax     146,445 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   LA  Tmin     146,234 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   MS  Tmax     166,469 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   MS  Tmin     166,270 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   AL  Tmax     183,059 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   AL  Tmin     182,904 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   FL  Tmax     206,566 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+   FL  Tmin     206,704 matched daily records, 100.0000% identical, max |difference| 0 degF  -> DUPLICATE_NOT_INDEPENDENT
+------------------------------------------------------------------------------
+RESULT: external benchmarking CANNOT be performed with the contents of this repository.
+   the candidate product is byte-identical to the project data on 2,938,070 of 2,938,070 matched daily county-level records (maximum absolute difference 0 degF), so it duplicates the project data rather than providing independent validation
+[write] qa/benchmark_identity_test.csv
+[write] qa/benchmark_limitations.md
+[write] tables/benchmark_comparison_summary.csv  (all comparisons recorded NOT AVAILABLE)
+r05 done in 0.6 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 6/12  r06_events  --  Stages 7-8: construct families and denominators
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r06  STAGES 7-8 -- construct families, event catalogues, denominators
+==============================================================================
+The analysis uses a county-by-day panel in which each record represents one county on one calendar date.
+[load] 1,020,572 daily county-level records, 254 counties, 2015-01-01 to 2025-12-31
+loading the archived walk-forward threshold cache ...
+   12 threshold tables (3 percentiles x 4 windows), parsed with float_precision='round_trip'
+   archived-CSV float round-trip check: 99,405 of 3,067,812 threshold values are misparsed by the pandas DEFAULT float parser, flipping the relative condition on 2 daily county-level records
+------------------------------------------------------------------------------
+eligibility denominators, computed separately per construct family
+   absolute  none      1,020,572 valid daily county-level observations
+   hybrid    month     1,020,572 valid daily county-level observations
+   hybrid    month_pm7 1,020,572 valid daily county-level observations
+   hybrid    w05       1,020,572 valid daily county-level observations
+   hybrid    w15       1,020,572 valid daily county-level observations
+   relative  month     1,020,572 valid daily county-level observations
+   relative  month_pm7 1,020,572 valid daily county-level observations
+   relative  w05       1,020,572 valid daily county-level observations
+   relative  w15       1,020,572 valid daily county-level observations
+   relative vs hybrid denominators identical:   True
+   relative vs absolute denominators identical: True
+------------------------------------------------------------------------------
+   10/60 constructs classified (106 s elapsed)
+   20/60 constructs classified (163 s elapsed)
+   30/60 constructs classified (206 s elapsed)
+   40/60 constructs classified (245 s elapsed)
+   50/60 constructs classified (283 s elapsed)
+   60/60 constructs classified (334 s elapsed)
+------------------------------------------------------------------------------
+REPRODUCTION OF e02 by independent rebuild: 120 checks, 120 PASS, 0 FAIL
+------------------------------------------------------------------------------
+TESTS D-G: 33 checks, 32 PASS, 0 FAIL, 1 REPORT
+   REPORT  gate_operator_effect_reported_after_event_reconstruction with '>=' : 46448 classified days, 8613 events; with '>' : 46448 classified days, 8613 events; 2 daily records sit exactly on the 90 degF gate; the operator changes 0 classified days and 0 events
+------------------------------------------------------------------------------
+[write] relative_warm_spell                        events  228,867  annual 100,584  monthly  301,752
+[write] hybrid_heat_event                          events  278,530  annual  50,292  monthly  603,504
+[write] absolute_hot_spell                         events  143,943  annual  16,764  monthly  201,168
+------------------------------------------------------------------------------
+catalogue scope: individual event catalogues are written for the primary window (w15) and for the absolute family, which has no window axis. Annual and monthly county-level summaries are written for ALL 4 threshold windows, so the window axis is preserved.
+r06 done in 5.9 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 7/12  r07_agreement_and_gates  --  agreement, absolute gates, rates, geography
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r07  agreement, absolute gates, monthly rates, geography
+==============================================================================
+classified county-date sets loaded for 33 constructs (4,839,385 county-dates)
+[table] construct_summary.csv  (33 constructs)
+[table] monthly_classification_rates.csv  (396 rows)
+[qa]    flatness_criterion.csv: 0 of 33 constructs meet the prespecified flatness criterion (max/min <= 1.5 AND coefficient of variation <= 0.15)
+[table] seasonal_classification_shares.csv  (99 rows)
+[table] definition_agreement_jaccard.csv  (528 pairs)
+[table] absolute_gate_effect.csv  (18 relative x gate rows)
+[table] absolute_vs_relative.csv  (18 rows)
+[table] county_gate_effect.csv  (4572 rows)
+[table] annual_event_count_distribution.csv, event_duration_distribution.csv
+------------------------------------------------------------------------------
+SEASONALITY, three categories, relative warm spells at the primary window
+   construct         Jun-Sep    May+Oct    Nov-Apr   peak month
+   TX-P80-D2           36.5%      18.3%      45.1%   Oct
+   TX-P80-D3           40.3%      19.0%      40.6%   Oct
+   TX-P80-D5           49.0%      21.0%      30.0%   Aug
+   TX-P85-D2           37.1%      18.6%      44.3%   Oct
+   TX-P85-D3           41.4%      19.6%      39.0%   Aug
+   TX-P85-D5           50.5%      21.2%      28.3%   Aug
+   TX-P90-D2           37.6%      18.9%      43.5%   Aug
+   TX-P90-D3           42.5%      20.0%      37.5%   Aug
+   TX-P90-D5           51.3%      21.0%      27.7%   Aug
+------------------------------------------------------------------------------
+ABSOLUTE GATE EFFECT on the TX-P90-D3 construct
+   80 degF gate: 81.9% of classified days retained, Jaccard 0.819, Jun-Sep share 42.5% -> 51.9%, county retention p10-p90 68-92%
+   90 degF gate: 57.5% of classified days retained, Jaccard 0.575, Jun-Sep share 42.5% -> 73.9%, county retention p10-p90 42-69%
+r07 done in 0.4 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 8/12  r08_audits  --  Stages 15-16: long-event audit and data-quality sensitivity
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r08  STAGES 15-16 -- long-event audit, data-quality sensitivity, profiles
+==============================================================================
+county data quality: 254 counties; 22 fully imputed; 176 anchor (>= 95% observed); median imputation 0.5%
+------------------------------------------------------------------------------
+STAGE 15 -- long-event audit (threshold: more than 15 days)
+   43,392 events exceed 15 days (43,392 of 651,340 events in the catalogues)
+   station_composition_sensitive    23,190 events
+   physically_plausible             13,014 events
+   imputation_sensitive             6,192 events
+   requires_manual_review           966 events
+   threshold_driven                 30 events
+   per-day detail written for the longest 150 events in each family (cap stated, not silent): 46,500 rows
+------------------------------------------------------------------------------
+STAGE 16 -- data-quality sensitivity
+   198 stratum x construct rows; 165 ranking comparisons
+   REL_TX_P90_D3_W15 under each county subset:
+      subset                                     counties med annual  Jun-Sep % long/100cy
+      All counties                                    254       23.0       42.5      8.12
+      Counties with any observed temperature          232       23.0       42.7      8.19
+      Counties with less than 20% imputation          197       24.0       42.8      8.72
+      Counties with less than 10% imputation          188       24.0       42.7      8.90
+      Counties that are not fully imputed             232       23.0       42.7      8.19
+      Anchor-station subset (stable reporting counties)      176       24.0       42.8      9.14
+   invariant check (a county's value must not depend on which other counties are included): 0 of 165 comparisons violate it
+   what the subsets actually change, for REL_TX_P90_D3_W15:
+      Counties with any observed temperature     excludes  22 counties, 0 of the all-counties top 10, median cumulative days -0
+      Counties with less than 20% imputation     excludes  57 counties, 1 of the all-counties top 10, median cumulative days +6
+      Counties with less than 10% imputation     excludes  66 counties, 1 of the all-counties top 10, median cumulative days +12
+      Counties that are not fully imputed        excludes  22 counties, 0 of the all-counties top 10, median cumulative days -0
+      Anchor-station subset (stable reporting counties) excludes  78 counties, 1 of the all-counties top 10, median cumulative days +13
+------------------------------------------------------------------------------
+county profiles written for 6 example counties -> county_profiles/
+   highest classified-day count     48007 Aransas           747 cumulative days, anchor: 95% or more observed
+   median classified-day count      48113 Dallas            298 cumulative days, anchor: 95% or more observed
+   lowest classified-day count      48391 Refugio            59 cumulative days, anchor: 95% or more observed
+   fully imputed county             48011 Armstrong         363 cumulative days, fully imputed (no observed temperature)
+   anchor county (95%+ observed)    48181 Grayson           311 cumulative days, anchor: 95% or more observed
+   Harris County (most populous)    48201 Harris            580 cumulative days, anchor: 95% or more observed
+r08 done in 1.1 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 9/12  r09_figures_part1  --  revised figures E2-E4 and R1-R4
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r09  revised Part 1 figures
+==============================================================================
+      -> figures/r_fig_E2_distribution_by_state.png
+      -> figures/r_fig_E2b_one_value_per_county.png
+      -> figures/r_fig_E3_period_comparison.png
+      -> figures/r_fig_E4_monthly_level_and_difference.png
+      -> figures/r_fig_R1_current_vs_revised_period_comparison.png
+      -> figures/r_fig_R2_consistent_vs_strict_balanced.png
+      -> figures/r_fig_R3_external_benchmark.png
+      -> figures/r_fig_R4_trend_sensitivity.png
+[write] 8 figure manifest entries
+r09 done in 0.2 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 10/12  r10_figures_part2  --  revised figures E5-E9 and R5-R10
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r10  revised Part 2 and Part 3 figures
+==============================================================================
+      -> figures/r_fig_E5_percentile_duration_grid.png
+      -> figures/r_fig_E5b_agreement_jaccard.png
+      -> figures/r_fig_E6_monthly_classification_rate.png
+      -> figures/r_fig_E7_absolute_gate_effect.png
+      -> figures/r_fig_E8_absolute_vs_relative.png
+      -> figures/r_fig_E9_county_geography_all_counties.png
+      -> figures/r_fig_E9_county_geography_excluding_fully_imputed.png
+      -> figures/r_fig_R5_imputation_sensitivity.png
+      -> figures/r_fig_R6_event_timeline.png
+      -> figures/r_fig_R7_long_event_audit.png
+      -> figures/r_fig_R8_annual_distributions.png
+      -> figures/r_fig_R9_monthly_rates_all_families.png
+      -> figures/r_fig_R10_county_profiles.png
+[write] 13 figure manifest entries
+r10 done in 0.9 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 11/12  r11_qa_tests  --  the consolidated QA suite (blocking)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r11  CONSOLIDATED QA SUITE
+==============================================================================
+104 checks: 94 PASS, 0 FAIL, 10 REPORT/FLAG
+   REPORT  A    per_variable_coverage_gate_can_rest_on_different_day_sets 10,238 of 21,675 annual county-level observations have different valid-day counts for the 
+   REPORT  A    inverted_records_quarantined_and_reported                18 raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'
+   FLAG    A    inverted_county_dates_quarantined_from_raw_input         raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; a
+   FLAG    A    inverted_county_dates_quarantined_from_raw_input         raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; a
+   FLAG    A    inverted_county_dates_quarantined_from_raw_input         raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; a
+   REPORT  C    counties_excluded_for_insufficient_coverage__consistent_county AL/Tavg 38 of 64 excluded; AL/Tmax 37 of 65 excluded; AL/Tmin 37 of 64 excluded; FL/Tavg 3
+   REPORT  C    counties_excluded_for_insufficient_coverage__strict_balanced AL/Tavg 34 of 64 excluded; AL/Tmax 30 of 65 excluded; AL/Tmin 32 of 64 excluded; FL/Tavg 3
+   REPORT  D-G  gate_operator_effect_reported_after_event_reconstruction with '>=' : 46448 classified days, 8613 events; with '>' : 46448 classified days, 8613 eve
+   REPORT  F    construct_family_denominators_tested_not_assumed         relative == hybrid: True; relative == absolute: True. documented as equal for this state a
+   REPORT  stage1 archived_csv_float_roundtrip_defect_quantified           99,405 of 3,067,812 archived threshold values are misparsed by the pandas DEFAULT float pa
+r11 done in 0.1 min
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> STEP 12/12  r12_report  --  dictionary, registry, manifests, final report
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==============================================================================
+r12  dictionary, registry, manifests and the final report
+==============================================================================
+[write] revised_variable_dictionary.csv  (785 columns across 42 tables, 618 documented)
+[write] definition_registry_revised.csv  (60 constructs)
+[write] figure_data_manifest.csv  (21 figures)
+[write] reports/FINAL_REPORT.md  (524 lines)
+[write] reports/FINDINGS_REVISED.md
+[write] current_vs_revised/CURRENT_VS_REVISED.md
+[write] README.md
+terminology gate over the written reports: PASS (0 unguarded use(s))
+[write] run_manifest.csv  (16 scripts, 108 outputs)
+r12 done in 0.1 min
+
+##############################################################################
+# COMPLETE in 12.8 minutes
+#   r01_reproduce_audit           0.97 min
+#   r02_temperature_panel         0.49 min
+#   r03_period_aggregation        0.06 min
+#   r04_trends                    2.04 min
+#   r05_benchmark                 0.58 min
+#   r06_events                    5.94 min
+#   r07_agreement_and_gates       0.39 min
+#   r08_audits                    1.05 min
+#   r09_figures_part1             0.22 min
+#   r10_figures_part2             0.87 min
+#   r11_qa_tests                  0.12 min
+#   r12_report                    0.11 min
+##############################################################################

@@ -1,0 +1,11 @@
+figure_file,figure_id,input_data,uses_idw_filled_data,sample,aggregation,uses_statewide_pooled_totals,unit_of_analysis
+e01_fig01_annual_series_by_state.png,E1,raw observed GHCN,no,unbalanced (counties passing the gate that year),county-level median,no,annual county-level observation
+e01_fig02_distribution_by_state.png,E2,raw observed GHCN,no,unbalanced,POOLED annual county-level observations,no,annual county-level observation
+e01_fig03_decadal_change.png,E3,raw observed GHCN,no,'balanced panel' (>=1 qualifying year per decade) and all reporting,POOLED annual county-level observations,no,annual county-level observation
+e01_fig04_monthly.png,E4,raw observed GHCN,no,'balanced panel' for the change row only,POOLED monthly county-level summaries,no,monthly county-level summary
+e03_fig05_part2_percentile_duration_grid.png,E5,IDW gap-filled county-day,yes,all 254 counties,"county median of cumulative totals (A, C); POOLED events (B); POOLED classified days (D)",yes (panels B and D),mixed: county and pooled county-date
+e03_fig05b_part2_agreement.png,E5b,IDW gap-filled county-day,yes,all 254 counties,set of classified county-dates,no,county-date record
+e03_fig06_part2_seasonality.png,E6,IDW gap-filled county-day,yes,all 254 counties,POOLED classified days / reused shared denominator,yes,daily county-level observation
+e03_fig07_floor_effect.png,E7,IDW gap-filled county-day,yes,all 254 counties,POOLED classified days and pooled events,yes,mixed
+e03_fig08_absolute_vs_relative.png,E8,IDW gap-filled county-day,yes,all 254 counties,county median of cumulative totals; POOLED monthly rates,yes,mixed
+e03_fig09_county_floor_effect_map.png,E9,IDW gap-filled county-day,yes,all 254 counties including fully imputed,county-level,no,county

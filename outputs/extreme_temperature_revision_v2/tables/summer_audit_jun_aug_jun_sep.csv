@@ -1,0 +1,31 @@
+state,variable,variable_label,window,contributing_counties,median_across_counties_f,p25_across_counties_f,p75_across_counties_f,min_across_counties_f,max_across_counties_f,contributing_monthly_summaries,counties_below_75F,pct_counties_below_75F,interpretation
+AL,Tavg,Average daily temperature,Jun-Aug,66,79.2,78.08,80.0,72.33,81.7,7382,1,1.5,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+AL,Tmax,Average daily high temperature,Jun-Aug,66,90.02,88.94,90.71,81.88,91.76,7455,0,0.0,an average daily high should be well above 75 degF in the warm season
+AL,Tmin,Average daily low temperature,Jun-Aug,66,68.46,67.09,69.28,62.8,74.02,7399,66,100.0,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+FL,Tavg,Average daily temperature,Jun-Aug,66,81.39,81.09,82.06,78.94,84.06,8116,0,0.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+FL,Tmax,Average daily high temperature,Jun-Aug,66,91.13,90.2,91.68,88.81,92.9,8150,0,0.0,an average daily high should be well above 75 degF in the warm season
+FL,Tmin,Average daily low temperature,Jun-Aug,66,71.97,70.9,73.11,68.22,78.46,8130,62,93.9,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+LA,Tavg,Average daily temperature,Jun-Aug,59,81.69,81.37,82.02,80.2,84.33,6600,0,0.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+LA,Tmax,Average daily high temperature,Jun-Aug,59,91.55,90.71,92.16,88.98,94.24,6618,0,0.0,an average daily high should be well above 75 degF in the warm season
+LA,Tmin,Average daily low temperature,Jun-Aug,59,71.89,70.86,72.93,69.45,76.5,6609,56,94.9,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+MS,Tavg,Average daily temperature,Jun-Aug,73,80.14,79.17,80.64,76.34,81.71,8484,0,0.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+MS,Tmax,Average daily high temperature,Jun-Aug,73,90.56,90.1,91.21,88.0,92.5,8531,0,0.0,an average daily high should be well above 75 degF in the warm season
+MS,Tmin,Average daily low temperature,Jun-Aug,73,69.4,68.09,70.32,64.47,73.32,8511,73,100.0,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+TX,Tavg,Average daily temperature,Jun-Aug,247,82.35,81.41,83.43,73.9,87.55,31115,1,0.4,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+TX,Tmax,Average daily high temperature,Jun-Aug,247,93.82,92.52,95.01,85.18,100.01,31278,0,0.0,an average daily high should be well above 75 degF in the warm season
+TX,Tmin,Average daily low temperature,Jun-Aug,247,70.84,68.91,72.46,61.29,77.83,31173,234,94.7,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+AL,Tavg,Average daily temperature,Jun-Sep,66,78.08,76.78,78.95,71.73,80.96,9828,2,3.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+AL,Tmax,Average daily high temperature,Jun-Sep,66,88.98,87.82,89.78,81.36,91.13,9932,0,0.0,an average daily high should be well above 75 degF in the warm season
+AL,Tmin,Average daily low temperature,Jun-Sep,66,67.31,65.62,68.07,62.11,73.19,9849,66,100.0,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+FL,Tavg,Average daily temperature,Jun-Sep,66,81.08,80.46,81.77,78.34,83.88,10787,0,0.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+FL,Tmax,Average daily high temperature,Jun-Sep,66,90.68,89.76,91.13,88.0,92.12,10835,0,0.0,an average daily high should be well above 75 degF in the warm season
+FL,Tmin,Average daily low temperature,Jun-Sep,66,71.53,70.35,72.99,67.78,78.29,10810,62,93.9,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+LA,Tavg,Average daily temperature,Jun-Sep,59,80.67,80.22,81.04,79.23,83.37,8797,0,0.0,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+LA,Tmax,Average daily high temperature,Jun-Sep,59,90.61,89.97,91.21,88.36,93.38,8822,0,0.0,an average daily high should be well above 75 degF in the warm season
+LA,Tmin,Average daily low temperature,Jun-Sep,59,70.57,69.5,71.85,67.89,75.83,8809,58,98.3,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+MS,Tavg,Average daily temperature,Jun-Sep,73,78.82,77.95,79.69,74.93,80.92,11280,1,1.4,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+MS,Tmax,Average daily high temperature,Jun-Sep,73,89.66,89.08,90.27,86.83,91.49,11363,0,0.0,an average daily high should be well above 75 degF in the warm season
+MS,Tmin,Average daily low temperature,Jun-Sep,73,67.93,66.54,68.93,62.68,72.43,11325,73,100.0,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"
+TX,Tavg,Average daily temperature,Jun-Sep,247,80.96,80.02,82.16,72.39,86.52,41429,9,3.6,an average daily temperature near or above 75 degF is plausible; either side of it is not a defect
+TX,Tmax,Average daily high temperature,Jun-Sep,247,92.63,91.44,93.68,83.6,98.8,41680,0,0.0,an average daily high should be well above 75 degF in the warm season
+TX,Tmin,Average daily low temperature,Jun-Sep,247,69.3,67.3,71.22,59.52,76.96,41520,241,97.6,"an average daily low below 75 degF in the warm season is expected in inland, northern, rural and elevated counties and is NOT a defect"

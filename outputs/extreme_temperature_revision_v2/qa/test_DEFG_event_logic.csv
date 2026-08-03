@@ -1,0 +1,34 @@
+test,check,result,blocking,detail
+D,event_duration_is_an_integer,PASS,True,0 events with a fractional duration
+D,event_dates_are_consecutive,PASS,True,0 events whose end minus start does not equal the duration
+D,event_meets_its_minimum_duration,PASS,True,0 events shorter than their own minimum
+D,D3_subset_of_D2__P80,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D3__P80,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D2__P80,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D3_subset_of_D2__P85,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D3__P85,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D2__P85,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D3_subset_of_D2__P90,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D3__P90,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,D5_subset_of_D2__P90,PASS,True,0 county-dates in the longer-duration set but not the shorter one
+D,P90_subset_of_P85__D2,PASS,True,0 county-dates at the 90th percentile absent from the 85th
+D,P85_subset_of_P80__D2,PASS,True,0 county-dates at the 85th percentile absent from the 80th
+D,P90_subset_of_P80__D2,PASS,True,0 county-dates at the 90th percentile absent from the 80th
+D,P90_subset_of_P85__D3,PASS,True,0 county-dates at the 90th percentile absent from the 85th
+D,P85_subset_of_P80__D3,PASS,True,0 county-dates at the 85th percentile absent from the 80th
+D,P90_subset_of_P80__D3,PASS,True,0 county-dates at the 90th percentile absent from the 80th
+D,P90_subset_of_P85__D5,PASS,True,0 county-dates at the 90th percentile absent from the 85th
+D,P85_subset_of_P80__D5,PASS,True,0 county-dates at the 85th percentile absent from the 80th
+D,P90_subset_of_P80__D5,PASS,True,0 county-dates at the 90th percentile absent from the 80th
+E,hybrid_days_satisfy_both_conditions,PASS,True,0 of 46448 classified days fail one of the two conditions
+E,hybrid_days_reach_the_absolute_gate,PASS,True,"minimum daily high among classified days = 90.00 degF, gate = 90 degF"
+E,absolute_construct_uses_no_historical_threshold,PASS,True,"the absolute construct's threshold column is the constant gate, not a percentile"
+E,absolute_eligibility_needs_only_the_daily_high,PASS,True,eligible records equal records with a daily high present
+E,gate_operator_effect_reported_after_event_reconstruction,REPORT,False,"with '>=' : 46448 classified days, 8613 events; with '>' : 46448 classified days, 8613 events; 2 daily records sit exactly on the 90 degF gate; the operator changes 0 classified days and 0 events"
+F,classification_rate_never_exceeds_1000_per_1000,PASS,True,0 monthly county-level summaries above 1000 per 1000
+F,classified_days_never_exceed_valid_records,PASS,True,0 summaries with classified days but no valid records
+F,classified_day_count_at_most_valid_observation_count,PASS,True,0 summaries where classified days exceed valid records
+F,missing_exposure_is_not_coded_as_a_non_event,PASS,True,0 summaries carry a missing denominator; a missing record must not be counted as a zero
+G,annual_classified_days_equal_the_sum_of_monthly_counts,PASS,True,"0 of 92202 county-years disagree, across 33 constructs with both layers"
+G,event_durations_sum_to_classified_days,PASS,True,0 constructs disagree
+G,every_event_id_in_a_summary_exists_in_the_event_table,PASS,True,0 event ids referenced but absent

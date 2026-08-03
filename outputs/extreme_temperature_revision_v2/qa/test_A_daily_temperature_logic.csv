@@ -1,0 +1,35 @@
+test,state,check,records_checked,records_failing,pct_failing,blocking,result,note
+A,(all),fahrenheit_conversion_0C,1,0,0.0,True,PASS,0.0 degC must equal 32.0 degF
+A,(all),fahrenheit_conversion_100C,1,0,0.0,True,PASS,100.0 degC must equal 212.0 degF
+A,(all),fahrenheit_conversion_-40C,1,0,0.0,True,PASS,-40.0 degC must equal -40.0 degF
+A,(all),fahrenheit_conversion_37C,1,0,0.0,True,PASS,37.0 degC must equal 98.6 degF
+A,TX,tmax_not_below_tmin_in_analysis_panel,3801069,0,0.0,True,PASS,a daily high below the same day's daily low is physically impossible; checked AFTER the declared quarantine
+A,TX,inverted_county_dates_quarantined_from_raw_input,4220813,16,0.000379,False,FLAG,raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; all are written unaltered to qa/quarantined_inverted_daily_records.csv
+A,TX,tavg_equals_mean_of_tmax_tmin,3801069,0,0.0,True,PASS,Tavg is DEFINED as (Tmax + Tmin) / 2; tolerance 1e-06 degF
+A,TX,tmax_within_plausible_range,3829401,0,0.0,False,PASS,"prespecified range (-40.0, 135.0) degF; flagged, never edited"
+A,TX,tmin_within_plausible_range,3816217,0,0.0,False,PASS,"prespecified range (-50.0, 110.0) degF; flagged, never edited"
+A,TX,no_duplicated_county_date,4220797,0,0.0,True,PASS,a duplicated county-date would double-weight that day
+A,LA,tmax_not_below_tmin_in_analysis_panel,806176,0,0.0,True,PASS,a daily high below the same day's daily low is physically impossible; checked AFTER the declared quarantine
+A,LA,inverted_county_dates_quarantined_from_raw_input,1048351,1,9.5e-05,False,FLAG,raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; all are written unaltered to qa/quarantined_inverted_daily_records.csv
+A,LA,tavg_equals_mean_of_tmax_tmin,806176,0,0.0,True,PASS,Tavg is DEFINED as (Tmax + Tmin) / 2; tolerance 1e-06 degF
+A,LA,tmax_within_plausible_range,810385,0,0.0,False,PASS,"prespecified range (-40.0, 135.0) degF; flagged, never edited"
+A,LA,tmin_within_plausible_range,807748,0,0.0,False,PASS,"prespecified range (-50.0, 110.0) degF; flagged, never edited"
+A,LA,no_duplicated_county_date,1048350,0,0.0,True,PASS,a duplicated county-date would double-weight that day
+A,MS,tmax_not_below_tmin_in_analysis_panel,1036253,0,0.0,True,PASS,a daily high below the same day's daily low is physically impossible; checked AFTER the declared quarantine
+A,MS,inverted_county_dates_quarantined_from_raw_input,1284437,1,7.8e-05,False,FLAG,raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; all are written unaltered to qa/quarantined_inverted_daily_records.csv
+A,MS,tavg_equals_mean_of_tmax_tmin,1036253,0,0.0,True,PASS,Tavg is DEFINED as (Tmax + Tmin) / 2; tolerance 1e-06 degF
+A,MS,tmax_within_plausible_range,1050564,0,0.0,False,PASS,"prespecified range (-40.0, 135.0) degF; flagged, never edited"
+A,MS,tmin_within_plausible_range,1042910,0,0.0,False,PASS,"prespecified range (-50.0, 110.0) degF; flagged, never edited"
+A,MS,no_duplicated_county_date,1284436,0,0.0,True,PASS,a duplicated county-date would double-weight that day
+A,AL,tmax_not_below_tmin_in_analysis_panel,907306,0,0.0,True,PASS,a daily high below the same day's daily low is physically impossible; checked AFTER the declared quarantine
+A,AL,inverted_county_dates_quarantined_from_raw_input,1071761,0,0.0,False,PASS,raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; all are written unaltered to qa/quarantined_inverted_daily_records.csv
+A,AL,tavg_equals_mean_of_tmax_tmin,907306,0,0.0,True,PASS,Tavg is DEFINED as (Tmax + Tmin) / 2; tolerance 1e-06 degF
+A,AL,tmax_within_plausible_range,917637,0,0.0,False,PASS,"prespecified range (-40.0, 135.0) degF; flagged, never edited"
+A,AL,tmin_within_plausible_range,911092,0,0.0,False,PASS,"prespecified range (-50.0, 110.0) degF; flagged, never edited"
+A,AL,no_duplicated_county_date,1071761,0,0.0,True,PASS,a duplicated county-date would double-weight that day
+A,FL,tmax_not_below_tmin_in_analysis_panel,997864,0,0.0,True,PASS,a daily high below the same day's daily low is physically impossible; checked AFTER the declared quarantine
+A,FL,inverted_county_dates_quarantined_from_raw_input,1053259,0,0.0,False,PASS,raw county-dates removed by the declared rule 'quarantine_whole_county_date_and_report'; all are written unaltered to qa/quarantined_inverted_daily_records.csv
+A,FL,tavg_equals_mean_of_tmax_tmin,997864,0,0.0,True,PASS,Tavg is DEFINED as (Tmax + Tmin) / 2; tolerance 1e-06 degF
+A,FL,tmax_within_plausible_range,1004059,0,0.0,False,PASS,"prespecified range (-40.0, 135.0) degF; flagged, never edited"
+A,FL,tmin_within_plausible_range,1001046,0,0.0,False,PASS,"prespecified range (-50.0, 110.0) degF; flagged, never edited"
+A,FL,no_duplicated_county_date,1053259,0,0.0,True,PASS,a duplicated county-date would double-weight that day

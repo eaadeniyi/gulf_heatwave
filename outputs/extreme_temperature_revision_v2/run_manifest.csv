@@ -1,0 +1,125 @@
+step,script,purpose,exists,size_bytes,md5,output,n_rows
+1.0,scripts/r00_config.py,"configuration, terminology, construct naming, samples",True,30935,d3a0aeddab4dac185a6c4453c51665ec,,
+2.0,scripts/r_palette.py,colour-vision validation of every figure palette,True,9528,c0293dd7733decca06618c4cce59f947,,
+3.0,scripts/r_figlib.py,shared figure furniture and the figure manifest,True,4551,60f5a182fee3e101fced9855563d7485,,
+4.0,scripts/r01_reproduce_audit.py,Stage 1: reproduce and audit the current package,True,39677,4ff92de040a56e3dbd605ea17a3a8cdb,,
+5.0,scripts/r02_temperature_panel.py,Stage 2: county temperature panel and sanity checks,True,34604,3a0ea4bdcb92658d54117bd434bfe6a4,,
+6.0,scripts/r03_period_aggregation.py,Stages 3-4: equal-county period aggregation,True,30261,c676b1679a47f29f2dda833c7cec6690,,
+7.0,scripts/r04_trends.py,Stage 5: descriptive trend sensitivity,True,11473,5f4a2929cf9f8fe1d004fe4c610ba114,,
+8.0,scripts/r05_benchmark.py,Stage 6: external benchmarking,True,21990,38320411b6932def3165c317d134ec1b,,
+9.0,scripts/r06_events.py,Stages 7-8: construct families and eligibility denominators,True,44148,9564b70e20848e70820e2b6868bf156d,,
+10.0,scripts/r07_agreement_and_gates.py,"agreement, absolute gates, rates, geography",True,28004,2edea73b3bf7d92688ad3f7ea6ac7cdf,,
+11.0,scripts/r08_audits.py,Stages 15-16: long-event audit and data-quality sensitivity,True,30200,017a96eabcfe7a9ca57b26cf1f355584,,
+12.0,scripts/r09_figures_part1.py,revised figures E2-E4 and R1-R4,True,44077,3256b4a09650fdde50a981d4ff3d8feb,,
+13.0,scripts/r10_figures_part2.py,revised figures E5-E9 and R5-R10,True,65551,5b1eac66f8b90cf35a7116bd7aee043d,,
+14.0,scripts/r11_qa_tests.py,the consolidated QA suite (blocking),True,21964,af1e1404a0dcaa9f2fc6a491dfc412c3,,
+15.0,scripts/r12_report.py,"dictionary, registry, manifests, final report",True,84633,eeb96d08dae20b388cafbcf98c26163f,,
+16.0,scripts/run_revision.py,"driver: runs every step in order, stopping on failure",True,3553,a446f238a9dbf15bf907a47d4baded8e,,
+,,output,True,9379,0ba55e7a21e4864d702d7c227080ce7e,tables/absolute_gate_effect.csv,18.0
+,,output,True,4319,d8565d33dd3e5f48249773c138be3b8b,tables/absolute_vs_relative.csv,18.0
+,,output,True,3880,0ce39b9537243ee63058c569344bd447,tables/annual_event_count_distribution.csv,33.0
+,,output,True,2472,beddf4606860d556f2d3cd1f156f7faa,tables/benchmark_comparison_summary.csv,6.0
+,,output,True,10252,c8d3e60b5eb0040d1a43f59cfe9ac31b,tables/construct_summary.csv,33.0
+,,output,True,1637401,586cd3d163e2a8df9a71e7035eb947c3,tables/county_annual_absolute_hot_spells.csv,16764.0
+,,output,True,16308577,3c49fce56d745c2360405af18029cfa5,tables/county_annual_all_constructs.csv,167640.0
+,,output,True,4836638,905feda80bc1cbf70ba81151d510a2a5,tables/county_annual_hybrid_heat_events.csv,50292.0
+,,output,True,9835246,a569d2672808285e6a553c901a7d14d9,tables/county_annual_relative_warm_spells.csv,100584.0
+,,output,True,7804091,e572fdbe3ec66801b04e7f3c3e40d7df,tables/county_annual_temperature.csv,65031.0
+,,output,True,26322,f591dc27210cbd3239126b2ce6a478f6,tables/county_data_quality.csv,254.0
+,,output,True,528448,9f67fece20bced585a238279304b650a,tables/county_gate_effect.csv,4572.0
+,,output,True,25085392,c157d4cd724ec0addc502487fb566a55,tables/county_monthly_absolute_hot_spells.csv,201168.0
+,,output,True,132075189,11d226f9d29f0d5b4d16c6a8112ad388,tables/county_monthly_all_constructs.csv,
+,,output,True,68169368,2084043d19e07ff893eb2601c496fe23,tables/county_monthly_hybrid_heat_events.csv,
+,,output,True,38821013,41d74a4db3b76edf67fdf2b59c2080e7,tables/county_monthly_relative_warm_spells.csv,301752.0
+,,output,True,58842935,339af6a4e5cb59e0c6ef2cb25604452d,tables/county_monthly_temperature.csv,763988.0
+,,output,True,594453,37dd60f48c685f5ac44d13ebc2fad523,tables/county_period_temperature.csv,7475.0
+,,output,True,1522,6b95adf37a03c61d69e503173867d8db,tables/county_profile_examples.csv,6.0
+,,output,True,757,74acd49e2505749a1ff258bb934e669b,tables/county_record_coverage.csv,5.0
+,,output,True,155958,7e732280cff95565fc20506d0b7b0853,tables/definition_agreement_jaccard.csv,528.0
+,,output,True,8251,246223d63a39b4fed862edb0df0e466a,tables/definition_agreement_jaccard_matrix.csv,33.0
+,,output,True,1530,7e277834892cb58efcb2146710c98e80,tables/eligibility_denominator_comparison.csv,12.0
+,,output,True,8173,a8dc62e728235d2b17d2e6ed26fa9116,tables/event_duration_distribution.csv,33.0
+,,output,True,22581,c055d12cc22a5129847fda5ed4321288,tables/figure_data_manifest.csv,21.0
+,,output,True,30055,f1742a965950a474d4cbfb1623353fb3,tables/imputation_sensitivity.csv,198.0
+,,output,True,61603,471f34cb8de2835faafb092518ff57e4,tables/imputation_sensitivity_rankings.csv,165.0
+,,output,True,29035746,f89aed4e3dc83e793d4a65c50185e674,tables/individual_absolute_hot_spells.csv,143943.0
+,,output,True,61303526,dc84d8a63fe0e03291c38fbf952fe574,tables/individual_hybrid_heat_events.csv,
+,,output,True,47115973,b1a2dcefb2dd3488f60e8c76be2d2219,tables/individual_relative_warm_spell_events.csv,228867.0
+,,output,True,16765226,eb4511e6e9cd5b602c27e865ed220ea6,tables/long_event_audit.csv,43392.0
+,,output,True,64913,dc0377ccef45738ee3ef6c52ca76eccd,tables/monthly_classification_rates.csv,396.0
+,,output,True,78342,6f6d91dcea65fd50a5bc112ffcff1413,tables/period_comparison_current_vs_revised.csv,150.0
+,,output,True,39966,64198acf9a4db342c14419887a0f8700,tables/revised_temperature_monthly_sanity_check.csv,180.0
+,,output,True,47832,44adab6c05a2ec4585118e5aa57d7f6a,tables/sample_membership_counties.csv,1495.0
+,,output,True,8887,d52c83bfca176e4d2570d1531c48baa4,tables/seasonal_classification_shares.csv,99.0
+,,output,True,170949,12b587369774b1cf13e5490cf00d0769,tables/state_annual_series.csv,2589.0
+,,output,True,243495,a54f0e91c86fe23145c2ca815ef121aa,tables/state_month_period_temperature_equal_county.csv,1800.0
+,,output,True,78342,6f6d91dcea65fd50a5bc112ffcff1413,tables/state_period_temperature_current_vs_revised.csv,150.0
+,,output,True,55825,88f0a8b51a9e3882a3dd0034110cf51c,tables/state_period_temperature_equal_county.csv,150.0
+,,output,True,6046,73a35cd19cf11d8ea9e757b23576b088,tables/summer_audit_jun_aug_jun_sep.csv,30.0
+,,output,True,34760,b445c29ab567a84433caebd86caff37b,tables/trend_sensitivity.csv,57.0
+,,output,True,419234,0f1ca668d0e9deb59a1a42013fcdb7e9,figures/r_fig_E2_distribution_by_state.png,
+,,output,True,202419,ac951f4bf640503abd9809f4cadb8b0e,figures/r_fig_E2b_one_value_per_county.png,
+,,output,True,375970,cef258da06c2fd2657930a5c68fbdbf6,figures/r_fig_E3_period_comparison.png,
+,,output,True,446898,e66d3496b97333b2b48b96814d95afb8,figures/r_fig_E4_monthly_level_and_difference.png,
+,,output,True,230674,13fd6e3fd2d0329e95091daf10c727c9,figures/r_fig_E5_percentile_duration_grid.png,
+,,output,True,118792,469a22513336bff504a081b073983173,figures/r_fig_E5b_agreement_jaccard.png,
+,,output,True,230932,0603d118a502689f1dea754d3d6d0d82,figures/r_fig_E6_monthly_classification_rate.png,
+,,output,True,446756,be427861833944b7e7f2c6291395c22b,figures/r_fig_E7_absolute_gate_effect.png,
+,,output,True,355510,accd2bf4367ce02ceec5d8722c2ae65b,figures/r_fig_E8_absolute_vs_relative.png,
+,,output,True,341278,cadb24712be0711ceae0341d98a05f18,figures/r_fig_E9_county_geography_all_counties.png,
+,,output,True,334629,d8bfda0eee21c9ba3507d3f76cf71de9,figures/r_fig_E9_county_geography_excluding_fully_imputed.png,
+,,output,True,213784,cd344c3aa51be8a042cfdecee2773611,figures/r_fig_R10_county_profiles.png,
+,,output,True,177502,f34bd272876fba2d2242c1a77905d8a3,figures/r_fig_R1_current_vs_revised_period_comparison.png,
+,,output,True,127541,2d56ff01a5021b41ca3048777bc14dce,figures/r_fig_R2_consistent_vs_strict_balanced.png,
+,,output,True,149239,d46da78adc7faa093ea5dcbdb3c8fca0,figures/r_fig_R3_external_benchmark.png,
+,,output,True,271453,ee55bca884acea2a72e33a0b4bba5a63,figures/r_fig_R4_trend_sensitivity.png,
+,,output,True,117334,64964c4fbbaf0a1c46785880d58c1e6c,figures/r_fig_R5_imputation_sensitivity.png,
+,,output,True,86347,2d24bb8910b9157e7169ecb77b78d86a,figures/r_fig_R6_event_timeline.png,
+,,output,True,189987,c4f8d52cc9698165bc6742049da90a84,figures/r_fig_R7_long_event_audit.png,
+,,output,True,296859,dec28503a494dd47f61fe0d4fa9d4433,figures/r_fig_R8_annual_distributions.png,
+,,output,True,322742,2b3178bb11669bb33b37d10b8efde417,figures/r_fig_R9_monthly_rates_all_families.png,
+,,output,True,2478,a586f1b0cd79ff1d6b29e8fa887425dd,qa/01_existing_pipeline_reproduction.csv,29.0
+,,output,True,10942,97e4990ae08040e002983babbc5219dc,qa/02_existing_aggregation_inventory.csv,22.0
+,,output,True,1756,d3a2387bbadbc04fa7734947d4c2dd71,qa/02b_existing_figure_lineage.csv,10.0
+,,output,True,68420,e899fc90affa59548e5c34d1007b3267,qa/03_current_output_checksums.csv,357.0
+,,output,True,17120,0be727ad96289e5e54a4207ac02c9816,qa/QA_REPORT.md,
+,,output,True,18126,6a707f6efd39f91e5caa67636a8fe13a,qa/QA_TEST_SUITE.csv,105.0
+,,output,True,7535096,20c05f1b43354c23d13c232737f2dde3,qa/_classified_day_sets.npz,
+,,output,True,7361,ce9684ac5107bef8c1e763d3ea31b100,qa/_figure_manifest_part1.csv,8.0
+,,output,True,11859,ac7468a049bd751ef6fa6a6ddc1b8609,qa/_figure_manifest_part2.csv,13.0
+,,output,True,676,813fd1f3c96c34729fa968e39f8b1179,qa/benchmark_identity_test.csv,10.0
+,,output,True,4174,1d536995612b7b4f4f5b078d3a21eb40,qa/benchmark_limitations.md,
+,,output,True,1182,5fd88af2b98f7354d8f1b9a4079ffde2,qa/data_quality_flagged_records_sample.csv,8.0
+,,output,True,974,946f84ac4ec3087b845b264a9061657e,qa/data_quality_flags.csv,5.0
+,,output,True,9790,1ea8732cf233fa51e8b2bc5f3f488c6f,qa/e02_independent_rebuild_verification.csv,120.0
+,,output,True,1530,7e277834892cb58efcb2146710c98e80,qa/eligibility_denominator_comparison.csv,12.0
+,,output,True,3237,9b6774318fb5b291b08b538ee6ef2878,qa/flatness_criterion.csv,33.0
+,,output,True,957,f3a857525381972993e6732854b44af8,qa/float_roundtrip_defect.csv,3.0
+,,output,True,178,b33eda01513a73465872d86788103403,qa/gate_operator_effect.json,
+,,output,True,5677,d42fe49beb1f098727b78d72951b8716,qa/palette_validation.csv,29.0
+,,output,True,911,7ca6b8a6f92b180512baca55c58e6a2e,qa/palette_validation_summary.csv,4.0
+,,output,True,2236,fba53c5f2433ed7fd3eae6e767079a15,qa/quarantined_inverted_daily_records.csv,18.0
+,,output,True,28421,0b02ff6e5483482892c64483ffeabf70,qa/run_log.txt,
+,,output,True,8637,695faae8b418b195f3d1b3a053cceb9e,qa/summer_temperature_review.md,
+,,output,True,4882,446202778af0285dfdd3148189f954ec,qa/test_A_daily_temperature_logic.csv,34.0
+,,output,True,4799,fb9ef4c953d1fdf3e5932a96b866f572,qa/test_C_period_weighting.csv,7.0
+,,output,True,3613,3fe2323222b4c952adaa71d983f22b7f,qa/test_DEFG_event_logic.csv,33.0
+,,output,True,61354,cd636e8150eb8985604392f624bc109b,data_dictionary/definition_registry_revised.csv,60.0
+,,output,True,140595,3bc2e67d2607b5b8d421651f98d6e785,data_dictionary/revised_variable_dictionary.csv,785.0
+,,output,True,42502,5ee98258377d661689a394483a6702d8,reports/FINAL_REPORT.md,
+,,output,True,10527,a1c39a6bd05ecb58c8cf3664a0ac42eb,reports/FINDINGS_REVISED.md,
+,,output,True,1399,3413476b902b8a60a30503fd4051983f,county_profiles/48007_Aransas.csv,11.0
+,,output,True,1474,a682843fb3eb99766e0a3d41422e2a80,county_profiles/48011_Armstrong.csv,11.0
+,,output,True,1363,60a6d699260f31fcce5da70596781123,county_profiles/48113_Dallas.csv,11.0
+,,output,True,1397,8667e618792a90c2f3b7c15b04d8d958,county_profiles/48181_Grayson.csv,11.0
+,,output,True,1399,65796f1a3470ace9a407c3ba4f8a57f5,county_profiles/48201_Harris.csv,11.0
+,,output,True,1346,16933c4c454d8c4b77be9e4e5333bb6c,county_profiles/48391_Refugio.csv,11.0
+,,output,True,9121,66ab0d5a6cce40793f4ab6a49637b58b,event_audits/LONG_EVENT_REVIEW.md,
+,,output,True,4746161,6717a1479113116bde588450a4f57d5a,event_audits/long_event_daily_detail_absolute.csv,30633.0
+,,output,True,1381055,ed83d8f975a61bd66ae4050b0197a903,event_audits/long_event_daily_detail_hybrid.csv,8280.0
+,,output,True,1179008,f874e304623996d366ea35e72a1bbda1,event_audits/long_event_daily_detail_relative.csv,7587.0
+,,output,True,267,50ac3d47950b2de296bc3ec6153dbfbb,config/provenance.json,
+,,output,True,30935,d3a0aeddab4dac185a6c4453c51665ec,config/r00_config_snapshot.py,
+,,output,True,2650,8f334107d1a5a23f553735ec68ec16d2,config/resolved_configuration.csv,35.0
+,,output,True,4831,b68aa2df927fc1a677b84d916d702941,current_vs_revised/CURRENT_VS_REVISED.md,
+,,output,True,78342,6f6d91dcea65fd50a5bc112ffcff1413,current_vs_revised/period_comparison_current_vs_revised.csv,150.0

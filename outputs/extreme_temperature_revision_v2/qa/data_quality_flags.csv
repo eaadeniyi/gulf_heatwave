@@ -1,0 +1,6 @@
+flag,n_records,denominator,rule,action
+abrupt_annual_discontinuity_with_station_change,8,58359,">= 5 degF year-on-year change in the annual county value AND a >= 1.5x change in the mean number of contributing stations, in consecutive qualifying years",flagged for human review; no value altered
+abrupt_annual_discontinuity_without_station_change,109,58359,>= 5 degF year-on-year change with no matching station change,flagged; most are genuine interannual variability
+warm_season_daily_high_only_plausible_as_celsius,0,82635,qualifying June-September monthly average daily high below 50 degF,"unit-conversion check; flagged, never converted"
+insufficient_annual_coverage,6672,65031,fewer than 328 valid daily county-level observations in the year,"excluded from annual summaries, retained in the table"
+insufficient_monthly_coverage,25437,763988,fewer than 25 valid daily county-level observations in the month,"excluded from monthly summaries, retained in the table"

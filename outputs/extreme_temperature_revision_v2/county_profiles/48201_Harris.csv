@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48201,Harris,2015,7,35,10,0,365,95.89,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2016,9,41,8,0,366,112.022,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2017,13,49,6,0,365,134.247,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2018,10,42,8,0,365,115.068,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2019,6,31,9,0,365,84.932,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2020,10,37,5,0,366,101.093,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2021,9,38,10,0,365,104.11,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2022,13,82,13,0,365,224.658,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2023,11,119,47,0,365,326.027,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2024,11,60,12,0,366,163.934,Harris County (most populous),anchor: 95% or more observed,0.0
+48201,Harris,2025,9,46,9,0,365,126.027,Harris County (most populous),anchor: 95% or more observed,0.0

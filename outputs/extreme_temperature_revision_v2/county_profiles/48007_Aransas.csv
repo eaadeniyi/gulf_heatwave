@@ -1,0 +1,12 @@
+county_fips,county_name,year,annual_event_count,annual_classified_day_count,longest_event_duration_days,imputed_classified_day_count,valid_daily_observation_count,annual_classification_rate_per_1000,profile_role,data_quality_label,pct_analysis_days_imputed
+48007,Aransas,2015,5,19,5,0,365,52.055,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2016,12,55,9,0,366,150.273,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2017,18,74,8,0,365,202.74,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2018,5,29,16,1,365,79.452,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2019,8,35,8,0,365,95.89,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2020,16,72,8,0,366,196.721,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2021,4,21,10,0,365,57.534,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2022,11,74,15,0,365,202.74,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2023,14,149,38,0,365,408.219,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2024,16,124,20,0,366,338.798,highest classified-day count,anchor: 95% or more observed,0.2
+48007,Aransas,2025,15,95,12,0,365,260.274,highest classified-day count,anchor: 95% or more observed,0.2
