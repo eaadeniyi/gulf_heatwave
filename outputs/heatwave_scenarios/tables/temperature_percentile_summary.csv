@@ -1,0 +1,10 @@
+construct_id,family,role,date_representation,event_definition_type,cross_family_comparable_events,classified_date_count_QA,median_annual_classified_date_count_QA,median_annual_event_count_QA,season_rule,qc_tier,jun_sep_classified_date_share_QA,may_oct_classified_date_share_QA,nov_apr_classified_date_share_QA,classified_days_per_1000_valid_eligible_QA,definition_fingerprint,status
+TMAX_P80_D3_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,171965,54.0,11.0,year_round,n/a,40.34,19.04,40.62,168.499,fp:c771eaa82db33d60,done
+TMAX_P85_D3_W15,tmax,candidate,daily_threshold_classification,consecutive_daily_exceedance_event,False,124812,38.0,8.0,year_round,n/a,41.4,19.58,39.02,122.296,fp:9b142efb41fd18ab,done
+TMAX_P90_D3_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,80755,23.0,5.0,year_round,n/a,42.52,19.96,37.52,79.127,fp:14647dbad1a59914,done
+TMAX_P95_D3_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,38876,10.0,3.0,year_round,n/a,45.68,19.1,35.22,38.092,fp:f92e30e96f00828d,done
+TMAX_P975_D3_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,19142,4.0,1.0,year_round,n/a,49.4,16.45,34.15,18.756,fp:3ff453c44f3d5886,done
+TMAX_P85_D2_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,161004,51.0,15.0,year_round,n/a,37.06,18.63,44.31,157.759,fp:cb7b9212667e07e6,done
+TMAX_P90_D2_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,108359,33.0,10.0,year_round,n/a,37.6,18.95,43.45,106.175,fp:5b638a58eac2c7cc,done
+TMAX_P95_D2_W15,tmax,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,56576,16.0,6.0,year_round,n/a,39.16,18.51,42.34,55.436,fp:07dd7cb78f848f3a,done
+TMAX_P85_D3_W15_JUNSEP,tmax,candidate,daily_threshold_classification,consecutive_daily_exceedance_event,False,51311,12.0,3.0,june_september,n/a,100.0,0.0,0.0,150.53,fp:10036660d460acad,done

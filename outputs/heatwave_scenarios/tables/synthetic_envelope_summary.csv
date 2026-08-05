@@ -1,0 +1,12 @@
+construct_id,family,role,date_representation,event_definition_type,cross_family_comparable_events,classified_date_count_QA,median_annual_classified_date_count_QA,median_annual_event_count_QA,season_rule,qc_tier,jun_sep_classified_date_share_QA,may_oct_classified_date_share_QA,nov_apr_classified_date_share_QA,classified_days_per_1000_valid_eligible_QA,definition_fingerprint,status
+HIXENV_P80_D2_W15_RAW,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,169006,58.0,18.0,year_round,RAW,28.24,16.5,55.26,165.599,fp:eb0facbead7c0156,done
+HIXENV_P85_D2_W15_RAW,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,117437,39.0,13.0,year_round,RAW,26.62,16.2,57.18,115.07,fp:abc800336eed9d6a,done
+HIXENV_P90_D2_W15_RAW,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,70965,23.0,8.0,year_round,RAW,24.37,15.56,60.07,69.535,fp:52effd63ce76d3fd,done
+HIXENV_P95_D2_W15_RAW,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,31294,9.0,4.0,year_round,RAW,21.38,13.37,65.25,30.663,fp:fc2629993c0faa72,done
+HIXENV_P975_D2_W15_RAW,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,13903,4.0,1.0,year_round,RAW,19.56,11.13,69.3,13.623,fp:c58846fc153b80f7,done
+HIXENV_P80_D2_W15_CONFEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,169000,58.0,18.0,year_round,CONFEXCL,28.24,16.5,55.26,165.594,fp:7126a4487cfa6a6c,done
+HIXENV_P85_D2_W15_CONFEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,117431,39.0,13.0,year_round,CONFEXCL,26.62,16.2,57.18,115.064,fp:4ab806197b343b57,done
+HIXENV_P90_D2_W15_CONFEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,70959,23.0,8.0,year_round,CONFEXCL,24.37,15.56,60.06,69.529,fp:6cc398162229661e,done
+HIXENV_P95_D2_W15_CONFEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,31288,9.0,4.0,year_round,CONFEXCL,21.39,13.37,65.25,30.657,fp:a106ea96337c8859,done
+HIXENV_P975_D2_W15_CONFEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,13898,4.0,1.0,year_round,CONFEXCL,19.57,11.14,69.29,13.618,fp:1c011203dd47a6a1,done
+HIXENV_P95_D2_W15_PROBEXCL,hixenv,sensitivity,daily_threshold_classification,consecutive_daily_exceedance_event,False,31104,9.0,4.0,year_round,PROBEXCL,21.51,13.45,65.04,30.48,fp:c9e36edcae7a5706,done
