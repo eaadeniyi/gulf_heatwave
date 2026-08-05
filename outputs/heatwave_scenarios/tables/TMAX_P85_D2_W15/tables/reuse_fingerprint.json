@@ -1,0 +1,8 @@
+{
+  "source_run_id": "TMAX_P85_2D__w15",
+  "source_county_year_path": "C:\\Users\\eadeni1\\OneDrive - Louisiana State University\\Documents\\doc\\heatWaveUS\\texas_heatwave_pilot\\outputs\\TX\\grid\\TMAX_P85_2D\\tables\\county_year_summary_w15.csv",
+  "source_county_year_hash": "a30dbf067327701cf1ddd33e726f72a9",
+  "source_events_path": "C:\\Users\\eadeni1\\OneDrive - Louisiana State University\\Documents\\doc\\heatWaveUS\\texas_heatwave_pilot\\outputs\\TX\\grid\\TMAX_P85_2D\\tables\\heatwave_events_w15.csv.gz",
+  "source_events_hash": "39c46ec8ce60bcab3b857cb679a449c8",
+  "reused_without_recalculation": true
+}

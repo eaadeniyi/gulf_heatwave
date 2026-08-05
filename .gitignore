@@ -65,3 +65,14 @@ Thumbs.db
 reference/Heatwave_Reference_Appendix.pdf
 reference/Heatwave_Results_Deck.pdf
 reference/comparison_figures/
+
+# Heatwave-definition scenario package (outputs/heatwave_scenarios/).
+# Tracked: all scripts, tests, per-construct summary tables, figures, QA, reports.
+# NOT tracked (large, fully regenerable by rerunning hs01->hs02, ~11 min):
+#   _derived_variables_*  the full county-day panel with EHF components (~4.4M rows)
+#   per-construct daily classification / event detail files
+outputs/heatwave_scenarios/tables/_derived_variables_*.csv.gz
+outputs/heatwave_scenarios/tables/*/tables/daily_classified.csv.gz
+outputs/heatwave_scenarios/tables/*/tables/events.csv.gz
+outputs/heatwave_scenarios/tables/*/tables/heatwave_events.csv.gz
+outputs/heatwave_scenarios/tables/*/tables/ehf_positive_assessment_dates.csv.gz
